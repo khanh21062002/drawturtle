@@ -4,8 +4,8 @@ from getpass import getpass
 from webdriver_manager.chrome import ChromeDriverManager 
 from selenium.webdriver.support.ui import WebDriverWait
 
-username = "0822131126"
-passwd = "haduykhanh21062002"
+username = ""
+passwd = ""
 
 #driver = webdriver.Chrome(ChromeDriverManager().install)
 driver = webdriver.Chrome("chromedriver")

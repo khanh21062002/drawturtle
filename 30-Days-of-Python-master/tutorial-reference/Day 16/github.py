@@ -2,8 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 
 #  tài khoản Github
-username = "khanh21062002"
-password = "987654321A@a"
+username = ""
+password = ""
 
 # khởi chạy trình điều khiển Chrome
 driver = webdriver.Chrome("chromedriver")
