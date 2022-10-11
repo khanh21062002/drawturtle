@@ -43,4 +43,5 @@ for epoch in range(n_iters):
     if epoch % 2 ==0:
         print(f'epoch {epoch+1}: w = {w:.3f}, loss = {l:.8f}')
         
-print(f'prediction after training: F{5} = {forward(5):.3f}')    
+print(f'prediction after training: F{5} = {forward(5):.3f}')   
+print(X) 
