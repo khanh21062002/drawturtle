@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "QeIkloX7PnYoiogH5YDnyqCFG6I652Vvhz7WyG79CK8=",
+  "Source": "HelloWorld",
+  "BasePath": "_content/HelloWorld",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "HelloWorld\\wwwroot",
+      "Source": "HelloWorld",
+      "ContentRoot": "D:\\gh\\drawturtle\\HelloWorld\\wwwroot\\",
+      "BasePath": "_content/HelloWorld",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\gh\\drawturtle\\HelloWorld\\wwwroot\\html\\helloworld.html",
+      "SourceId": "HelloWorld",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\gh\\drawturtle\\HelloWorld\\wwwroot\\",
+      "BasePath": "_content/HelloWorld",
+      "RelativePath": "html/helloworld.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\helloworld.html"
+    }
+  ]
+}

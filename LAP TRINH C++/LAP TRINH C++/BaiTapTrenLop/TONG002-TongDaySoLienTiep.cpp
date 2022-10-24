@@ -10,12 +10,10 @@ int main(){
         unsigned long long l,r;
         cin >> l >> r;
         long long sum = 0;
-        if( l <= r){
-            for( int i =l ; i<=r ;i++){
-                sum = sum + i;
-            }
-            cout << sum << endl;
-        }
+        long long so = 0;
+        so = (r -l)/1 +1;
+        sum = ((l + r) * so )/2;
+        cout << sum << endl;
     }
     return 0;
 }

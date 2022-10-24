@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lB99rIR3IVQqUXHShq75v22FxgofJXFLS0RgyljiFAl+/tBBi1zxgUIMlSagBzKCGMxEJTlaL4y5BpK6hX56JQ==",
+  "success": true,
+  "projectFilePath": "D:\\gh\\drawturtle\\HelloWorld\\HelloWorld.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\haduy\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512"
+  ],
+  "logs": []
+}
