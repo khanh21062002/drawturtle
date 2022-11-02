@@ -16,3 +16,10 @@ html {
 body {
   margin-bottom: 60px;
 }
+.from-group input[type=Submit],
+.from-group label{
+    text-transform : uppercase
+}
+.from-group label{
+    color:gray;
+}

@@ -43,21 +43,30 @@ namespace BankTransactions.Controllers
         }
 
         // GET: Transaction/AddOrEdit
-        public IActionResult AddOrEdit() 
+        public IActionResult AddOrEdit(int id=0) 
         {
-            return View(new Transaction());
+            if(id == 0)
+                return View(new Transaction());
+            else
+                return View(_context.Transactions.Find(id));
         }
 
-        // POST: Transaction/Create
+        // POST: Transaction/AddOrEdit
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("TransactionId,AccountNumber,BeneficiaryName,BankName,SWIFTCode,Amount,date")] Transaction transaction)
+        public async Task<IActionResult> AddOrEdit([Bind("TransactionId,AccountNumber,BeneficiaryName,BankName,SWIFTCode,Amount,date")] Transaction transaction)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(transaction);
+                if(transaction.TransactionId == 0)
+                {
+                    transaction.date = DateTime.Now;
+                    _context.Add(transaction);
+                }
+                else
+                    _context.Update(transaction);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
@@ -115,23 +124,7 @@ namespace BankTransactions.Controllers
             return View(transaction);
         }
 
-        // GET: Transaction/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null || _context.Transactions == null)
-            {
-                return NotFound();
-            }
 
-            var transaction = await _context.Transactions
-                .FirstOrDefaultAsync(m => m.TransactionId == id);
-            if (transaction == null)
-            {
-                return NotFound();
-            }
-
-            return View(transaction);
-        }
 
         // POST: Transaction/Delete/5
         [HttpPost, ActionName("Delete")]

@@ -4,11 +4,8 @@
     ViewData["Title"] = "Index Edit ";
 }
 
-<h1>Index Edit</h1>
+<h1>Passbook</h1>
 
-<p>
-    <a asp-action="AddOrEdit">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -30,7 +27,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.date)
             </th>
-            <th></th>
+            <th>
+                <a asp-action="AddOrEdit" class="btn btn-sm btn-success"> <i class="fa-solid fa-plus"></i>New</a>
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -55,9 +54,15 @@
                 @Html.DisplayFor(modelItem => item.date)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.TransactionId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.TransactionId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.TransactionId">Delete</a>
+                <a asp-action="AddOrEdit" asp-route-id="@item.TransactionId" class="btn btn-warning">
+                        <i class=" fa-solid fa-pen-to-square"></i> Add Or Edit
+                </a> 
+                <form asp-action="Delete" asp-route-id = "@item.TransactionId">
+                    <button type="submit" class="btn btn-danger"
+                    onclick="return confirm('Are you sure to delete this record ?')">
+                        <i class="far fa-trash-alt"></i> Delete
+                    </button>
+                </form>
             </td>
         </tr>
 }

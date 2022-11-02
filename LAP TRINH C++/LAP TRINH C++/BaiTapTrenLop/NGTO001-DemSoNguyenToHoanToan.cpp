@@ -1,58 +1,37 @@
-#include<bits/stdc++.h>
-#include<iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
-
-bool isSoNguyenTo(long long n){
-    int count = 0;
-    for (int i=2 ; i<=sqrt(n); i++){
-        if (n % i == 0){
-            count++;
-        }
+bool check1(int n){
+    while(n!=0){
+        int k = n%10;
+        if(k!=2 && k!=3 && k!=5 && k!=7) return false; 
+        n/=10;
     }
-    if (count ==0){
-        return true;
-    }
-    else{
-        return false;
-    }
+    return true;
 }
-
-bool ktra(long long x){
-    //int tong = 0;
-    bool cs = true;
-    while(x > 0)
-    {
-       int t = x % 10;
-        if(t != 2 && t != 3 && t != 5 && t != 7)
-           {
-               cs = false;
-           }
-        //tong = tong + t;
-        x = x / 10;
-    }
-    if(cs == true){
-        return true;
-    }
-    else{
-        return false;
-    }
-}
-
 int main(){
-    int t;
-    cin >> t;
-    while (t--)
-    {
-        long long n,i;
-        cin >> n;
-        int dem = 0;
-        for( i = 1; i<=n; i++){
-            if(isSoNguyenTo(i)&&ktra(i)){
-                dem++;
-            }
-        }
-        cout << dem << endl;
+    int N = 1e6;
+  bool check[N + 1];
+  for (int i = 2; i <= N; i++) {
+    check[i] = true;
+  }
+  check[0] = false;
+  check[1] = false;
+  for (int i = 2; i*i <= N; i++) {
+    if (check[i] == true) {
+      for (int j = i * i; j <= N; j += i) {
+        check[j] = false;
+      }
     }
-    return 0;
+  }
+    int t; cin >>t;
+   	while(t--){
+        int n, cnt=0;
+        cin >>n;
+        for(int i = 1; i <= n; ++i){
+            if(check[i]== true && check1(i)==true) cnt++;
+        }
+        cout <<cnt <<endl;
+
+    }
 }
