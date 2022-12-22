@@ -32,6 +32,7 @@ namespace BankTransactions.Migrations
 
                     b.Property<string>("AccountNumber")
                         .IsRequired()
+                        .HasMaxLength(12)
                         .HasColumnType("nvarchar(12)");
 
                     b.Property<int>("Amount")
@@ -47,6 +48,7 @@ namespace BankTransactions.Migrations
 
                     b.Property<string>("SWIFTCode")
                         .IsRequired()
+                        .HasMaxLength(11)
                         .HasColumnType("nvarchar(11)");
 
                     b.Property<DateTime>("date")

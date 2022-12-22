@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+const int MOD=1e9+7;
 using namespace std;
 
 long long isSoNguyenTo(long long n){
@@ -17,24 +18,20 @@ long long isSoNguyenTo(long long n){
 }
 
 int main(){
+    ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
     int t;
     cin >> t;
     while (t--)
     {
-        long long n,kq[1000000000000],temp = 0;
-        long long temp1 = 0;
-        long long a[100000000000000];
-        // long long b[100];
+        long long n;
         cin >> n;
-        for (int i = 2; i <= n ; i++){
-            if(isSoNguyenTo(i) == 1){
-                a[temp++] = i + n;
-            }
-        }
-        for (int i =0 ; i < temp ; i++){
-            if(isSoNguyenTo(a[i])){
-                cout << a[i] << endl;
-                break; 
+        for( long long i =n ; i <= 10*n ; ++i){
+            if( i % 2 != 0){
+                if( isSoNguyenTo(i-2) == 1 && isSoNguyenTo(i) == 1)
+                {
+                    cout << i << endl;
+                    break;
+                }
             }
         }
     }

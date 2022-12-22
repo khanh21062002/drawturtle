@@ -1,16 +1,18 @@
 #include <fstream>
 #include <string.h>
 #include <bits/stdc++.h>
-#include <string>
-#include <Windows.h>
-#include <stdlib.h>
+// #include <string>
+// #include <Windows.h>
+// #include <stdlib.h>
 #include"admin.h"
 #include"student.h"
 
 
 using namespace std;
 
-void mainMenu(void);
+//void mainMenu(void);
+void admin(void);
+void studentFunction(void);
 
 void mainMenu()
 {
@@ -27,6 +29,8 @@ void mainMenu()
     switch (choice)
     {
     case 1:
+        system("cls");
+
         cout << " Chao mung ban dang nhap voi tu cach quan tri vien"
         admin();
         break;

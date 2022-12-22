@@ -1,3 +1,0 @@
-1,Nguyen Van An,anv@gmail.com,0322331222,450.000
-2,Trinh Ngoc Huy, htn@gmail.com,0833222111,300.000
-3,Do Tien Si, sdt@gmail.com,0822131126,600.000
