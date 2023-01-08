@@ -1,0 +1,1 @@
+print("lap trinh khong kho")
