@@ -3,7 +3,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets, QtWebEngineWidgets
 
 vocabulary = ['dog', 'cat', 'house', 'car', 'book']
 grammar = ['noun', 'verb', 'adjective', 'adverb', 'preposition']
-search = ['dictionary', 'youtube', 'spotify', 'instagram', 'oxfordlearnersdictionaries']
+search = ['dictionary', 'youtube', 'spotify', 'instagram', 'oxfordlearnersdictionaries','facebook','tiktok']
 
 class WebBrowser(QtWidgets.QWidget):
     def __init__(self):

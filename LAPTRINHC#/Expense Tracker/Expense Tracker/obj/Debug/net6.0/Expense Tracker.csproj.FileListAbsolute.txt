@@ -6,6 +6,8 @@ D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Exp
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Expense Tracker.runtimeconfig.json
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Expense Tracker.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Expense Tracker.pdb
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Azure.Core.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Azure.Identity.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Humanizer.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\MessagePack.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\MessagePack.Annotations.dll
@@ -35,15 +37,26 @@ D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Mic
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -53,6 +66,7 @@ D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Mic
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Mono.TextTemplating.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\NuGet.Common.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\NuGet.Configuration.dll
@@ -65,6 +79,7 @@ D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\NuG
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\NuGet.Versioning.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Syncfusion.EJ2.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Syncfusion.Licensing.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\System.CodeDom.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\System.Composition.Convention.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\System.Composition.Hosting.dll
@@ -73,9 +88,13 @@ D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Sys
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\System.Drawing.Common.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\System.Memory.Data.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\System.Runtime.Caching.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\System.Text.Json.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\System.Windows.Extensions.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
@@ -244,6 +263,7 @@ D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\run
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\obj\Debug\net6.0\Expense Tracker.csproj.AssemblyReference.cache
 D:\GH\drawturtle\LAPTRINHC#\Expense Tracker\Expense Tracker\obj\Debug\net6.0\Expense Tracker.GeneratedMSBuildEditorConfig.editorconfig
