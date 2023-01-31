@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Theo_Doi_Chi_Phi.Models.Category>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Tạo mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Tieu_De)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bieu_Tuong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Loai)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tieu_De)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bieu_Tuong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Loai)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.So_Danh_Muc">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.So_Danh_Muc">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.So_Danh_Muc">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

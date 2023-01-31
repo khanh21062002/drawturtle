@@ -1,0 +1,45 @@
+﻿@model Theo_Doi_Chi_Phi.Models.Category
+
+@{
+    ViewData["Title"] = "Tạo mới";
+}
+
+<h1>Tạo mới</h1>
+
+<h4>Danh mục</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-3">
+                <ejs-textbox id="Tieu_De" name = "Tieu_De" placeholder="Tiêu Đề" value="Tieu_De" ejs-for="Tieu_De" floatLabelType="Always"></ejs-textbox>
+                <span asp-validation-for="Tieu_De" class="text-danger fs-6"></span>
+            </div>
+            <div class="mb-3">
+                <ejs-textbox id="Bieu_Tuong" name = "Bieu_Tuong" placeholder="Biểu tượng" value="Bieu_Tuong" ejs-for="Bieu_Tuong" floatLabelType="Always"></ejs-textbox>
+                <span asp-validation-for="Bieu_Tuong" class="text-danger fs-6"></span>
+            </div>
+            <div class="form-group">
+                <div class='e-btn-group'>
+                    <input type="radio" id="radioleft" name="Loai" value="Expense" checked= "@(Model.Loai=="Chi phí")"/>
+                    <label class="e-btn" for="radioleft">Expense</label>
+                    <input type="radio" id="radiomiddle" name="Loai" value="Income" checked= "@(Model.Loai=="Income")"/>
+                    <label class="e-btn" for="radiomiddle">Income</label>
+                </div>
+                <span asp-validation-for="Loai" class="text-danger fs-6"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Tạo mới" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Trở về danh sách</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

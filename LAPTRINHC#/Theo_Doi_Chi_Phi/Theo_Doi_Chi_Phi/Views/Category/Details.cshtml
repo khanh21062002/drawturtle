@@ -1,0 +1,36 @@
+﻿@model Theo_Doi_Chi_Phi.Models.Category
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Category</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Tieu_De)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tieu_De)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Bieu_Tuong)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Bieu_Tuong)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Loai)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Loai)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.So_Danh_Muc">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
