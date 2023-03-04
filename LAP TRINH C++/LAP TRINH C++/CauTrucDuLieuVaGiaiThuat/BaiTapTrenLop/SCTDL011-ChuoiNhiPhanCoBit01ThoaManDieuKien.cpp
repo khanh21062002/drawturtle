@@ -1,35 +1,36 @@
-#include <iostream>
-#include <string>
+#include<bits/stdc++.h>
+
 using namespace std;
 
-void generateBinaryStrings(int n, string str, bool& flag)
-{
+void generateBinaryStrings(int n, string s) {
     if (n == 0) {
-        if (!flag) {
-            cout << str << endl;
+        // Check if the string contains "01" twice
+        int count = 0;
+        for (int i = 0; i < s.size() - 1; i++) {
+            if (s[i] == '0' && s[i+1] == '1') {
+                count++;
+                if (count == 2) {
+                    cout << s << endl;
+                    break;
+                }
+            }
         }
         return;
     }
-
-    generateBinaryStrings(n - 1, str + "0", flag);
-    if (str.size() < 1 || str.substr(str.size() - 1) != "1") {
-        generateBinaryStrings(n - 1, str + "1", flag);
-    }
-
-    if (str.size() >= 2 && str.substr(str.size() - 2) == "01") {
-        flag = true;
-    }
+    // Recursively generate binary strings of length n-1
+    generateBinaryStrings(n-1, s + "0");
+    generateBinaryStrings(n-1, s + "1");
 }
 
 int main()
 {
-    int n;
-    cout << "Enter the value of N: ";
-    cin >> n;
-
-    string str = "";
-    bool flag = false;
-    generateBinaryStrings(n, str, flag);
-
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int n;
+        cin >> n;
+        generateBinaryStrings(n, "");
+    }
     return 0;
 }
