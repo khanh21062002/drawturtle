@@ -1,26 +1,27 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
+#define ll long long
+#define faster() ios_base::sync_with_stdio(false),cin.tie(0),cout.tie(0);
+const int MOD=1e9+7;
+
 using namespace std;
 
-string binaryToGray(string binary) {
-    string gray = "";
-    gray += binary[0];
-
-    for (int i = 1; i < binary.length(); i++) {
-        if (binary[i] != binary[i-1]) {
-            gray += "1";
-        } else {
-            gray += "0";
-        }
+string cvt(string s){
+    string ans ="";
+    ans += s[0];
+    for(int i = 1; i < s.size(); ++i){
+        ans += (s[i] != s[i-1]) ? '1': '0';
     }
-
-    return gray;
+    return ans;
 }
-
-int main() {
-    int n = 3;
-    string binary = "010";
-    string gray = binaryToGray(binary);
-    cout << "Binary: " << binary << endl;
-    cout << "Gray: " << gray << endl;
-    return 0;
+int main()
+{
+	faster();
+	int t;
+	cin >> t;
+	while (t--){
+        string s;
+        cin >>s;
+        cout <<cvt(s) <<'\n';
+	}
+	return 0;
 }
