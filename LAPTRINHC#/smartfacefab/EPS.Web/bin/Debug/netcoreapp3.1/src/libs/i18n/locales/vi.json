@@ -1,0 +1,2563 @@
+{
+  "RolesName_1": {
+    "SoftwareAgent": "Đại lý phân phối phần mềm",
+    "EndUser": "Người dùng cuối",
+    "Default_1": "Mặc định",
+    "Administrator_1": "Quản lý",
+    "Shools_1": "Trường học",
+    "Flt": "Khách lẻ"
+  },
+  "ReportWorkingTime": {
+    "Header": "Báo cáo thống kê lượt khách đến",
+    "FromDate": "Từ ngày:",
+    "ToDate": "Đến ngày:",
+    "RequireDateMsg": " Vui lòng nhập ngày tháng ",
+    "Department": "Phòng ban:",
+    "CreateButton": "Tạo Báo Cáo"
+  },
+  "OverTimeHoursReport": {
+    "Header": "Báo cáo làm thêm ngoài giờ(OT)",
+    "FromDate": "Từ ngày:",
+    "FromDateReport": "Ngày điểm danh:",
+    "ToDate": "Đến ngày:",
+    "RequireDateMsg": " Vui lòng nhập ngày tháng ",
+    "Department": "Phòng ban:",
+    "Employee": "Nhân viên:",
+    "CreateButton": "Tạo Báo Cáo"
+  },
+  "PrivilegesText": {
+    "Manage": "Sửa lịch làm việc",
+    "ManageAccessTimeSeg": "Sửa khung giờ",
+    "ManageAreaDetail": "Sửa phân quyền cập khu vực",
+    "ManageClass": "Sửa lớp",
+    "ManageCompany": "Sửa đơn vị",
+    "ManageDayOff": "Sửa ngày nghỉ",
+    "ManageDepartment": "Sửa phòng ban",
+    "ManageEvent": "Sửa lịch sử ra vào",
+    "ManageFAQuestions": "Sửa câu hỏi thường gặp",
+    "ManageGrades": "Sửa khối",
+    "ManageGroup": "Sửa nhóm truy cập",
+    "ManageGroupAccess": "Sửa phân quyền truy cập",
+    "ManageGuess": "Sửa khách",
+    "ManageHolidays": "Sửa ngày lễ",
+    "ManageMachine": "Sửa thiết bị",
+    "ManageNotification": "Sửa cảnh báo",
+    "ManageOverTime": "Sửa ngoài giờ",
+    "ManageOverTimeHours": "Sửa OT",
+    "ManageParent": "Sửa phụ huynh",
+    "ManageParentReport": "Sửa danh sách đưa đón",
+    "ManagePerson": "Sửa blacklist",
+    "ManageRegisterWorkingShift": "Sửa đăng kí ca làm việc",
+    "ManageReportWorking": "Sửa báo cáo chấm công",
+    "ManageRole": "Sửa nhóm người dùng",
+    "ManageShiftTime": "Sửa ca làm việc",
+    "ManageStudent": "Sửa học sinh",
+    "ManageStudentReport": "Sửa lịch sử ra vào học sinh",
+    "ManageTimeKeeping": "Sửa chấm công",
+    "ManageUser": "Sửa người dùng",
+    "ManageWorkCalendar": "Sửa lịch làm việc",
+    "ManageReportWorkingLate": "Sửa báo cáo thống kê đi muộn",
+    "ManageReportWorkingEarly": "Sửa báo cáo thống kê về sớm",
+    "ManageReportRealTime": "Sửa báo cáo thười gian thực làm việc",
+    "ManageReportInOutStudent": "Sửa báo cáo điểm danh học sinh",
+    "ManageReportInOutEmployee": "Sửa báo cáo điểm danh nhân viên",
+    "ViewAccessTimeSeg": "Xem khung giờ",
+    "ViewAreaDetail": "Xem phân quyền truy cập khu vực",
+    "ViewAreas": "Xem khu vực",
+    "ManageAreas": "Sửa khu vực",
+    "ViewClass": "Xem lớp",
+    "ViewCompany": "Xem đơn vị",
+    "ViewDayOff": "Xem ngày nghỉ",
+    "ViewDepartment": "Xem phòng ban",
+    "ViewEvent": "Xem lịch sử ra vào",
+    "ViewFAQuestions": "Xem câu hỏi thường gặp",
+    "ViewGrades": "Xem khối",
+    "ViewGroup": "Xem nhóm truy cập",
+    "ViewGroupAccess": "Xem phân quyền truy cập",
+    "ViewGuess": "Xem khách",
+    "ViewHolidays": "Xem ngày lễ",
+    "ViewMachine": "Xem thiết bị",
+    "ViewNotification": "Xem cảnh báo",
+    "ViewOverTime": "Xem ngoài giờ",
+    "ViewOverTimeHours": "Xem OT",
+    "ViewParent": "Xem phụ huynh",
+    "ViewParentReport": "Xem danh sách đưa đón",
+    "ViewPerson": "Xem blacklist",
+    "ViewRegisterWorkingShift": "Xem đăng kí ca làm việc",
+    "ViewReportWorking": "Xem báo cáo chấm công",
+    "ViewRole": "Xem nhóm người dùng",
+    "ViewShiftTime": "Xem ca làm việc",
+    "ViewStudent": "Xem học sinh",
+    "ViewStudentReport": "Xem lịch sử ra vào học sinh",
+    "ViewTimeKeeping": "Xem chấm công",
+    "ViewUser": "Xem người dùng",
+    "ViewReportWorkingLate": "Xem báo cáo thống kê đi muộn",
+    "ViewReportWorkingEarly": "Xem báo cáo thống kê về sớm",
+    "ViewReportRealTime": "Xem báo cáo thời gian thực làm việc",
+    "ViewReportInOutStudent": "Xem báo cáo điểm danh học sinh",
+    "ViewReportInOutEmployee": "Xem báo cáo điểm danh nhân viên",
+    "ViewWorkCalendar": "Xem lịch làm việc",
+    "ViewIssueCodeQR": "Xem cấp mã cập nhật nhân viên",
+    "ManageIssueCodeQR": "Sửa cấp mã cập nhật nhân viên",
+    "ViewApproveCodeQR": "Xem phê duyệt cập nhật nhân viên",
+    "ManageApproveCodeQR": "Sửa phê duyệt cập nhật nhân viên",
+    "ViewMonitoring": "Xem theo dõi giám sát",
+    "ManageMonitoring": "Sửa theo dõi giám sát",
+    "ViewMenu": "Xem thực đơn",
+    "ManageMenu": "Sửa thực đơn",
+    "ViewPreOrder": "Xem đặt bàn",
+    "ManagePreOrder": "Sửa đặt bàn",
+    "ViewEmployee": "Xem nhân viên",
+    "ManageEmployee": "Sửa nhân viên"
+  },
+  "TreeSelect": {
+    "noChildrenText": "Không có tùy chọn tiếp theo."
+  },
+  "Bgrid": {
+    "Index": "STT",
+    "Sentence": {
+      "ShowResultFrom": "Hiển thị bản ghi từ",
+      "To": "Đến",
+      "Intotal": "Trong tổng số",
+      "Record": "Bản ghi"
+    },
+    "Pagesize": "Kích thước trang",
+    "Columns": "Danh sách cột"
+  },
+  "Common": {
+    "DayOfWeek": {
+      "Mon": "Mon / Thứ 2",
+      "Tue": "Tue / Thứ 3",
+      "Wed": "Wed / Thứ 4",
+      "Thu": "Thu / Thứ 5",
+      "Fri": "Fri / Thứ 6",
+      "Sat": "Sat / Thứ 7",
+      "Sun": "Sun / Chủ nhật"
+    }
+  },
+  "Home": {
+    "ColumnChart": {
+      "ChartName": "Theo dõi lượt khách ra vào cửa hàng theo ngày",
+      "SevenDays": "7 ngày",
+      "TenDays": "10 ngày",
+      "FifteenDays": "15 ngày",
+      "Employee": "Nhân viên",
+      "VIP": "Khách VIP",
+      "Blacklist": "Blacklist",
+      "Guest": "Khách",
+      "Stranger": "Người lạ",
+      "FirstGuest": "Khách tới lần đầu",
+      "ReturnGuest": "Khách quay lại",
+      "Hour": "Giờ",
+      "Day": "Ngày",
+      "Count": "Số lượt"
+    },
+    "PieChart": {
+      "ChartName": "Tỉ lệ khách đến cửa hàng",
+      "NoCheckIn": "Không chấm công",
+      "Ontime": "Đúng giờ",
+      "Late": "Đi muộn",
+      "Person": "Người"
+    },
+    "Table": {
+      "ChartName": "Thống kê lượt khách",
+      "Week": "Tuần",
+      "Month": "Tháng",
+      "Period": "Quý",
+      "GridOptions": {
+        "fullName": "Họ và tên",
+        "deptName": "Phòng ban",
+        "latedays": "Số lần đi muộn",
+        "avatar": "Ảnh"
+      }
+    }
+  },
+  "Nav": {
+    "Home": "Trang chủ",
+    "Systems": "Quản lý hệ thống",
+    "Company": "Đơn vị",
+    "EmployeeInOut": "Thống kê nhân viên ra vào",
+    "ReportEmployeeInOut": {
+      "Header": "Thống kê lượt nhân viên ra vào nhà máy"
+    },
+    "PersonInOut": "Thống kê đối tượng ra vào",
+    "ReportPersonInOut": {
+      "Header": "Thống kê lượt đối tượng ra vào"
+    },
+    "ChildCompany": {
+      "ListAccess": "Danh sách đơn vị",
+      "DetailAccess": "Thông tin đơn vị",
+      "CreateAccess": "Thêm mới đơn vị"
+    },
+    "Device": "Quản lý camera",
+    "ChildDevice": {
+      "ListAccess": "Danh sách camera",
+      "DetailAccess": "Thông tin camera",
+      "CreateAccess": "Thêm mới camera"
+    },
+    "Utility": "Tiện ích",
+    "ChildUtility": {
+      "ListAccess": "Danh sách tiện ích",
+      "DetailAccess": "Chi tiết tiện ích",
+      "CreateAccess": "Thêm mới tiện ích"
+    },
+    "Users": "Người dùng",
+    "ChildUser": {
+      "ListAccess": "Danh sách người dùng",
+      "DetailAccess": "Thông tin người dùng",
+      "CreateAccess": "Thêm mới người dùng",
+      "PrivilegesAccess": "Phân quyền người dùng"
+    },
+    "Roles": "Nhóm người dùng",
+    "ChildRoles": {
+      "ListAccess": "Danh sách nhóm người dùng",
+      "DetailAccess": "Thông tin nhóm người dùng",
+      "CreateAccess": "Thêm mới phân nhóm người dùng",
+      "PrivilegesAccess": "Phân quyền nhóm người dùng"
+    },
+    "Category": "Danh mục",
+    "Department": "Phòng ban",
+    "ChildDepartment": {
+      "ListAccess": "Danh sách phòng ban",
+      "DetailAccess": "Thông tin phòng ban",
+      "CreateAccess": "Thêm mới phòng ban"
+    },
+    "Grades": "Khối",
+    "ChildGrades": {
+      "ListAccess": "Danh sách khối",
+      "DetailAccess": "Thông tin khối",
+      "CreateAccess": "Thêm mới khối"
+    },
+    "Class": "Lớp",
+    "ChildClass": {
+      "ListAccess": "Danh sách lớp",
+      "DetailAccess": "Thông tin lớp",
+      "CreateAccess": "Thêm mới lớp"
+    },
+    "GroupPeople": "Nhóm truy cập",
+    "ChildGroupPeople": {
+      "ListAccess": "Danh sách nhóm truy cập",
+      "DetailAccess": "Thông tin nhóm truy cập",
+      "CreateAccess": "Thêm mới nhóm truy cập"
+    },
+    "Machine": "Thiết bị",
+    "ChildMachine": {
+      "ListAccess": "Danh sách thiết bị",
+      "DetailAccess": "Thông tin thiết bị",
+      "CreateAccess": "Thêm mới thiết bị"
+    },
+    "AccessTimeSeg": "Khung giờ",
+    "ChildTimeSeg": {
+      "ListAccess": "Danh sách khung giờ",
+      "DetailAccess": "Thông tin khung giờ",
+      "CreateAccess": "Thêm mới khung giờ"
+    },
+    "GroupAccess": "Phân quyền truy cập",
+    "ChildAccess": {
+      "ListAccess": "Danh sách phân quyền truy cập",
+      "DetailAccess": "Thông tin phân quyền truy cập",
+      "CreateAccess": "Thêm mới phân quyền truy cập"
+    },
+    "Areas": "Quản lý khu vực",
+    "ChildAreas": {
+      "List": "Danh sách khu vực",
+      "Detail": "Thông tin khu vực",
+      "Create": "Thêm mới khu vực"
+    },
+    "Menu": "Quản lý thực đơn",
+    "ChildMenu": {
+      "List": "Danh sách thực đơn",
+      "Detail": "Thông tin thực đơn",
+      "Create": "Thêm mới thực đơn"
+    },
+    "PreOrder": "Quản lý đặt bàn",
+    "ChildPreOrder": {
+      "List": "Danh sách đặt bàn",
+      "Detail": "Thông tin đặt bàn",
+      "Create": "Thêm mới đặt bàn"
+    },
+    "Person": "Quản lý blacklist",
+    "ChildPerson": {
+      "ListAccess": "Danh sách blacklist",
+      "DetailAccess": "Thông tin đối tượng",
+      "CreateAccess": "Thêm mới đối tượng",
+      "ImportAccess": "Import nhân viên"
+    },
+    "Employee": "Danh sách nhân viên",
+    "ChildEmployee": {
+      "ListAccess": "Danh sách nhân viên",
+      "DetailAccess": "Thông tin nhân viên",
+      "CreateAccess": "Thêm mới nhân viên",
+      "ImportAccess": "Import nhân viên"
+    },
+    "Report": "Báo cáo",
+    "EventHistory": "Lịch sử ra vào",
+    "ChildHistory": {
+      "ListAccess": "Danh sách lịch sử ra vào",
+      "DetailAccess": "Thông tin lịch sử ra vào"
+    },
+    "ReportWorking": "Thống kê lượt khách",
+    "ChildWorking": {
+      "ListAccess": "Báo cáo thống kê lượt khách đến"
+    },
+    "ReportOverTimeHours": "Làm thêm ngoài giờ",
+    "ReportOverTimeHoursLate": "Thống kê đi muộn",
+    "OverTimeHoursReportEarly": {
+      "Header": "Báo cáo thống kê về sớm",
+      "ListAccess": " Báo cáo thống kê về sớm",
+      "FromDate": "Từ ngày:",
+      "ToDate": "Đến ngày:",
+      "RequireDateMsg": " Vui lòng nhập ngày tháng ",
+      "Department": "Phòng ban:",
+      "Employee": "Nhân viên:",
+      "CreateButton": "Tạo Báo Cáo"
+    },
+    "RealTimeList": {
+      "Header": "Báo cáo thời gian thực làm việc",
+      "ListAccess": " Báo cáo thời gian thực làm việc",
+      "FromDate": "Từ ngày:",
+      "ToDate": "Đến ngày:",
+      "RequireDateMsg": " Vui lòng nhập ngày tháng ",
+      "Department": "Phòng ban:",
+      "Employee": "Nhân viên:",
+      "CreateButton": "Tạo Báo Cáo"
+    },
+    "InOutStudentList": {
+      "Header": "Báo cáo điểm danh học sinh",
+      "ListAccess": " Báo cáo điểm danh học sinh",
+      "FromDate": "Từ ngày:",
+      "ToDate": "Đến ngày:",
+      "RequireDateMsg": " Vui lòng nhập ngày tháng ",
+      "Department": "Phòng ban:",
+      "Employee": "Nhân viên:",
+      "CreateButton": "Tạo Báo Cáo"
+    },
+    "InOutEmployeeList": {
+      "Header": "Báo cáo điểm danh nhân viên",
+      "ListAccess": "Chi tiết thống kê lượt khách",
+      "FromDate": "Từ ngày:",
+      "ToDate": "Đến ngày:",
+      "RequireDateMsg": " Vui lòng nhập ngày tháng ",
+      "Department": "Phòng ban:",
+      "Employee": "Nhân viên:",
+      "CreateButton": "Tạo Báo Cáo"
+    },
+    "OverTimeHoursReportLate": {
+      "ListAccess": "Báo cáo thống kê đi muộn",
+      "Header": "Báo cáo thống kê đi muộn",
+      "FromDate": "Từ ngày:",
+      "ToDate": "Đến ngày:",
+      "RequireDateMsg": " Vui lòng nhập ngày tháng ",
+      "Department": "Phòng ban:",
+      "Employee": "Nhân viên:",
+      "CreateButton": "Tạo Báo Cáo"
+    },
+    "ReportOverTimeHoursEarly": "Thống kê về sớm",
+    "ChildReport": {
+      "ListAccess": "Báo cáo làm thêm ngoài giờ(OT)"
+    },
+    "RealTime": "Thống kê thời gian thực làm việc",
+    "ChildReport1": {
+      "ListAccess": "Danh sách báo cáo thời gian thực làm việc"
+    },
+    "InOutStudent": "Điểm danh học sinh",
+    "InOutEmployee": "Chi tiết thống kê lượt khách",
+    "ChildReport2": {
+      "ListAccess": "Danh sách báo cáo điểm danh học sinh"
+    },
+    "TimeSheet": "Chấm công",
+    "ShiftTime": "Ca làm việc",
+    "ChildShiftTime": {
+      "ListAccess": "Danh sách ca làm việc",
+      "DetailAccess": "Thông tin ca làm việc",
+      "CreateAccess": "Thêm mới ca làm việc"
+    },
+    "RegisterWorkingShift": "Đăng ký ca làm việc",
+    "ChildTimeSheet": {
+      "ListAccess": "Danh sách đăng ký ca làm việc",
+      "DetailAccess": "Thông tin đăng ký ca làm việc",
+      "CreateAccess": "Đăng ký ca làm việc"
+    },
+    "Holidays": "Ngày lễ",
+    "ChildHolidays": {
+      "ListAccess": "Danh sách ngày lễ",
+      "DetailAccess": "Thông tin ngày lễ",
+      "CreateAccess": "Thêm mới ngày lễ"
+    },
+    "DayOff": "Ngày nghỉ",
+    "ChildDayOff": {
+      "ListAccess": "Danh sách ngày nghỉ",
+      "DetailAccess": "Thông tin ngày nghỉ",
+      "CreateAccess": "Thêm mới ngày nghỉ"
+    },
+    "WorkCalendar": "Lịch làm việc",
+    "ChildWorkCalendar": {
+      "ListAccess": "Danh sách lịch làm việc",
+      "DetailAccess": "Thông tin lịch làm việc",
+      "CreateAccess": "Thêm mới lịch làm việc"
+    },
+    "TimeKeeping": "Quản lý chấm công",
+    "ChildTimeKeeping": {
+      "ListAccess": "Danh sách lịch sử chấm công",
+      "DetailAccess": "Thông tin chấm công thủ công",
+      "CreateAccess": "Thêm mới chấm công thủ công",
+      "ImportAccess": "Import chấm công"
+    },
+    "OverTime": "Quản lý đăng ký ngoài giờ",
+    "ChildOverTime": {
+      "ListAccess": "Danh sách đăng kí làm thêm ngoài giờ",
+      "DetailAccess": "Thông tin đăng kí làm thêm ngoài giờ",
+      "CreateAccess": "Thêm mới đăng kí làm thêm ngoài giờ"
+    },
+    "OverTimeHours": "Quản lý làm thêm ngoài giờ",
+    "ChildOverTimeHours": {
+      "ListAccess": "Danh sách làm thêm ngoài giờ",
+      "DetailAccess": "Thông tin làm thêm ngoài giờ",
+      "CreateAccess": "Thêm mới làm thêm ngoài giờ"
+    },
+    "GuessManage": "Quản lý khách",
+    "ChildGuess": {
+      "ListAccess": "Danh sách khách đăng kí",
+      "DetailAccess": "Thông tin khách đăng kí",
+      "CreateAccess": "Đăng ký khách"
+    },
+    "Notification": "Cảnh báo",
+    "ChildNotification": {
+      "ListAccess": "Danh sách cảnh báo",
+      "DetailAccess": "Thông tin cảnh báo",
+      "CreateAccess": "Thêm mới cảnh báo"
+    },
+    "Manager_faq": "Quản lý câu hỏi thường gặp",
+    "ChildManager_faq": {
+      "ListAccess": "Danh sách câu hỏi",
+      "DetailAccess": "Thông tin câu hỏi",
+      "CreateAccess": "Thêm mới câu hỏi"
+    },
+    "FAQuestions": "Câu hỏi thường gặp",
+    "ChildFAQuestions": {
+      "ListAccess": "Câu hỏi thường gặp"
+    },
+    "Student": "Học sinh",
+    "ChildStudent": {
+      "ListAccess": "Danh sách học sinh",
+      "DetailAccess": "Thông tin học sinh",
+      "CreateAccess": "Thêm mới học sinh",
+      "ImportAccess": "Import học sinh"
+    },
+    "Schools": "Quản lý học sinh",
+    "Parent": "Người ủy quyền",
+    "ChildParent": {
+      "ListAccess": "Danh sách người ủy quyền",
+      "DetailAccess": "Thông tin người ủy quyền",
+      "CreateAccess": "Thêm mới người ủy quyền",
+      "ImportAccess": "Import người ủy quyền"
+    },
+    "StudentReport": "Lịch sử ra vào học sinh",
+    "ChildStudentReport": {
+      "ListAccess": "Danh sách điểm danh học sinh"
+    },
+    "ParentReport": "Danh sách đưa đón",
+    "ChildParentReport": {
+      "ListAccess": "Danh sách đưa đón"
+    },
+    "SystemNotification": "Thông báo hệ thống",
+    "PersonalInformation": "Thông tin cá nhân",
+    "Monitoring": "Giám sát ra vào",
+    "ChildMonitoring": {
+      "Filter": "Bộ lọc",
+      "Monitoring": "Theo dõi giám sát ra vào"
+    }
+  },
+  "Timesheet": {
+    "Dayoff": {
+      "List": {
+        "Header": "Danh sách ngày nghỉ",
+        "SearchForm": {
+          "CompanyName": "Đơn vị:",
+          "DeptName": "Phòng ban:",
+          "DateFrom": "Từ ngày:",
+          "DateTo": "Đến ngày:",
+          "PersonCode": "Mã nhân viên:",
+          "PersonName": "Họ tên:",
+          "AreaName": "Khu vực:"
+        },
+        "Table": {
+          "TableName": "Danh sách ngày nghỉ",
+          "Index": "STT",
+          "PersonCode": "Mã nhân viên",
+          "PersonName": "Họ tên",
+          "DeptName": "Phòng ban",
+          "DateFrom": "Từ ngày",
+          "DateTo": "Đến ngày",
+          "TotalDay": "Tổng ngày",
+          "Reason": "Lý do"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới ngày nghỉ",
+        "Form": {
+          "CompanyName": "Đơn vị:",
+          "DepartmentName": "Phòng ban:",
+          "DepartmentRequire": "Vui lòng chọn phòng ban",
+          "EmployeeName": "Nhân viên:",
+          "EmployeeRequire": "Vui lòng chọn nhân viên",
+          "Reason": "Lý do:",
+          "ReasonRequire": "Vui lòng nhập lý do",
+          "DateFrom": "Từ ngày:",
+          "DateTo": "Đến ngày:",
+          "DateRequire": "Vui lòng chọn ngày",
+          "DateToUnique": "Ngày kết thúc phải lớn hơn hoặc bằng ngày bắt đầu",
+          "HalfDay": "Nghỉ nửa ngày:",
+          "Salary": "Nghỉ có lương:",
+          "TotalDay": "Tổng ngày:"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin ngày nghỉ",
+        "Form": {
+          "CompanyName": "Đơn vị:",
+          "DepartmentName": "Phòng ban:",
+          "DepartmentRequire": "Vui lòng chọn phòng ban",
+          "EmployeeName": "Nhân viên:",
+          "EmployeeRequire": "Vui lòng chọn nhân viên",
+          "Reason": "Lý do:",
+          "ReasonRequire": "Vui lòng nhập lý do",
+          "DateFrom": "Từ ngày:",
+          "DateTo": "Đến ngày:",
+          "DateRequire": "Vui lòng chọn ngày",
+          "DateToUnique": "Ngày kết thúc phải lớn hơn hoặc bằng ngày bắt đầu",
+          "HalfDay": "Nghỉ nửa ngày:",
+          "Salary": "Nghỉ có lương:",
+          "TotalDay": "Tổng ngày:"
+        }
+      }
+    },
+
+    "Holidays": {
+      "List": {
+        "Header": "Danh sách ngày lễ",
+        "Form": {
+          "CompanyName": "Đơn vị:",
+          "Year": "Năm:"
+        },
+        "Table": {
+          "Date": "Ngày",
+          "Description": "Mô tả",
+          "Coefficient": "Hệ số"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới ngày lễ",
+        "Form": {
+          "Company": "Đơn vị",
+          "Date": "Ngày",
+          "DateRequire": "Vui lòng chọn ngày",
+          "Description": "Mô tả",
+          "Coefficient": "Hệ số"
+        }
+      },
+      "Detail": {
+        "Header": "Chi tiết ngày lễ",
+        "Form": {
+          "Company": "Đơn vị",
+          "Date": "Ngày",
+          "DateRequire": "Vui lòng chọn ngày",
+          "Description": "Mô tả",
+          "Coefficient": "Hệ số"
+        }
+      }
+    },
+    "OverTime": {
+      "List": {
+        "Header": "Quản lý đăng ký làm thêm ngoài giờ",
+        "HeaderTable": "Danh sách đăng ký làm thêm ngoài giờ",
+        "Form": {
+          "CompanyName": "Đơn vị:",
+          "DepartmentName": "Phòng ban:",
+          "EmployeeCode": "Mã nhân viên:",
+          "EmployeeName": "Nhân viên:",
+          "DateFrom": "Từ ngày:",
+          "DateFromRequire": "Thời gian vào phải nhỏ hơn thời gian ra",
+          "DateTo": "Đến ngày:"
+        },
+        "Table": {
+          "EmployeeCode": "Mã nhân viên",
+          "EmployeeName": "Nhân viên",
+          "DepartmentName": "Phòng ban",
+          "DateWorking": "Ngày làm việc",
+          "Shift": "Ca",
+          "Hour": "Số giờ đăng ký",
+          "Note": "Ghi chú"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới đăng ký làm thêm ngoài giờ",
+        "Form": {
+          "Company": "Đơn vị:",
+          "DepartmentName": "Phòng ban:",
+          "DepartmentRequire": "Vui lòng chọn phòng ban",
+          "Employee": "Nhân viên:",
+          "EmployeeRequire": "Vui lòng chọn nhân viên",
+          "Date": "Ngày:",
+          "DateRequire": "Vui lòng chọn ngày",
+          "Shift": "Ca:",
+          "ShiftRequire": "Vui lòng chọn ca",
+          "BreakTime": "Nghỉ giữa giờ (Phút):",
+          "Minute": "Phút",
+          "BreakTimeRequire": "Thời gian nghỉ giữa giờ phải nhỏ hơn khoảng thời gian làm việc",
+          "TimeIn": "Từ giờ:",
+          "TimeOut": "Đến giờ:",
+          "Hour": "Số giờ đăng ký",
+          "Note": "Ghi chú",
+          "NoteRequire": "Số ký tự không được vượt quá 250"
+        }
+      },
+      "Detail": {
+        "Header": "Chi tiết đăng ký làm thêm ngoài giờ",
+        "Form": {
+          "Company": "Đơn vị:",
+          "DepartmentName": "Phòng ban:",
+          "DepartmentRequire": "Vui lòng chọn phòng ban",
+          "Employee": "Nhân viên:",
+          "EmployeeRequire": "Vui lòng chọn nhân viên",
+          "Date": "Ngày:",
+          "DateRequire": "Vui lòng chọn ngày",
+          "Shift": "Ca:",
+          "ShiftRequire": "Vui lòng chọn ca",
+          "BreakTime": "Nghỉ giữa giờ (Phút):",
+          "Minute": "Phút",
+          "BreakTimeRequire": "Thời gian nghỉ giữa giờ phải nhỏ hơn khoảng thời gian làm việc",
+          "TimeIn": "Từ giờ:",
+          "TimeOut": "Đến giờ:",
+          "Hour": "Số giờ đăng ký",
+          "Note": "Ghi chú",
+          "NoteRequire": "Số ký tự không được vượt quá 250"
+        }
+      }
+    },
+    "OverTimeHours": {
+      "List": {
+        "Header": "Quản lý làm thêm ngoài giờ",
+        "HeaderTable": "Danh sách làm thêm ngoài giờ",
+        "Form": {
+          "CompanyName": "Đơn vị:",
+          "DepartmentName": "Phòng ban:",
+          "EmployeeGroup": "Nhóm truy cập:",
+          "EmployeeCode": "Mã nhân viên:",
+          "EmployeeName": "Nhân viên:",
+          "DateFrom": "Từ ngày:",
+          "DateFromRequire": "Thời gian vào phải nhỏ hơn thời gian ra",
+          "DateTo": "Đến ngày:"
+        },
+        "Table": {
+          "EmployeeCode": "Mã nhân viên",
+          "EmployeeName": "Nhân viên",
+          "DepartmentName": "Phòng ban",
+          "EmployeeGroup": "Nhóm truy cập",
+          "DateWorking": "Ngày làm việc",
+          "TimeFrom": "Từ giờ",
+          "TimeTo": "Đến giờ",
+          "BreakTime": "Nghỉ giữa giờ (Phút)",
+          "RealTime": "Số giờ thực tế",
+          "RegisterTime": "Số giờ đăng ký",
+          "Shift": "Ca",
+          "Coefficient": "Hệ số",
+          "TotalHour": "Tổng giờ",
+          "Note": "Ghi chú"
+        },
+        "Recalculation": {
+          "Title": "Tính lại công",
+          "Company": "Đơn vị",
+          "Type": "Phân loại:",
+          "Department": "Phòng ban:",
+          "Employee": "Nhân viên:",
+          "DateFrom": "Áp dụng từ ngày:",
+          "DateTo": "Đến ngày:"
+        },
+        "ExportExcel": {
+          "All": "Tất cả",
+          "InitDetail": {
+            "Company": "Đơn vị",
+            "Department": "Phòng ban",
+            "Employee": "Nhân viên"
+          },
+          "HeaderExcel": {
+            "Title": "DANH SÁCH LỊCH SỬ CHẤM CÔNG NGOÀI GIỜ",
+            "Company": "Đơn vị: ",
+            "Department": "Phòng ban: ",
+            "GroupName": "Nhóm truy cập: ",
+            "DateFrom": "Từ ngày: ",
+            "DateTo": " - Đến ngày: "
+          }
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới làm thêm ngoài giờ",
+        "Form": {
+          "Company": "Đơn vị:",
+          "DepartmentName": "Phòng ban:",
+          "DepartmentRequire": "Vui lòng chọn phòng ban",
+          "Employee": "Nhân viên:",
+          "EmployeeRequire": "Vui lòng chọn nhân viên",
+          "Date": "Ngày:",
+          "DateRequire": "Vui lòng chọn ngày",
+          "Shift": "Ca:",
+          "ShiftRequire": "Vui lòng chọn ca",
+          "BreakTime": "Nghỉ giữa giờ (Phút):",
+          "Minute": "Phút",
+          "BreakTimeRequire": "Thời gian nghỉ giữa giờ phải nhỏ hơn khoảng thời gian làm việc",
+          "TimeIn": "Từ giờ:",
+          "TimeOut": "Đến giờ:",
+          "Hour": "Số giờ thực tế",
+          "Note": "Ghi chú",
+          "NoteRequire": "Số ký tự không được vượt quá 250"
+        }
+      }
+    },
+    "RegisterWorkingShift": {
+      "List": {
+        "Header": "Danh sách đăng ký ca làm việc",
+        "HeaderTable": "Danh sách đăng ký ca làm việc",
+        "Form": {
+          "CompanyName": "Đơn vị:",
+          "DepartmentName": "Phòng ban:",
+          "EmployeeCode": "Mã nhân viên:",
+          "EmployeeName": "Tên nhân viên:",
+          "DateFrom": "Áp dụng từ ngày:",
+          "DateTo": "Đến ngày:"
+        },
+        "Table": {
+          "RegisType": "Loại đăng ký",
+          "DepartmentName": "Phòng ban",
+          "EmployeeCode": "Mã nhân viên",
+          "EmployeeName": "Tên nhân viên",
+          "DateFrom": "Áp dụng từ ngày",
+          "DateTo": "Đến ngày"
+        }
+      },
+      "Create": {
+        "Header": "Đăng ký ca làm việc",
+        "HeaderTable": "Cấu hình theo tuần",
+        "Form": {
+          "Company": "Đơn vị:",
+          "Type": "Phân loại:",
+          "DepartmentName": "Phòng ban",
+          "DepartmentRequire": "Vui lòng chọn phòng ban",
+          "EmployeeName": "Nhân viên",
+          "EmployeeRequire": "Vui lòng chọn nhân viên",
+          "DateFrom": "Áp dụng từ ngày:",
+          "DateRequire": "Vui lòng chọn ngày",
+          "DateTo": "Đến ngày:",
+          "DateToRequire": "Vui lòng chọn ngày kết thúc lớn hơn hoặc bằng ngày bắt đầu",
+          "Note": "Ghi chú"
+        },
+        "Field": {
+          "Index": "STT",
+          "NameShift": "Tên ca làm việc",
+          "Monday": "Thứ 2",
+          "Tuesday": "Thứ 3",
+          "Wednesday": "Thứ 4",
+          "Thursday": "Thứ 5",
+          "Friday": "Thứ 6",
+          "Saturday": "Thứ 7",
+          "Sunday": "Chủ nhật"
+        },
+        "InitDetail": {
+          "Company": "Đơn vị",
+          "Department": "Phòng ban",
+          "Employee": "Nhân viên"
+        }
+      },
+      "Detail": {
+        "Header": "Đăng ký ca làm việc",
+        "HeaderTable": "Cấu hình theo tuần",
+        "Form": {
+          "Company": "Đơn vị:",
+          "Type": "Phân loại:",
+          "DepartmentName": "Phòng ban",
+          "DepartmentRequire": "Vui lòng chọn phòng ban",
+          "EmployeeName": "Nhân viên",
+          "EmployeeRequire": "Vui lòng chọn nhân viên",
+          "DateFrom": "Áp dụng từ ngày:",
+          "DateRequire": "Vui lòng chọn ngày",
+          "DateTo": "Đến ngày:",
+          "DateToRequire": "Vui lòng chọn ngày kết thúc lớn hơn hoặc bằng ngày bắt đầu",
+          "Note": "Ghi chú"
+        },
+        "Field": {
+          "Index": "STT",
+          "NameShift": "Tên ca làm việc",
+          "Monday": "Thứ 2",
+          "Tuesday": "Thứ 3",
+          "Wednesday": "Thứ 4",
+          "Thursday": "Thứ 5",
+          "Friday": "Thứ 6",
+          "Saturday": "Thứ 7",
+          "Sunday": "Chủ nhật"
+        },
+        "InitDetail": {
+          "Company": "Công ty",
+          "Department": "Phòng ban",
+          "Employee": "Nhân viên"
+        }
+      }
+    },
+    "TimeKeeping": {
+      "List": {
+        "Header": "Quản lý chấm công nhân viên",
+        "HeaderTable": "Danh sách lịch sử chấm công",
+        "Form": {
+          "CompanyName": "Đơn vị:",
+          "DepartmentName": "Phòng ban:",
+          "EmployeeGroup": "Nhóm truy cập:",
+          "EmployeeCode": "Mã nhân viên:",
+          "EmployeeName": "Nhân viên:",
+          "DateFrom": "Từ ngày:",
+          "DateFromRequire": "Thời gian vào phải nhỏ hơn thời gian ra",
+          "DateTo": "Đến ngày:"
+        },
+        "Table": {
+          "DepartmentName": "Phòng ban",
+          "EmployeeGroup": "Nhóm truy cập",
+          "EmployeeCode": "Mã nhân viên",
+          "EmployeeName": "Nhân viên",
+          "DateWorking": "Ngày làm việc",
+          "Shift": "Ca",
+          "TimeIn": "Giờ vào",
+          "TimeLate": "Muộn",
+          "TimeOut": "Giờ ra",
+          "TimeEarly": "Sớm",
+          "WorkDay": "Công",
+          "Note": "Ghi chú"
+        },
+        "Recalculation": {
+          "Title": "Tính lại công",
+          "Company": "Đơn vị",
+          "Type": "Phân loại:",
+          "Department": "Phòng ban:",
+          "Employee": "Nhân viên:",
+          "DateFrom": "Áp dụng từ ngày:",
+          "DateTo": "Đến ngày:"
+        },
+        "DetailReport": {
+          "Title": "Báo cáo chi tiết",
+          "TitlePerson": "Chi tiết số lần đối tượng ra vào nhà máy",
+          "Company": "Đơn vị",
+          "Department": "Phòng ban:",
+          "Employee": "Nhân viên:",
+          "DateFrom": "Áp dụng từ ngày:",
+          "DateTo": "Đến ngày:"
+        },
+        "ExportExcel": {
+          "All": "Tất cả",
+          "InitDetail": {
+            "Company": "Công ty",
+            "Department": "Phòng ban",
+            "Employee": "Nhân viên"
+          },
+          "HeaderExcel": {
+            "Title": "DANH SÁCH LỊCH SỬ CHẤM CÔNG",
+            "Company": "Đơn vị: ",
+            "Department": "Phòng ban: ",
+            "GroupName": "Nhóm truy cập: ",
+            "DateFrom": "Từ ngày: ",
+            "DateTo": " - Đến ngày: "
+          }
+        },
+        "ImportExcel": {
+          "Header": "Import chấm công",
+          "ChooseFile": "Chọn file",
+          "ChooseFileRequire": "Vui lòng chọn file",
+          "ChooseFilePlaceHolder": "Chọn file danh sách chấm công",
+          "BtnTemplateFile": "Tải file mẫu",
+          "FileInputXlxs": "Vui lòng chọn file có định dạng .xlsx",
+          "FileInput50Mb": "Vui lòng chọn file có dung lượng dưới 5MB"
+        },
+        "ReportDetail": {
+          "Name": "Họ tên: ",
+          "Late": "Số lần đi muộn: ",
+          "NotCheckIn": "Số lần đến không chấm công: ",
+          "Dept": "Phòng ban: ",
+          "TotalLateEarly": "Tổng: ",
+          "TotalInOut": "Tổng: ",
+          "Comp": "Đơn vị: ",
+          "Early": "Số lần về sớm: ",
+          "NotCheckOut": "Số lần ra không chấm công: ",
+          "HeaderExcelDetail": {
+            "Title": "BẢNG CHI TIẾT CHẤM CÔNG",
+            "DateFrom": "Từ: ",
+            "DateTo": " - Đến: ",
+            "Total": "Số công: "
+          }
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới chấm công thủ công",
+        "Form": {
+          "Company": "Đơn vị:",
+          "Department": "Phòng ban:",
+          "DepartmentRequire": "Vui lòng chọn phòng ban",
+          "Employee": "Nhân viên:",
+          "EmployeeRequire": "Vui lòng chọn nhân viên",
+          "Date": "Ngày:",
+          "DateRequire": "Vui lòng chọn ngày",
+          "Workday": "Số công:",
+          "WorkdayRequire": "Vui lòng nhập số công",
+          "Shift": "Ca làm việc:",
+          "ShiftRequire": "Vui lòng chọn ca làm việc",
+          "Note": "Ghi chú"
+        }
+      }
+    },
+    "WorkCalendar": {
+      "List": {
+        "Header": "Danh sách lịch làm việc",
+        "HeaderTable": "Danh sách lịch làm việc",
+        "Form": {
+          "Company": "Đơn vị:",
+          "CalendarName": "Tên lịch làm việc:"
+        },
+        "Table": {
+          "CalendarName": "Tên lịch làm việc",
+          "DateFrom": "Áp dụng từ ngày",
+          "DateTo": "Đến ngày"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới ngày làm việc",
+        "Form": {
+          "Company": "Đơn vị:",
+          "CalendarName": "Tên lịch làm việc:",
+          "CalendarNameRequire": "Vui lòng nhập tên",
+          "DateFrom": "Áp dụng từ ngày:",
+          "DateTo": "Đến ngày:",
+          "DateRequire": "Vui lòng chọn ngày",
+          "DateToRequire": "Vui lòng chọn ngày kết thúc lớn hơn hoặc bằng ngày bắt đầu"
+        },
+        "Table": {
+          "Header": "Danh sách chi tiết",
+          "Index": "STT",
+          "DayOfWeek": "Thứ",
+          "Workday": "Ngày làm việc",
+          "Breakday": "Ngày nghỉ",
+          "Coef": "Hệ số"
+        }
+      },
+      "Detail": {
+        "Header": "Chi tiết lịch làm việc",
+        "Form": {
+          "Company": "Đơn vị:",
+          "CalendarName": "Tên lịch làm việc:",
+          "CalendarNameRequire": "Vui lòng nhập tên",
+          "DateFrom": "Áp dụng từ ngày:",
+          "DateTo": "Đến ngày:",
+          "DateRequire": "Vui lòng chọn ngày",
+          "DateToRequire": "Vui lòng chọn ngày kết thúc lớn hơn hoặc bằng ngày bắt đầu"
+        },
+        "Table": {
+          "Header": "Danh sách chi tiết",
+          "Index": "STT",
+          "DayOfWeek": "Thứ",
+          "Workday": "Ngày làm việc",
+          "Breakday": "Ngày nghỉ",
+          "Coef": "Hệ số"
+        }
+      }
+    },
+    "WorkingShiftTimes": {
+      "List": {
+        "Header": "Danh sách ca làm việc",
+        "HeaderTable": "Danh sách khai báo ca làm việc",
+        "Form": {
+          "Company": "Đơn vị:",
+          "ShiftCode": "Mã ca:",
+          "ShiftName": "Tên ca:"
+        },
+        "Table": {
+          "ShiftCode": "Mã ca",
+          "ShiftName": "Tên ca",
+          "StartTime": "Giờ bắt đầu làm việc",
+          "EndTime": "Giờ kết thúc làm việc",
+          "Total": "Tổng làm việc (phút)",
+          "WorkingShift": "Đếm công",
+          "OT": "Hệ số làm ngoài giờ",
+          "LateAccept": "Cho phép đi muộn(phút)",
+          "EarlyAccept": "Cho phép về sớm(phút)",
+          "CheckInOT": "Giờ bắt đầu làm ngoài giờ",
+          "CheckOutOT": "Giờ kết thúc làm ngoài giờ"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới ca làm việc",
+        "Form": {
+          "Company": "Đơn vị:",
+          "ShiftCode": "Mã ca:",
+          "ShiftCodeRequire": "Vui lòng nhập mã ca làm việc",
+          "ShiftName": "Tên ca:",
+          "ShiftNameRequire": "Vui lòng nhập tên ca làm việc",
+          "OT": "Hệ số làm ngoài giờ:",
+          "StartCheckIn": "Thời gian bắt đầu checkin:",
+          "StartCheckInRequire": "Vui lòng chọn thời gian bắt đầu check in",
+          "EndCheckIn": "Thời gian kết thúc checkin:",
+          "EndCheckInRequỉe": "Vui lòng chọn thời gian kết thúc check in",
+          "StartTime": "Thời gian bắt đầu làm việc:",
+          "EndTime": "Thời gian kết thúc làm việc:",
+          "StartCheckOut": "Thời gian bắt đầu checkout:",
+          "EndCheckOut": "Thời gian kết thúc checkout:",
+          "StartBreak": "Thời gian bắt đầu nghỉ giữa ca:",
+          "EndBreak": "Thời gian kết thúc nghỉ giữa ca:",
+          "NotCheckIn": "Số phút làm việc khi không checkin:",
+          "NotCheckOut": "Số phút làm việc khi không checkout:",
+          "TotalTime": "Tổng số phút làm việc:",
+          "LateAccept": "Cho phép đi muộn:",
+          "EarlyAccept": "Cho phép về sớm:",
+          "WorkingShift": "Số công:",
+          "StartOT": "Giờ bắt đầu làm ngoài giờ:",
+          "EndOT": "Giờ kết thúc làm ngoài giờ:",
+          "Minute": "phút"
+        }
+      },
+      "Detail": {
+        "Header": "Chi tiết ca làm việc",
+        "Form": {
+          "Company": "Đơn vị:",
+          "ShiftCode": "Mã ca:",
+          "ShiftCodeRequire": "Vui lòng nhập mã ca làm việc",
+          "ShiftName": "Tên ca:",
+          "ShiftNameRequire": "Vui lòng nhập tên ca làm việc",
+          "OT": "Hệ số làm ngoài giờ:",
+          "StartCheckIn": "Thời gian bắt đầu checkin:",
+          "StartCheckInRequire": "Vui lòng chọn thời gian bắt đầu check in",
+          "EndCheckIn": "Thời gian kết thúc checkin:",
+          "EndCheckInRequỉe": "Vui lòng chọn thời gian kết thúc check in",
+          "StartTime": "Thời gian bắt đầu làm việc:",
+          "EndTime": "Thời gian kết thúc làm việc:",
+          "StartCheckOut": "Thời gian bắt đầu checkout:",
+          "EndCheckOut": "Thời gian kết thúc checkout:",
+          "StartBreak": "Thời gian bắt đầu nghỉ giữa ca:",
+          "EndBreak": "Thời gian kết thúc nghỉ giữa ca:",
+          "NotCheckIn": "Số phút làm việc khi không checkin:",
+          "NotCheckOut": "Số phút làm việc khi không checkout:",
+          "TotalTime": "Tổng số phút làm việc:",
+          "LateAccept": "Cho phép đi muộn:",
+          "EarlyAccept": "Cho phép về sớm:",
+          "WorkingShift": "Số công:",
+          "StartOT": "Giờ bắt đầu làm ngoài giờ:",
+          "EndOT": "Giờ kết thúc làm ngoài giờ:",
+          "Minute": "phút"
+        }
+      }
+    }
+  },
+  "Monitor": {
+    "Header": "Theo dõi giám sát ra vào",
+    "Detail": "Thông tin chi tiết ra vào",
+    "Vip": "Khách hàng VIP",
+    "Live": "Danh sách nhân viên",
+    "Blacklist": "Đối tượng blacklist",
+    "Name": "Họ tên:",
+    "Unregistered": "Chưa đăng ký",
+    "Gender": "Giới tính:",
+    "Age": "Tuổi dự đoán:",
+    "Time": "Thời gian ra vào:",
+    "Times": "Số lần vào:",
+    "FollowCam": "Theo dõi giám sát ra vào",
+    "FollowDevice": "Thiết bị:",
+    "FollowDetail": "Chi tiết",
+    "FollowChange": "Thay đổi",
+    "FollowSelect": "Chọn thiết bị",
+    "FollowChangeCustomer": "Thay đổi thông tin khách hàng"
+  },
+  "Guess": {
+    "List": {
+      "Header": "Thông tin tìm kiếm",
+      "HeaderTable": "Danh sách khách đăng ký",
+      "BtnQR": "In mã QR",
+      "Form": {
+        "Company": "Đơn vị:",
+        "Name": "Họ tên:",
+        "Identification": "Giấy tờ tùy thân:"
+      },
+      "Table": {
+        "Status": "Trạng thái",
+        "Name": "Họ tên",
+        "Identification": "Giấy tờ tùy thân",
+        "Phone": "Số điện thoại",
+        "StartTime": "Giờ đăng ký vào",
+        "EndTime": "Giờ đăng ký ra",
+        "Image": "Ảnh"
+      },
+      "Modal": {
+        "QRcode": "QR Code",
+        "PrintQR": "In QRCode",
+        "Message": "Khách hàng đến liên hệ làm việc vui lòng quét mã và khai báo thông tin."
+      },
+      "Success": "Sao chép thành công!"
+    },
+    "Create": {
+      "Header": "Thông tin khách đăng ký",
+      "Form": {
+        "PerCode": "Mã nhân viên:",
+        "Phone": "Số điện thoại:",
+        "PhoneRequire": "Vui lòng nhập số điện thoại",
+        "PhoneMaxLength": "Tối đa 10 số",
+        "PhoneMinLength": "Tối thiếu 10 số",
+        "PhoneNumeric": "Vui lòng chỉ nhập số",
+        "Name": "Họ tên:",
+        "NameRequire": "Vui lòng nhập họ tên",
+        "Identification": "Số giấy tờ tùy thân:",
+        "IdentificationRequire": "Vui lòng nhập số giấy tờ tùy thân",
+        "Birthday": "Năm sinh:",
+        "BirthdayRequire": "Vui lòng nhập năm sinh",
+        "Gender": "Giới tính:",
+        "Male": "Nam",
+        "Female": "Nữ",
+        "AreaName": "Khu vực:",
+        "Address": "Địa chỉ liên lạc:",
+        "AddressRequire": "Vui lòng nhập địa chỉ liên lạc",
+        "Machine": "Tên thiết bị:",
+        "MachineRequire": "Vui lòng chọn thiết bị truy cập",
+        "TimeIn": "Giờ vào:",
+        "TimeInRequire": "Vui lòng nhập giờ vào",
+        "TimeOut": "Giờ ra:",
+        "TimeOutRequire": "Vui lòng nhập giờ ra",
+        "TimeUnique": "Giờ ra phải lớn hơn giờ vào",
+        "Reason": "Lý do ra vào:",
+        "ReasonRequire": "Vui lòng nhập lý do",
+        "Image": "Ảnh cá nhân",
+        "BtnTakePhoto": "Chụp ảnh",
+        "BtnScanQR": "Quét QR CCCD",
+        "ImageRequire": "Vui lòng chụp ảnh cá nhân",
+        "Yes": "Có",
+        "No": "Không",
+        "IsTravel": "Trong vòng 14 ngày qua, Anh/Chị có đến tỉnh/thành phố, quốc gia/vùng lãnh thổ nào? (Có thể đi qua nhiều nơi)",
+        "IsFever": "Trong vòng 14 ngày qua, Anh/Chị có thấy xuất hiện ít nhất 1 trong các dấu hiệu: sốt, ho, khó thở, viêm phổi, đau họng, mệt mỏi không?",
+        "IsTangent": "Trong vòng 14 ngày qua, Anh/Chị có tiếp xúc với",
+        "CovidNN": "Người bệnh hoặc nghi ngờ, mắc bệnh COVID-19",
+        "CovidNCB": "Người từ nước có bệnh COVID-19",
+        "CovidBH": "Người có biểu hiện (Sốt, ho, khó thở , Viêm phổi)"
+      }
+    },
+    "Detail": {
+      "Header": "Thông tin khách đăng ký",
+      "Form": {
+        "Phone": "Số điện thoại:",
+        "Name": "Họ tên:",
+        "Identification": "Số giấy tờ tùy thân:",
+        "Birthday": "Năm sinh:",
+        "Gender": "Giới tính:",
+        "Male": "Nam",
+        "Female": "Nữ",
+        "Unknown": "Không xác định",
+        "Address": "Địa chỉ liên lạc:",
+        "Machine": "Tên thiết bị:",
+        "MachineRequire": "Vui lòng chọn thiết bị truy cập",
+        "TimeIn": "Giờ vào:",
+        "TimeInRequire": "Vui lòng nhập giờ vào",
+        "TimeOut": "Giờ ra:",
+        "TimeOutRequire": "Vui lòng nhập giờ ra",
+        "TimeUnique": "Giờ ra phải lớn hơn giờ vào",
+        "Reason": "Lý do ra vào:",
+        "Yes": "Có",
+        "No": "Không",
+        "IsTravel": "Trong vòng 14 ngày qua, Anh/Chị có đến tỉnh/thành phố, quốc gia/vùng lãnh thổ nào? (Có thể đi qua nhiều nơi)",
+        "IsFever": "Trong vòng 14 ngày qua, Anh/Chị có thấy xuất hiện ít nhất 1 trong các dấu hiệu: sốt, ho, khó thở, viêm phổi, đau họng, mệt mỏi không?",
+        "IsTangent": "Trong vòng 14 ngày qua, Anh/Chị có tiếp xúc với",
+        "CovidNN": "Người bệnh hoặc nghi ngờ, mắc bệnh COVID-19",
+        "CovidNCB": "Người từ nước có bệnh COVID-19",
+        "CovidBH": "Người có biểu hiện (Sốt, ho, khó thở , Viêm phổi)",
+        "Status": "Trạng thái:",
+        "NotApproved": "Chưa duyệt",
+        "Approved": "Đã duyệt",
+        "Refuse": "Từ chối"
+      }
+    }
+  },
+  "FAQ": {
+    "List": {
+      "Header": "Danh sách câu hỏi",
+      "BtnDownload": "Tải tài liệu"
+    }
+  },
+  "Warning": {
+    "List": {
+      "Header": "Danh sách cấu hình cảnh báo",
+      "HeaderTable": "Danh sách cấu hình cảnh báo",
+      "Form": {
+        "Company": "Đơn vị:",
+        "Machine": "Tên thiết bị:"
+      },
+      "Table": {
+        "Header": "Danh sách thông báo",
+        "Content": "Nội dung",
+        "Type": "Loại cảnh báo",
+        "Machine": "Tên thiết bị",
+        "Thresholds": "Ngưỡng nhận diện"
+      }
+    },
+    "Create": {
+      "Header": "Thêm mới cấu hình cảnh báo",
+      "HeaderTable": "Danh sách người nhận cảnh báo",
+      "Form": {
+        "Company": "Đơn vị:",
+        "Machine": "Tên thiết bị:",
+        "MachineRequire": "Vui lòng chọn thiết bị",
+        "Type": "Loại cảnh báo:",
+        "TypeRequire": "Vui lòng chọn loại cảnh báo",
+        "Thresholds": "Ngưỡng điểm nhận diện:",
+        "ThresholdsRequire": "Vui lòng nhập ngưỡng điểm nhận diện (Là số nằm trong khoảng từ 0 đến 1)",
+        "InvalidEmail": "Vui lòng nhập email hợp lệ"
+      },
+      "Table": {
+        "Index": "STT",
+        "Employee": "Nhân viên",
+        "Email": "Email",
+        "Action": "Thao tác"
+      },
+      "Type": {
+        "Stranger": "Cảnh báo người lạ",
+        "Temperature": "Cảnh báo nhiệt độ cao"
+      }
+    },
+    "Detail": {
+      "Header": "Thêm mới cấu hình cảnh báo",
+      "HeaderTable": "Danh sách người nhận cảnh báo",
+      "Form": {
+        "Company": "Đơn vị:",
+        "Machine": "Tên thiết bị:",
+        "MachineRequire": "Vui lòng chọn thiết bị",
+        "Type": "Loại cảnh báo:",
+        "TypeRequire": "Vui lòng chọn loại cảnh báo",
+        "Thresholds": "Ngưỡng điểm nhận diện:",
+        "ThresholdsRequire": "Vui lòng nhập ngưỡng điểm nhận diện (Là số nằm trong khoảng từ 0 đến 1)",
+        "InvalidEmail": "Vui lòng nhập email hợp lệ"
+      },
+      "Table": {
+        "Index": "STT",
+        "Employee": "Nhân viên",
+        "Email": "Email",
+        "Action": "Thao tác"
+      },
+      "Type": {
+        "Stranger": "Cảnh báo người lạ",
+        "Temperature": "Cảnh báo nhiệt độ cao"
+      }
+    }
+  },
+  "Components": {
+    "ImageUpload": {
+      "UploadImages": "Upload ảnh",
+      "DragFiles": "Kéo thả tệp tin",
+      "OrClick": "hoặc chọn từ thư mục",
+      "Uploaded": "Đã tải lên",
+      "Success": "tệp tin thành công.",
+      "UploadAgain": "Tiếp tục tải lên",
+      "Uploading": "Đang tải lên"
+    },
+    "Noti": {
+      "Success": "Upload thành công",
+      "File": "tệp tin"
+    }
+  },
+  "Button": {
+    "Search": "Tìm kiếm",
+    "ShowAccessInformation": "Hiện thị phân quyền truy cập",
+    "UnShowAccessInformation": "Ẩn phân quyền truy cập",
+    "Create": "Thêm mới",
+    "Adda": "Thêm",
+    "Desplay": "Chi tiết số lượt",
+    "View": "Xem",
+    "Report": "Xuất báo cáo",
+    "Delete": "Xóa",
+    "Submit": "Ghi lại",
+    "Cancel": "Hủy",
+    "Edit": "Sửa",
+    "Back": "Quay lại",
+    "Approve": "Duyệt",
+    "Refuse": "Từ chối",
+    "ExportExcel": "Xuất excel",
+    "ImportExcel": "Import excel",
+    "DetailReport": "Báo cáo chi tiết",
+    "Refresh": "Làm mới",
+    "Recalculation": "Tính lại công",
+    "Close": "Đóng",
+    "Privileges": "Phân quyền",
+    "AddCam": "Chọn camera",
+    "Fullscreen": "Toàn màn hình",
+    "Yes": "Đồng ý",
+    "No": "Không"
+  },
+  "Messages": {
+    "ConfirmDelete": "Bạn có chắc chắn muốn xóa?",
+    "ToastrDelete_s": "Xóa thành công",
+    "ToastrDelete_e": "Vui lòng chọn dòng cần xóa",
+    "ConfirmUpdate": "Cập nhật thành công",
+    "ConfirmCreate": "Tạo mới thành công",
+    "CalculateSuccess": "Tính công thành công",
+    "TimeKeeping": {
+      "Success": "Tạo mới chấm công thành công",
+      "ExistEmployee": "Tạo mới chấm công thành công - Nhân viên đã tồn tại dữ liệu chấm công trên hệ thống!"
+    },
+    "RegisterSuccess": "Đăng ký thành công",
+    "Approve": {
+      "Confirm": "Bạn có chắc chắn muốn duyệt?",
+      "Success": "Duyệt thành công"
+    },
+    "Refuse": {
+      "Confirm": "Bạn có chắc chắ muốn từ chối?",
+      "Success": "Từ chối thành công"
+    },
+    "ConfirmImage": "Vui lòng chọn ảnh hợp lệ!"
+  },
+  "TitleDetail": {
+    "View": "Xem",
+    "Delete": "Xóa",
+    "Add": "Thêm"
+  },
+  "PlaceHolder": {
+    "Select": "Chọn giá trị",
+    "SearchInput": "Nhập giá trị",
+    "Captcha": "Nhập mã xác thực"
+  },
+  "Categories": {
+    "Areas": {
+      "List": {
+        "Header": "Tra cứu thông tin khu vực",
+        "SearchForm": {
+          "Text": "Mã/Tên khu vực ",
+          "Status": "Trạng thái "
+        },
+        "Table": {
+          "TableName": "Danh sách thông tin khu vực",
+          "Code": "Mã khu vực",
+          "Name": "Tên khu vực",
+          "Status": "Trạng thái",
+          "Note": "Ghi chú"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin khu vực",
+        "Form": {
+          "Code": "Mã khu vực",
+          "Name": "Tên khu vực",
+          "Status": "Trạng thái",
+          "Note": "Ghi chú",
+          "CodeRequired": "Vui lòng nhập mã khu vực",
+          "CodePattern": "Mã khu vực không được chứa ký tự đặc biệt",
+          "NameRequired": "Vui lòng nhập tên khu vực"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới thông tin khu vực"
+      }
+    },
+    "Menu": {
+      "List": {
+        "Header": "Thông tin thực đơn",
+        "SearchForm": {
+          "Name": "Tên món/set",
+          "Price": "Đơn giá"
+        },
+        "Table": {
+          "TableName": "Danh sách thực đơn nhà hàng",
+          "Type": "Loại món",
+          "Name": "Tên món/set",
+          "Price": "Đơn giá (VNĐ)",
+          "SetFood": "Nội dung set",
+          "Note": "Ghi chú"
+        }
+      },
+      "Crud": {
+        "HeaderCreate": "Thêm mới thông tin thực đơn",
+        "HeaderDetail": "Cập nhật thông tin thực đơn",
+        "Type1": "Món",
+        "Type2": "Set",
+        "Form": {
+          "Type": "Loại",
+          "Name": "Tên món",
+          "SetName": "Tên set",
+          "Set": "Set",
+          "Mon": "Món",
+          "SetFood": "Nội dung set",
+          "Price": "Đơn giá (VNĐ)",
+          "Note": "Ghi chú",
+          "NameRequired": "Vui lòng nhập tên món",
+          "SetNameRequired": "Vui lòng nhập tên set"
+        }
+      }
+    },
+    "PreOrder": {
+      "List": {
+        "Header": "Thông tin đặt bàn",
+        "SearchForm": {
+          "Name": "Họ tên",
+          "PhoneNumber": "Số điện thoại",
+          "DateFrom": "Thời gian từ",
+          "DateTo": "Đến"
+        },
+        "Table": {
+          "TableName": "Thông tin khách đặt bàn",
+          "Guest": "Khách hàng",
+          "PhoneNumber": "Số điện thoại",
+          "AmountPeople": "Số người",
+          "TimeOrder": "Thời gian",
+          "DownPayment": "Tiền đặt trước (VNĐ)",
+          "RequestOrder": "Yêu cầu đặt món"
+        }
+      },
+      "Crud": {
+        "HeaderCreate": "Thêm mới thông tin khách đặt bàn",
+        "HeaderDetail": "Cập nhật thông tin khách đặt bàn",
+        "Form": {
+          "Date": "Ngày",
+          "Time": "Giờ",
+          "Guest": "Khách hàng",
+          "PhoneNumber": "Số điện thoại",
+          "AmountPeople": "Số người",
+          "RequestOrder": "Yêu cầu đặt món",
+          "AnotherOrder": "Yêu cầu khác",
+          "DownPayment": "Tiền đặt trước (VNĐ)",
+          "Require": {
+            "Date": "Vui lòng nhập ngày",
+            "Time": "Vui lòng nhập giờ",
+            "Guest": "Vui lòng chọn khách hàng",
+            "AmountPeople": "Vui lòng nhập số người",
+            "VehicleLoadPositive": "Vui lòng nhập số nguyên dương",
+            "Min": "Tối thiểu 10 số",
+            "Max": "Tối đa 11 số"
+          }
+        }
+      }
+    },
+    "Device": {
+      "List": {
+        "Header": "Danh sách camera",
+        "SearchForm": {
+          "DeviceName": "Tên/Mã camera ",
+          "StatusOn": "ON",
+          "StatusOff": "OFF"
+        },
+        "Table": {
+          "TableName": "Danh sách camera",
+          "Code": "Mã camera",
+          "RstpLink": "Đường dẫn camera",
+          "Features": "Chức năng camera",
+          "Name": "Tên camera",
+          "Direction": "Hướng di chuyển",
+          "Synchronized": "Đồng bộ thành công",
+          "Area": "Khu vực "
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin camera",
+        "Label": {
+          "CodeName": "Mã camera ",
+          "Name": "Tên camera ",
+          "Function": "Chức năng camera ",
+          "RstpLink": "Đường dẫn link ",
+          "DependentDevice": "Camera tổng quan",
+          "Features": "Chức năng ",
+          "Direction": "Hướng di chuyển",
+          "Area": "Khu vực ",
+          "Imei": "Số IMEI",
+          "Mac": "Địa chỉ Mac ",
+          "UserName": "Tài khoản truy cập ",
+          "Password": "Mật khẩu đăng nhập camera ",
+          "ServerIP": "Địa chỉ máy chủ ",
+          "UserNameServer": "Tài khoản xác thực máy chủ ",
+          "PasswordServer": "Mật khẩu xác thực máy chủ ",
+          "FaceThreshold": "Ngưỡng điểm nhận diện ",
+          "TemperatureThreshold": "Ngưỡng cảnh báo nhiệt độ (°C)",
+          "DistanceDetect": "Khoảng cách nhận diện (cm) ",
+          "Delay": "Thời gian giữa 2 lần nhận diện (mili giây) ",
+          "FraudProof": "Kiểm tra giả mạo",
+          "AutoSaveVisitor": "Lưu khách vãng lai",
+          "Led": "Sử dụng đèn",
+          "AutoStart": "Tự động bật chương trình",
+          "UseTemperature": "Kiểm tra nhiệt độ",
+          "UseMask": "Kiểm tra khẩu trang",
+          "Logo": "Logo",
+          "Check1": "Check in",
+          "Check2": "Check out",
+          "Check3": "Chấm công",
+          "DeviceRequire": "Vui lòng chọn chức năng camera",
+          "DeviceNameRequire": "Vui lòng nhập tên camera",
+          "DeviceCodeRequire": "Vui lòng nhập mã camera",
+          "DeviceRstpLinkRequire": "Vui lòng nhập đường dẫn link",
+          "DeviceDirectionRequire": "Vui lòng chọn hướng di chuyển",
+          "AreaRequire": "Vui lòng chọn khu vực",
+          "FunctionRequire": "Vui lòng chọn chức năng",
+          "ImeiRequire": "Vui lòng nhập địa chỉ Imei",
+          "MacRequire": "Vui lòng nhập địa chỉ Mac",
+          "ServerRequire": "Vui lòng nhập địa chỉ máy chủ",
+          "ServerUserRequire": "Vui lòng nhập tài khoản xác thực máy chủ",
+          "PasswordUserRequire": "Vui lòng nhập mật khẩu xác thực máy chủ",
+          "EspeciallyCode": "Mã Nhà thầu không được chứ kí tự đặc biệt",
+          "UseVaccine": "Kiểm tra vaccine",
+          "UsePCCovid": "Kiểm tra mã PCCovid với người lạ",
+          "PCCovidPhone": "Số điện thoại quản lý",
+          "PCCovidLocation": "Mã địa điểm",
+          "PCCovidToken": "Token PCCovid",
+          "PCCovidTokenRequire": " Vui lòng nhập token PCCovid",
+          "PCCovidPhoneRequire": "Vui lòng nhập số điện thoại quản lý",
+          "PCCovidPhoneValid": " Vui lòng nhập số điện thoại hợp lệ",
+          "PCCovidLocationRequire": " Vui lòng nhập mã địa điểm",
+          "DependentDeviceRequired": "Vui lòng chọn camera tổng quan"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới camera"
+      },
+      "Common": {
+        "ListDirection": {
+          "Entry": "Hướng đi vào công trường",
+          "Exit": "Hướng đi ra công trường"
+        }
+      }
+    },
+    "Accesstimeseg": {
+      "List": {
+        "Header": "Danh sách khung giờ",
+        "SearchForm": {
+          "DateName": "Tên khung giờ:"
+        },
+        "Table": {
+          "TableName": "Danh sách khung giờ",
+          "Index": "STT",
+          "TimeSegName": "Tên khung giờ",
+          "Company": "Đơn vị",
+          "Department": "Phòng ban"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin khung giờ",
+        "Label": {
+          "Group": "Nhóm truy cập:",
+          "MondayStart1": "Khung giờ 1:",
+          "MondayStart2": "Khung giờ 2:",
+          "MondayStart3": "Khung giờ 3:",
+          "MondayStart4": "Khung giờ 4:",
+          "MondayEnd1": "Kết thúc 1:",
+          "MondayEnd2": "Kết thúc 2:",
+          "MondayEnd3": "Kết thúc 3:",
+          "MondayEnd4": "Kết thúc 4:",
+          "TuesdayStart1": "Khung giờ 1:",
+          "TuesdayStart2": "Khung giờ 2:",
+          "TuesdayStart3": "Khung giờ 3:",
+          "TuesdayStart4": "Khung giờ 4:",
+          "TuesdayEnd1": "Kết thúc 1:",
+          "TuesdayEnd2": "Kết thúc 2:",
+          "TuesdayEnd3": "Kết thúc 3:",
+          "TuesdayEnd4": "Kết thúc 4:",
+          "WednesdayStart1": "Khung giờ 1:",
+          "WednesdayStart2": "Khung giờ 2:",
+          "WednesdayStart3": "Khung giờ 3:",
+          "WednesdayStart4": "Khung giờ 4:",
+          "WednesdayEnd1": "Kết thúc 1:",
+          "WednesdayEnd2": "Kết thúc 2:",
+          "WednesdayEnd3": "Kết thúc 3:",
+          "WednesdayEnd4": "Kết thúc 4:",
+          "ThursdayStart1": "Khung giờ 1:",
+          "ThursdayStart2": "Khung giờ 2:",
+          "ThursdayStart3": "Khung giờ 3:",
+          "ThursdayStart4": "Khung giờ 4:",
+          "ThursdayEnd1": "Kết thúc 1:",
+          "ThursdayEnd2": "Kết thúc 2:",
+          "ThursdayEnd3": "Kết thúc 3:",
+          "ThursdayEnd4": "Kết thúc 4:",
+          "FridayStart1": "Khung giờ 1:",
+          "FridayStart2": "Khung giờ 2:",
+          "FridayStart3": "Khung giờ 3:",
+          "FridayStart4": "Khung giờ 4:",
+          "FridayEnd1": "Kết thúc 1:",
+          "FridayEnd2": "Kết thúc 2:",
+          "FridayEnd3": "Kết thúc 3:",
+          "FridayEnd4": "Kết thúc 4:",
+          "SaturdayStart1": "Khung giờ 1:",
+          "SaturdayStart2": "Khung giờ 2:",
+          "SaturdayStart3": "Khung giờ 3:",
+          "SaturdayStart4": "Khung giờ 4:",
+          "SaturdayEnd1": "Kết thúc 1:",
+          "SaturdayEnd2": "Kết thúc 2:",
+          "SaturdayEnd3": "Kết thúc 3:",
+          "SaturdayEnd4": "Kết thúc 4:",
+          "SundayStart1": "Khung giờ 1:",
+          "SundayStart2": "Khung giờ 2:",
+          "SundayStart3": "Khung giờ 3:",
+          "SundayStart4": "Khung giờ 4:",
+          "SundayEnd1": "Kết thúc 1:",
+          "SundayEnd2": "Kết thúc 2:",
+          "SundayEnd3": "Kết thúc 3:",
+          "SundayEnd4": "Kết thúc 4:"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới khung giờ",
+        "Require": {
+          "Companyrequire": "Vui lòng chọn đơn vị:",
+          "TimeSegNameRequire": "Vui lòng nhập tên khung giờ",
+          "GroupNameRequire": "Vui lòng chọn nhóm truy cập",
+          "GroupNameUnique": "Chỉ được chọn duy nhất 1 nhóm truy cập"
+        }
+      }
+    },
+    "Department": {
+      "List": {
+        "Header": "Danh mục phòng ban",
+        "Table": {
+          "TableName": "Danh sách phòng ban",
+          "Index": "STT",
+          "Code": "Mã phòng ban/Lớp",
+          "CodeName": "Mã phòng ban",
+          "Company": "Đơn vị",
+          "Department": "Phòng ban cha",
+          "Name": "Tên phòng ban",
+          "NameCode": "Tên/ Mã phòng ban"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin phòng ban",
+        "Label": {
+          "Name": "Tên phòng ban:",
+          "NameParent": "Phòng ban cha:",
+          "CodeName": "Mã phòng ban/Lớp:",
+          "Code": "Mã phòng ban:",
+          "DepartmentNamerequire": "Tên phòng ban không được quá 250 kí tự",
+          "Coderequire": "Vui lòng nhập mã phòng ban",
+          "Namerequire": "Vui lòng nhập tên phòng ban",
+          "MalenghtCode": "Mã phòng ban không được quá 50 kí tự",
+          "EspeciallyCode": "Mã phòng ban không được chứ kí tự đặc biệt"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới phòng ban"
+      }
+    },
+    "Group": {
+      "List": {
+        "Header": "Danh sách nhóm truy cập",
+        "SearchForm": {
+          "GroupName": "Tên nhóm truy cập:",
+          "GroupNameCode": "Tên/ Mã nhóm truy cập:"
+        },
+        "Table": {
+          "TableName": "Danh sách nhóm truy cập",
+          "Index": "STT",
+          "NameGroup": "Tên nhóm truy cập",
+          "Code": "Mã nhóm truy cập",
+          "Status": "Trạng thái"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin nhóm truy cập",
+        "Label": {
+          "CodeGroup": "Mã nhóm truy cập:",
+          "GroupNamerequire": "Tên nhóm truy cập không được quá 250 kí tự",
+          "Coderequire": "Vui lòng nhập mã nhóm truy cập",
+          "MalenghtCode": "Mã nhóm truy cập không được quá 50 kí tự",
+          "EspeciallyCode": "Mã nhóm truy cập không được chứ kí tự đặc biệt",
+          "GroupNameRequire": "Vui lòng nhập tên nhóm truy cập",
+          "DateRequire": "Vui lòng chọn giờ"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới nhóm truy cập"
+      }
+    },
+    "GroupAccess": {
+      "List": {
+        "Header": "Danh sách phân quyền truy cập",
+        "SearchForm": {
+          "Machine": "Tên thiết bị:",
+          "TimeSeg": "Khung giờ:"
+        },
+        "Table": {
+          "TableName": "Danh sách phân quyền truy cập",
+          "Index": "STT",
+          "Group": "Nhóm truy cập",
+          "MachineName": "Tên thiết bị",
+          "Timeseg": "Khung giờ"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin phân quyền truy cập",
+        "Label": {
+          "DeptName": "Phòng ban/ Lớp:",
+          "MachineRequire": "Vui lòng chọn thiết bị",
+          "DateRequire": "Vui lòng chọn giờ"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới phân quyền truy cập"
+      }
+    },
+    "Machine": {
+      "List": {
+        "Header": "Danh sách thiết bị",
+        "SearchForm": {
+          "MachineName": "Tên thiết bị/Mô tả:",
+          "StatusOn": "ON",
+          "StatusOff": "OFF"
+        },
+        "Table": {
+          "TableName": "Danh sách thiết bị",
+          "TableNameDetails": "Thông tin truy cập hệ thống",
+          "Code": " Mô tả",
+          "AreaGrid": "Khu vực",
+          "LastTimeSynchronized": "Đồng bộ lần cuối",
+          "Name": "Tên thiết bị",
+          "Performance": "Hiệu năng thiết bị",
+          "Synchronized": "Đồng bộ thành công",
+          "SynchronizedTable": "Đồng bộ thiết bị",
+          "SynchronizedRequire": "Thao tác này sẽ xóa toàn bộ dữ liệu trên thiết bị và đồng bộ lại từ đầu với máy chủ, quá trình này có thể mất nhiều thời gian, bạn có chắc chắn thực hiện?",
+          "RequestRebootTable": "Khởi động lại thiết bị",
+          "RequestRebootRequire": "Bạn có chắc chắn muốn khởi động lại thiết bị không ?",
+          "RequestReboot": "Khởi động thành công"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin thiết bị",
+        "Label": {
+          "CodeName": "Mô tả:",
+          "Name": "Tên thiết bị:",
+          "AreaName": "Khu vực:",
+          "Function": "Chức năng thiết bị:",
+          "Imei": "Số IMEI:",
+          "Mac": "Địa chỉ Mac:",
+          "UserName": "Tài khoản truy cập:",
+          "Password": "Mật khẩu đăng nhập thiết bị:",
+          "ServerIP": "Địa chỉ máy chủ:",
+          "UserNameServer": "Tài khoản xác thực máy chủ:",
+          "PasswordServer": "Mật khẩu xác thực máy chủ:",
+          "FaceThreshold": "Ngưỡng điểm nhận diện:",
+          "TemperatureThreshold": "Ngưỡng cảnh báo nhiệt độ (°C):",
+          "DistanceDetect": "Khoảng cách nhận diện (cm):",
+          "Delay": "Thời gian giữa 2 lần nhận diện (mili giây):",
+          "FraudProof": "Kiểm tra giả mạo:",
+          "AutoSaveVisitor": "Lưu khách vãng lai:",
+          "Led": "Sử dụng đèn:",
+          "AutoStart": "Tự động bật chương trình:",
+          "UseTemperature": "Kiểm tra nhiệt độ:",
+          "UseTemperature1": "Điểm nhận diện:",
+          "SearchHight": "Tìm kiếm nâng cao",
+          "UseMask": "Kiểm tra khẩu trang:",
+          "Logo": "Logo:",
+          "Check1": "Check in",
+          "Check2": "Check out",
+          "Check3": "Chấm công",
+          "MachineRequire": "Vui lòng chọn chức năng thiết bị",
+          "MachineNameRequire": "Vui lòng nhập tên thiết bị",
+          "MachineCodeRequire": "Vui lòng nhập mô tả",
+          "ImeiRequire": "Vui lòng nhập địa chỉ Imei",
+          "MacRequire": "Vui lòng nhập địa chỉ Mac",
+          "ServerRequire": "Vui lòng nhập địa chỉ máy chủ",
+          "ServerUserRequire": "Vui lòng nhập tài khoản xác thực máy chủ",
+          "PasswordUserRequire": "Vui lòng nhập mật khẩu xác thực máy chủ",
+          "EspeciallyCode": "Mã phòng ban không được chứ kí tự đặc biệt",
+          "UseVaccine": "Kiểm tra vaccine:",
+          "UsePCCovid": "Kiểm tra mã PCCovid với người lạ:",
+          "PCCovidPhone": "Số điện thoại quản lý:",
+          "PCCovidLocation": "Mã địa điểm:",
+          "PCCovidToken": "Token PCCovid:",
+          "PCCovidTokenRequire": " Vui lòng nhập token PCCovid",
+          "PCCovidPhoneRequire": "Vui lòng nhập số điện thoại quản lý",
+          "PCCovidPhoneValid": " Vui lòng nhập số điện thoại hợp lệ",
+          "RestartTime": " Thời gian khởi động lại:",
+          "DailyReboot": "Bật/Tắt thời gian khởi động:",
+          "AutoSleep": "Chế độ bảo vệ màn hình:",
+          "DailyRebootRequire": "Vui lòng chọn bật hoặc tắt thời gian khởi động lại thiết bị",
+          "RestartTimeRequire": "Vui lòng nhập thời gian khỏi động lại thiết bị",
+          "AutoSleepRequire": "Vui lòng chọn chế độ bảo vệ màn hình",
+          "PCCovidLocationRequire": " Vui lòng nhập mã địa điểm"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới thiết bị"
+      }
+    },
+    "Person": {
+      "List": {
+        "Header": "Danh sách nhân viên",
+        "SearchForm": {
+          "PersonName": "Họ tên:",
+          "ImageStatus": "Trạng thái ảnh",
+          "AlreadyHavePictures": "Đã có ảnh",
+          "NoPhotosYet": "Chưa có ảnh"
+        },
+        "Table": {
+          "TableName": "Danh sách nhân viên",
+          "TableName1": "Danh sách",
+          "Code": "Mã nhân viên",
+          "Name": "Họ tên",
+          "Birthday": "Ngày sinh",
+          "Address": "Địa chỉ",
+          "PersonType": "Loại đối tượng",
+          "Number": "Số lần đến",
+          "Gender": "Giới tính",
+          "vaccine": "Tiêm chủng",
+          "Import": "Chọn tệp:",
+          "Header": "Import nhân viên",
+          "ImportRequire": "Vui lòng chọn tệp",
+          "ImportPlaceholder": "Vui lòng chọn tệp danh sách nhân viên",
+          "ImportSample": "Tải tệp mẫu",
+          "Department": "Phòng ban"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin đối tượng",
+        "Header1": "Thông tin nhân viên",
+        "Label": {
+          "CodeName": "Mã nhân viên:",
+          "Work": "Công việc:",
+          "Name": "Họ tên:",
+          "Birthday": "Ngày sinh:",
+          "Position": "Chức danh:",
+          "Status": "Trạng thái:",
+          "Activate": "Hoạt động",
+          "Stop": "Ngừng hoạt động",
+          "StatusVaccine": "Trạng thái tiêm chủng:",
+          "Card": "Mã thẻ:",
+          "StatusVaccine1": "chưa có thông tin",
+          "StatusVaccine2": "chưa tiêm",
+          "StatusVaccine3": "Đã tiêm 1 mũi",
+          "StatusVaccine4": "Đã tiêm 2 mũi",
+          "StatusVaccine5": "Đã tiêm 3 mũi",
+          "StatusVaccine6": "Đã tiêm 4 mũi",
+          "Fileinput": "Vui lòng chọn file có định dạng .jpg, .png",
+          "CodeRequire": "Vui lòng nhập mã nhân viên",
+          "ImageRequire": "Vui lòng chọn ảnh",
+          "NameRequire": "Vui lòng nhập họ tên",
+          "FromDate": "Thời gian làm việc từ",
+          "ToDate": "Đến",
+          "FromDateRequire": "Vui lòng chọn thời gian làm việc",
+          "ToDateRequire": "Thời gian kết thúc làm việc phải lớn hơn hoặc bằng thời gian bắt đầu làm việc"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới đối tượng blacklist"
+      }
+    }
+  },
+  "School": {
+    "Class": {
+      "List": {
+        "Header": "Danh mục lớp",
+        "SearchForm": {
+          "ClassName": "Tên lớp:",
+          "ClassNameCode": "Mã/ Tên lớp:"
+        },
+        "Table": {
+          "TableName": "Danh mục lớp",
+          "Unit": "Khối",
+          "NameClass": "Tên lớp",
+          "Code": "Mã lớp"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin lớp",
+        "Label": {
+          "Code": "Mã lớp:",
+          "Unit": "Khối:",
+          "CodeRequire": "Vui lòng nhập mã lớp",
+          "CodeMaxlength": "Mã lớp không được quá 50 ký tự",
+          "EspeciallyCode": "Không có kí tự đặc biệt",
+          "NameRequire": "Vui lòng nhập tên lớp",
+          "NameMaxlength": "Tên lớp không được quá 250 kí tự",
+          "UnitRequire": "Vui lòng chọn khối"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới lớp"
+      }
+    },
+    "Grades": {
+      "List": {
+        "Header": "Danh mục khối",
+        "SearchForm": {
+          "UnitName": "Tên khối:"
+        },
+        "Table": {
+          "TableName": "Danh mục khối",
+          "Unit": "Khối lớp",
+          "NameClass": "Tên khối",
+          "Descriptions": "Mô tả"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin khối",
+        "Label": {
+          "Descriptions": "Mô tả:",
+          "Unit": "Khối lớp:",
+          "CodeRequire": "Vui lòng nhập khối lớp",
+          "NameRequire": "Vui lòng nhập tên khối"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới khối"
+      }
+    },
+    "Parent": {
+      "List": {
+        "Header": "Danh sách người ủy quyền",
+        "SearchForm": {
+          "ParentName": "Tên/Mã người ủy quyền:"
+        },
+        "Table": {
+          "TableName": "Danh sách người ủy quyền",
+          "Code": "Mã người ủy quyền",
+          "Name": "Tên người ủy quyền",
+          "Birthday": "Ngày sinh",
+          "Header": "Import nguyền ủy quyền",
+          "ImportPlaceholder": "Vui lòng chọn tệp danh sách người ủy quyền",
+          "ImportPlaceholderStudent": "Vui lòng chọn tệp danh sách học sinh",
+          "NumberPhone": "Số điện thoại"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin người ủy quyền",
+        "Label": {
+          "DepartmentClass": "Phòng ban/ Lớp:",
+          "DeptNameDiff": "Phòng ban/ Lớp",
+          "Code": "Mã người ủy quyền:",
+          "Name": "Họ và tên:",
+          "CodeRequire": "Vui lòng nhập mã người ủy quyền",
+          "PhoneRequire": "Vui lòng nhập số điện thoại",
+          "ListStudent": "Danh sách học sinh phụ thuộc",
+          "Student": "Không có dữ liệu",
+          "ChooseStudent": "Chọn học sinh",
+          "DepartmentRequire": "Vui lòng chọn phòng ban",
+          "NameRequire": "Vui lòng nhập tên người ủy quyền",
+          "StudentName": "Tên học sinh:",
+          "EmployeeName": "Tên nhân viên:",
+          "StudentPlaceholder": "Tìm kiếm tên/mã học sinh:",
+          "EmployeePlaceholder": "Tìm kiếm tên/mã nhân viên:",
+          "TableName": "Danh sách học sinh",
+          "Choosedepend": "Chọn học sinh phụ thuộc",
+          "Relationship": "Bố, mẹ",
+          "Confirm": "Xác nhận",
+          "Action": "Thao tác",
+          "StudentCode": "Mã học sinh",
+          "Studentcode": "Mã học sinh:",
+          "Namestudent": "Họ và tên",
+          "NameStudent": "Họ và tên:",
+          "Class": "Lớp",
+          "Note": "Mối quan hệ"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới người ủy quyền"
+      }
+    },
+    "Student": {
+      "List": {
+        "Header": "Danh sách học sinh",
+        "SearchForm": {
+          "ParentName": "Tên/Mã học sinh:"
+        },
+        "Table": {
+          "Header": "Import học sinh",
+          "ImportPlaceholder": "Vui lòng chọn tệp học sinh",
+          "NumberPhone": "Số điện thoại"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin học sinh",
+        "Label": {
+          "Code": "Mã học sinh:",
+          "Name": "Họ và tên:",
+          "Class": "Lớp:",
+          "ClassRequire": "Vui lòng chọn lớp",
+          "CodeRequire": "Vui lòng nhập mã học sinh",
+          "NameRequire": "Vui lòng nhập tên học sinh",
+          "ChooseParent": "Chọn người ủy quyền"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới học sinh"
+      }
+    }
+  },
+  "System": {
+    "Company": {
+      "List": {
+        "Header": "Danh sách đơn vị trực thuộc",
+        "SearchForm": {
+          "CompanyName": "Tên/Mã đơn vị:"
+        },
+        "Table": {
+          "TableName": "Danh sách đơn vị trực thuộc",
+          "Index": "STT",
+          "Code": "Mã đơn vị",
+          "Name": "Tên đơn vị",
+          "Action": "Hoạt động",
+          "Status": {
+            "Name": "Khách hàng",
+            "Quantity": "Số lượng",
+            "%": "Tỷ lệ %",
+            "Active": "Đang hoạt động",
+            "Stop": "Ngừng hoạt động",
+
+            "Deactive": "Tạm ngưng"
+          }
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin đơn vị",
+        "Label": {
+          "ParentName": "Đơn vị phụ thuộc:",
+          "CompanyType": "Loại đơn vị:",
+          "CompanyTypeItem1": "Nhà máy, xí nghiệp",
+          "CompanyTypeItem2": "Trường học",
+          "CompanyTypeRequire": "Vui lòng chọn loại đơn vị",
+          "Code": "Mã đơn vị:",
+          "CodeRequire": "Vui lòng nhập mã đơn vị",
+          "NameRequire": "Vui lòng nhập tên đơn vị",
+          "Name": "Tên đơn vị:",
+          "Address": "Địa chỉ:",
+          "TaxCode": "Mã số thuế:",
+          "TaxCodeRequire": "Tối thiểu 9 chữ số",
+          "ParentRequire": "Vui lòng chọn đơn vị"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới đơn vị"
+      }
+    },
+    "User": {
+      "List": {
+        "Header": "Danh sách người dùng",
+        "SearchForm": {
+          "CompanyName": "Đơn vị:",
+          "UserName": "Tên tài khoản:"
+        },
+        "Table": {
+          "TableName": "Danh sách người dùng",
+          "Index": "STT",
+          "Company": "Đơn vị",
+          "Name": "Tên tài khoản",
+          "RolesName": "Nhóm người dùng",
+          "Phone": "Số điện thoại"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin người dùng",
+        "Label": {
+          "CompanyName": "Đơn vị:",
+          "FullName": "Họ và tên:",
+          "NameRequire": "Vui lòng nhập họ tên",
+          "Name": "Tên tài khoản:",
+          "UserNameRequire": "Tên tài khoản:",
+          "Password": "Mật khẩu:",
+          "ConfirmPassword": "Nhập lại mật khẩu:",
+          "ConfirmPasswordRequire": "Vui lòng nhập lại mật khẩu",
+          "ConfirmationRequire": "Mật khẩu không khớp",
+          "PasswordRequire": "Vui lòng nhập mật khẩu",
+          "MaxlengthRequire": "Mật khẩu phải có ít nhất 8 kí tự",
+          "SpecialRequire": "Mật khẩu phải chứa chữ hoa, chữ thường, số và ký tự đặc biệt",
+          "RoleName": "Nhóm người dùng:",
+          "RoleNameRequire": "Vui lòng nhập nhóm người dùng:",
+          "Role": "Nhóm quyền:"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới người dùng"
+      },
+      "Privileges": {
+        "Header": "Phân quyền người dùng",
+        "Label": {
+          "CategoriesList": "Danh sách chuyên mục",
+          "Categories": "Chuyên mục",
+          "Decentralization": "Phân quyền thành công"
+        }
+      }
+    },
+    "Role": {
+      "List": {
+        "Header": "Quản lý nhóm người dùng",
+        "SearchForm": {
+          "RoleName": "Tên nhóm người dùng:"
+        },
+        "Table": {
+          "TableName": "Danh sách nhóm người dùng",
+          "Index": "STT",
+          "Status": "Trạng thái",
+          "Name": "Tên",
+          "Description": "Mô tả"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin nhóm người dùng",
+        "Label": {
+          "Description": "Mô tả:",
+          "Status": "Trạng thái:",
+          "NameRequire": "Vui lòng nhập tên nhóm người dùng"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới nhóm người dùng"
+      },
+      "Privileges": {
+        "Header": "Phân quyền nhóm người dùng",
+        "Label": {
+          "CategoriesList": "Danh sách chức năng"
+        }
+      }
+    }
+  },
+  "ManagerFAQ": {
+    "List": {
+      "Header": "Quản trị câu hỏi thường gặp",
+      "SearchForm": {
+        "Question": "Câu hỏi:"
+      },
+      "Table": {
+        "TableName": "Danh sách câu hỏi",
+        "Name": "Câu hỏi",
+        "Type": "Ngôn ngữ"
+      }
+    },
+    "Detail": {
+      "Header": "Thông tin câu hỏi",
+      "Label": {
+        "Content": "Nội dung:",
+        "Question": "Câu hỏi:",
+        "Type": "Ngôn ngữ:",
+        "TypeVi": "Tiếng Việt",
+        "TypeEn": "English",
+        "TypeRequire": "Vui lòng chọn ngôn ngữ",
+        "QuestionRequire": "Vui lòng nhập câu hỏi",
+        "ContentRequire": "Vui lòng nhập nội dung"
+      }
+    },
+    "Create": {
+      "Header": "Thêm mới câu hỏi"
+    }
+  },
+  "Reporting": {
+    "Event": {
+      "List": {
+        "Header": "Lịch sử ra vào nhà máy",
+        "SearchForm": {
+          "Person": "Người dùng:",
+          "Header": "Quản lý danh sách đen",
+          "PersonCode": "Mã người dùng:",
+          "ErrorCode": "Loại nhận diện:",
+          "Temp": "Nhiệt độ:",
+          "PersonType": "Loại đối tượng:",
+          "Address": "Địa chỉ:",
+          "Number": "Số lần đến:",
+          "Age": "Tuổi dự đoán:",
+          "Day": "Thời gian:",
+          "Hours": "Giờ:",
+          "IdentificationPont": "Điểm nhận dạng:",
+          "FaceMask": "Khẩu trang:",
+          "EmployeeOther": "Nhân sự tương ứng",
+          "NumberInjection": "số mũi vaccine đã tiêm:",
+          "PcCovidInfo": "Khai báo y tế:",
+          "HistoryInjection": "Xem lịch sử tiêm",
+          "PcCovidInfoLast": "Chưa khai báo y tế",
+          "PcCovidInfoLastTime": "Đã khai báo y tế (Lần cuối lúc:",
+          "Bigger": "Lớn hơn hoặc bằng",
+          "Small": "Nhỏ hơn",
+          "DateFromRequire": "Từ ngày phải nhỏ hơn đến ngày",
+          "DateRequire": "Vui lòng nhập thời gian"
+        },
+        "Table": {
+          "TableName": "Lịch sử giám sát",
+          "Person": "Người dùng",
+          "Machine": "Tên thiết bị",
+          "ErrorCode": "Loại nhận diện ",
+          "Temp": "Nhiệt độ ",
+          "PersonType": "Loại đối tượng",
+          "Day": "Thời gian",
+          "Hours": "Giờ",
+          "IdentificationPont": "Điểm nhận dạng",
+          "FaceMask": "Khẩu trang",
+          "ListHD": "Khai báo y tế PC-Covid",
+          "ListHD1": "Check in thành công",
+          "ListHD2": "Ngoài giờ làm việc",
+          "ListHD3": "Không có quyền nhận diện",
+          "ListHD4": "Người lạ",
+          "ListHD5": "Chấm công thành công",
+          "ListHD6": "Sai cài đặt",
+          "ListHD7": "Check out thành công",
+          "ListHD8": "Nhận diện thành công",
+          "List0018": "Quyền truy cập hết hạn",
+          "Status0": "Hợp lệ",
+          "Status1": "Không hợp lệ",
+          "Order": "STT",
+          "VaccineType": "Loại vaccine",
+          "InjectionAddress": "Nơi tiêm",
+          "InjectTimeFormat": "Thời gian tiêm",
+          "Information": "Thông tin từ PCCovid",
+          "Employee": "Nhân viên",
+          "Customer": "Khách",
+          "Unregistered": "Chưa đăng ký",
+          "BlackFollow": "Đối tượng theo dõi",
+          "Steal": "Trộm cắp",
+          "Destructive": "Phá hoại",
+          "CustomerVip": "Khách VIP",
+          "CustomerBlack": "Blacklist",
+          "Area": "Khu vực",
+          "Company": "Nhà máy",
+          "PersonCode": "Mã người dùng",
+          "Suspect": "Theo dõi",
+          "Thief": "Trộm cắp",
+          "Vandalize": "Phá hoại",
+          "Deparment": "Phòng ban"
+        },
+        "ExportExcel": {
+          "All": "Tất cả",
+          "HeaderExcel": {
+            "Title": "DANH SÁCH LỊCH SỬ RA VÀO NHÀ MÁY",
+            "Company": "Đơn vị: ",
+            "Department": "Phòng ban: ",
+            "Area": "Khu vực: ",
+            "Machine": "Thiết bị: ",
+            "DateFrom": "Thời gian từ: ",
+            "DateTo": "Thời gian đến: ",
+            "Status": "Trạng thái: ",
+            "PersonType": "Loại đối tượng: "
+          }
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin chi tiết ra vào"
+      }
+    },
+    "StudentReport": {
+      "List": {
+        "Header": "Lịch sử điểm danh học sinh",
+        "SearchForm": {
+          "Person": "Tên nhân sự:",
+          "PersonCode": "Mã nhân sự:",
+          "ErrorCode": "Loại nhận diện:",
+          "Temp": "Nhiệt độ:",
+          "PersonType": "Đối tượng:",
+          "Day": "Thời gian:",
+          "Hours": "Giờ:"
+        },
+        "Table": {
+          "TableName": "Danh sách lịch sử điểm danh học sinh",
+          "Code": "Mã học sinh"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin điểm danh học sinh"
+      }
+    },
+    "ParentReport": {
+      "List": {
+        "Header": "Lịch sử đưa đón",
+        "SearchForm": {
+          "PersonCode": "Mã phụ huynh:"
+        },
+        "Table": {
+          "TableName": "Danh sách lịch sử đưa đón",
+          "PersonCode": "Mã phụ huynh"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin lịch sử đưa đón"
+      }
+    }
+  },
+  "AuthorizationService": {
+    "Message": {
+      "UserPrivileges1": "Dữ liệu không tồn tại trong hệ thống!",
+      "CompanyPrivileges": "Dữ liệu công ty không tồn tại!",
+      "UserPrivileges2": "Có lỗi xảy ra! Vui lòng liên hệ quản trị viên!",
+      "UserNew": "Dữ liệu không hợp lệ!",
+      "UserPrivileges3": "Tài khoản không có quyền",
+      "UserName": "Tên tài khoản",
+      "DuplicateUserName": "Tên tài khoản đã tồn tại trong hệ thống",
+      "UserPrivileges4": "Thông tin đăng nhập không chính xác",
+      "PasswordPrivileges": "Mật khẩu cũ không đúng vui lòng kiểm tra lại"
+    }
+  },
+  "CalculateWorkingHourService": {
+    "Message": {
+      "ExecuteCalculate": "Vui lòng chọn khoảng thời gian cần tính lại công!",
+      "ChooseTime": "Vui lòng chọn khoảng thời gian hợp lệ!",
+      "FullInformation": "Vui lòng điền đầy đủ thông tin!",
+      "Time": "Vui lòng chọn khoảng thời gian trong vòng 45 ngày!",
+      "UserLogin": "Có lỗi xảy ra về người đang đăng nhập",
+      "DepartmentCalculate": "Vui lòng chọn phòng ban cần tính công",
+      "TimeMonth": "Vui lòng chọn khoảng thời gian trong vòng 31 ngày!",
+      "EmployeeCalculate": "Vui lòng chọn nhân viên cần tính công"
+    }
+  },
+  "CompanyService": {
+    "Message": {
+      "ParentSchool": "Phụ huynh mặc định!",
+      "DepartmentSchool": "Phòng ban mặc định!",
+      "GroupSchool": "Nhóm người mặc định!",
+      "TimeSegSchool": "Khung giờ mặc định!",
+      "GradesSchool": "Khối lớp",
+      "GradesStudent": "Khối các học sinh lớp",
+      "UserPrivileges": "Bạn không có quyền truy cập API này!",
+      "CompanyCode": "Mã đơn vị đã tồn tại!",
+      "EditCompany": "Không thể thay đổi phụ thuộc!",
+      "CodeDepartment": "Mã phòng ban đã tồn tại",
+      "CodeClass": "Mã lớp đã tồn tại",
+      "Dayoff": "Bạn chỉ được phép nghỉ nửa ngày trong khoảng thời gian 1 ngày"
+    }
+  },
+  "GroupService": {
+    "Message": {
+      "DeviceCode": "Mã camera đã tồn tại trong hệ thống",
+      "GroupCode": "Mã nhóm truy cập đã tồn tại",
+      "PersonCode": "Mã nhân viên đã tồn tại",
+      "Code": "Mã đã tồn tại",
+      "Card": "Mã thẻ đã tồn tại",
+      "MachineCode": "Tên thiết bị đã tồn tại",
+      "ImeiAddress": "Địa chỉ imei đã tồn tại!",
+      "MacAddress": "Địa chỉ MAC đã tồn tại!",
+      "Threshold": "Điểm nhận diện",
+      "AreaCode": "Mã khu vực đã tồn tại"
+    }
+  },
+  "NotificationJod": {
+    "Message": {
+      "List": "Danh sách người ra vào gần đây:",
+      "ListTemp": "Danh sách nhiệt độ cao:",
+      "Thank": "Xin cảm ơn!",
+      "FullName": "Họ và Tên"
+    }
+  },
+  "PersonService": {
+    "Message": {
+      "NumberPhone": "Số điện thoại đã tồn tại",
+      "Code": "Mã người ủy quyền đã tồn tại",
+      "ParentPhone": "Số điện thoại của người ủy quyền đã tồn tại",
+      "StudentCode": "Mã học sinh đã tồn tại",
+      "ParentCode": "Mã phụ huynh đã tồn tại"
+    }
+  },
+  "TimeKeepService": {
+    "Message": {
+      "ListTimeKeep": "DANH SÁCH LỊCH SỬ CHẤM CÔNG",
+      "ListOverTime": "DANH SÁCH LỊCH SỬ LÀM THÊM NGOÀI GIỜ",
+      "All": "Tất cả",
+      "Department": "Phòng ban:",
+      "GroupPeople": "Nhóm truy cập:",
+      "Time": "Thời gian:",
+      "ShiftTimeCode": "Mã ca đã tồn tại",
+      "Company": "Đơn vị:"
+    }
+  },
+  "ChangePassword": {
+    "List": {
+      "Header": "Đổi mật khẩu",
+      "Form": {
+        "UserName": "Tên tài khoản: ",
+        "Logout": "Đăng xuất",
+        "FullName": "Họ và tên:",
+        "OldPass": "Mật khẩu cũ:",
+        "NewPass": "Mật khẩu mới:",
+        "NewPassConfirmation": "Nhập lại mật khẩu:",
+        "Message": {
+          "Header": "Đổi mật khẩu thành công! Vui lòng đăng nhập lại",
+          "NewPass": "Vui lòng nhập mật khẩu mới",
+          "OldPass": "Vui lòng nhập mật khẩu cũ",
+          "NewPassConfirmation": "Mật khẩu mới không khớp",
+          "PassRequired": "Mật khẩu phải có ít nhất 8 ký tự",
+          "PassWordRequired": "Mật khẩu phải chứa chữ hoa, chữ thường, số và ký tự đặc biệt"
+        }
+      }
+    }
+  },
+  "Constant": {
+    "Error1": "Đã có dữ liệu ràng buộc không thể xóa thông tin!",
+    "Error2": "Đã có lỗi xảy ra. Vui lòng liên hệ quản trị viên!",
+    "Error3": "Lịch làm việc đã áp dụng không được xóa!",
+    "Error4": "Ca làm việc đã được đăng ký trong khoảng thời gian này!",
+    "Error5": "Lịch làm việc đã được đăng ký trong khoảng thời gian này!",
+    "Error6": "Nhân viên đã tồn tại dữ liệu chấm công ca làm việc trên hệ thống!",
+    "Error7": "Vui lòng chọn khoảng thời gian cần tìm kiếm!"
+  },
+  "Exception": {
+    "Ex1": "Đã có dữ liệu ràng buộc không thể xóa thông tin",
+    "Ex2": "đã tồn tại trong hệ thống.",
+    "Ex3": "Không tồn tại trong hệ thống."
+  },
+  "ExImport": {
+    "Person": {
+      "Person1": "Vui lòng nhập đầy đủ thông tin!",
+      "Person2": "và",
+      "Import": {
+        "ImportPerson1": "Mã đã tồn tại",
+        "ImportPerson2": "Thiếu nhân viên",
+        "ImportPerson3": "Thiếu tên nhân viên",
+        "ImportPerson4": "Không tìm thấy phòng ban",
+        "ImportPerson5": "Thiếu phòng ban",
+        "ImportPerson6": "Không tìm thấy nhóm người",
+        "ImportPerson7": "Thiếu nhóm người",
+        "ImportPerson8": "Dữ liệu vaccine không hợp lệ",
+        "ImportPerson9": "Vui lòng nhập đầy đủ thông tin",
+        "ImportPerson10": "Thiếu mã học  sinh",
+        "ImportPerson11": "Thiếu tên học sinh",
+        "ImportPerson12": "Sai định dạng ngày sinh",
+        "ImportPerson13": "Không tìm thấy lớp",
+        "ImportPerson14": "Thiếu lớp",
+        "ImportPerson15": "Không tìm thấy nhóm người",
+        "ImportPerson16": "Thiếu nhóm truy cập",
+        "ImportPerson17": "Thành công! Mã phụ huynh",
+        "ImportPerson18": "Thiếu mã người ủy quyền",
+        "ImportPerson27": "Thiếu tên người ủy quyền",
+        "ImportPerson19": "Không tìm thấy phòng ban/lớp",
+        "ImportPerson20": "Thiếu phòng ban/lớp",
+        "ImportPerson21": "Không tìm thấy nhóm người",
+        "ImportPerson22": "Thiếu nhóm người",
+        "ImportPerson23": "Thiếu số điện thoại",
+        "ImportPerson24": "Số điện thoại đã tồn tại",
+        "ImportPerson25": "Thành công! Mã học sinh ",
+        "ImportPerson26": "Không tồn tại"
+      }
+    },
+    "TimeKeeping": {
+      "Import": {
+        "ImportTimeKeep1": "Không tìm thấy mã nhân viên",
+        "ImportTimeKeep2": "Thiếu mã nhân viên",
+        "ImportTimeKeep3": "Thiếu thông tin ngày",
+        "ImportTimeKeep4": "Sai định dạng ngày",
+        "ImportTimeKeep5": "Thiếu số công",
+        "ImportTimeKeep6": "Sai định dạng số công",
+        "ImportTimeKeep7": "Không tìm thấy ca làm việc",
+        "ImportTimeKeep8": "thiếu ca làm việc",
+        "ImportTimeKeep9": "Thành công - Nhân viên đã tồn tại dữ liệu chấm công ca làm việc trên hệ thống"
+      }
+    }
+  },
+  "QRCodePerson": {
+    "Issue": {
+      "BarName": "Người dùng tự cập nhật ảnh",
+      "Header": "Cấp mã cập nhật ảnh người dùng",
+      "Form": {
+        "DateFrom": "Áp dụng từ ngày",
+        "DateRequire": "Vui lòng nhập ngày",
+        "DateTo": "Đến ngày",
+        "DateGreaterFrom": "Ngày kết thúc phải lớn hơn hoặc bằng ngày bắt đầu",
+        "DateGreaterCurrent": "Ngày kết thúc phải lớn hơn hoặc bằng ngày hiện tại",
+        "Link": "Đường dẫn đăng ký"
+      },
+      "Button": {
+        "Update": "Cập nhật",
+        "Create": "Tạo mới",
+        "Save": "Lưu thông tin",
+        "Cancel": "Hủy",
+        "Download": "Tải mã",
+        "Print": "In mã",
+        "Copy": "Sao chép liên kết"
+      },
+      "TitleQR": "Quét mã QR để cập nhật ảnh hồ sơ",
+      "Alert": {
+        "QRExpire": "Mã đăng ký đã hết hiệu lực, vui lòng tạo mã mới",
+        "NoQR": "Chưa có mã đăng ký, vui lòng tạo mã mới"
+      }
+    },
+    "Approve": {
+      "BarName": "Phê duyệt ảnh",
+      "BarName1": "Từ chối cập nhật nhân viên",
+      "Header": "Phê duyệt ảnh cập nhật",
+      "Form": {
+        "CodeName": "Mã/tên nhân viên",
+        "Department": "Phòng ban",
+        "DateFrom": "Cập nhật từ ngày",
+        "DateTo": "Đến ngày",
+        "Status": "Trạng thái",
+        "ListStatus": {
+          "1": "Chờ duyệt",
+          "2": "Đã duyệt",
+          "0": "Hủy"
+        }
+      },
+      "GridName": "Phê duyệt ảnh cập nhật",
+      "GridField": {
+        "DateUpdate": "Ngày cập nhật",
+        "PersonCode": "Mã nhân viên",
+        "PersonName": "Tên nhân viên",
+        "Department": "Phòng ban",
+        "Gender": "Giới tính",
+        "Status": "Trạng thái",
+        "Note": "Ghi chú",
+        "Image": "Ảnh cập nhật",
+        "CheckBox": ""
+      },
+      "CModal": {
+        "Title": "Duyệt thông tin nhân viên cập nhật",
+        "Image": "Ảnh nhận diện",
+        "Note": "Ghi chú"
+      },
+      "Button": {
+        "Approve": "Phê duyệt",
+        "Reject": "Từ chối"
+      },
+      "Message": {
+        "Approve": {
+          "Confirm": "Bạn có muốn phê duyệt yêu cầu này ?",
+          "Success": "Phê duyệt thành công",
+          "NoSelect": "Vui lòng chọn bản ghi cần phê duyệt"
+        },
+        "Reject": {
+          "Confirm": "Bạn có muốn từ chối yêu cầu này ?",
+          "Success": "Từ chối thành công",
+          "NoSelect": "Vui lòng chọn bản ghi cần từ chối"
+        }
+      }
+    },
+    "Find": {
+      "Header": "Cập nhật thông tin nhân viên",
+      "Expire": "Mã cập nhật đã hết hạn. Vui lòng cập nhật mã mới !",
+      "Form": {
+        "Code": "Mã nhân viên",
+        "CodeRequire": "Vui lòng nhập mã nhân viên"
+      },
+      "Modal": {
+        "Title": "Thông tin nhân viên"
+      },
+      "Alert": {
+        "NotExistCode": "Mã nhân viên không tồn tại"
+      },
+      "Button": {
+        "Next": "Tiếp tục",
+        "ToUpdate": "Cập nhật ảnh đại diện",
+        "Cancel": "Hủy"
+      }
+    },
+    "Update": {
+      "Header": "Cập nhật ảnh nhân viên",
+      "Expire": "Mã cập nhật đã hết hạn. Vui lòng cập nhật mã mới !",
+      "Form": {
+        "Note": "Ghi chú",
+        "Captcha": "Mã xác thực",
+        "CaptchaRequire": "Vui lòng nhập mã xác thực"
+      },
+      "Alert": {
+        "Invalid": "Sai mã xác thực! Vui lòng thử lại!"
+      }
+    },
+    "BackEnd": {
+      "Controller": {
+        "ChooseRequest": "Vui lòng chọn yêu cầu hợp lệ",
+        "ValidImage": "Vui lòng chọn ảnh hợp lệ"
+      },
+      "Service": {
+        "ExistTime": "Mã cập nhật thông tin nhân viên đã được cấp trong khoảng thời gian này",
+        "CurrentTime": "Bạn cần tạo mã cập nhật cho khoảng thời gian hiện tại",
+        "InvalidTime": "Mã cập nhật thông tin nhân viên đã hết hạn. Vui lòng tạo mã mới",
+        "InvalidRequest": "Tồn tại yêu cầu không hợp lệ"
+      },
+      "Profile": {
+        "ListStatus": {
+          "1": "Chờ duyệt",
+          "2": "Đã duyệt",
+          "0": "Hủy"
+        }
+      }
+    }
+  },
+  "Search": {
+    "All": "Tất cả"
+  }
+}

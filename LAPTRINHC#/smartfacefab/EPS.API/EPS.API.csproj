@@ -1,0 +1,175 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>b41858c2-b198-410f-9fa2-f8d272d00deb</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Anh\**" />
+    <Compile Remove="Reports\**" />
+    <Content Remove="Anh\**" />
+    <Content Remove="Reports\**" />
+    <EmbeddedResource Remove="Anh\**" />
+    <EmbeddedResource Remove="Reports\**" />
+    <None Remove="Anh\**" />
+    <None Remove="Reports\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\CategoryController.cs" />
+    <Compile Remove="Controllers\CommonController.cs" />
+    <Compile Remove="Controllers\EmployeeController.cs" />
+    <Compile Remove="Controllers\GroupCategoryController.cs" />
+    <Compile Remove="Controllers\LocationController.cs" />
+    <Compile Remove="Controllers\ModuleController.cs" />
+    <Compile Remove="Controllers\NationController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="PredefinedReports\ReportEmployeeInOut.vsrepx" />
+    <None Remove="PredefinedReports\ReportGuess.vsrepx" />
+    <None Remove="PredefinedReports\ReportInOutEmployee.vsrepx" />
+    <None Remove="PredefinedReports\ReportInOutStudent.vsrepx" />
+    <None Remove="PredefinedReports\ReportOverTime.vsrepx" />
+    <None Remove="PredefinedReports\ReportOverTimeHours.vsrepx" />
+    <None Remove="PredefinedReports\ReportPersonInOut.vsrepx" />
+    <None Remove="PredefinedReports\ReportRealTime.vsrepx" />
+    <None Remove="PredefinedReports\ReportWorkingHour.vsrepx" />
+    <None Remove="PredefinedReports\ReportWorkingHourEarly.vsrepx" />
+    <None Remove="PredefinedReports\ReportWorkingHourLate.vsrepx" />
+    <None Remove="PredefinedReports\SummaryOfArrivals.vsrepx" />
+    <None Remove="Templates\NotificationMailTemplate.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Templates\NotificationMailTemplate.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="PredefinedReports\ReportEmployeeInOut.vsrepx" />
+    <EmbeddedResource Include="PredefinedReports\ReportInOutEmployee.vsrepx" />
+    <EmbeddedResource Include="PredefinedReports\ReportInOutStudent.vsrepx" />
+    <EmbeddedResource Include="PredefinedReports\ReportOverTime.vsrepx" />
+    <EmbeddedResource Include="PredefinedReports\ReportOverTimeHours.vsrepx" />
+    <EmbeddedResource Include="PredefinedReports\ReportPersonInOut.vsrepx" />
+    <EmbeddedResource Include="PredefinedReports\ReportRealTime.vsrepx" />
+    <EmbeddedResource Include="PredefinedReports\ReportWorkingHour.vsrepx" />
+    <EmbeddedResource Include="PredefinedReports\ReportWorkingHourEarly.vsrepx" />
+    <EmbeddedResource Include="PredefinedReports\ReportWorkingHourLate.vsrepx" />
+    <EmbeddedResource Include="PredefinedReports\ReportGuess.vsrepx" />
+    <EmbeddedResource Include="PredefinedReports\SummaryOfArrivals.vsrepx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="21.1.6" />
+    <PackageReference Include="EPPlus.Core" Version="1.5.4" />
+    <PackageReference Include="MailKit" Version="2.13.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="3.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="3.1.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.14" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.9.0" />
+    <PackageReference Include="Quartz" Version="3.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ArcFaceService\ArcFaceService.csproj" />
+    <ProjectReference Include="..\EPS.Data\EPS.Data.csproj" />
+    <ProjectReference Include="..\EPS.Service\EPS.Service.csproj" />
+    <ProjectReference Include="..\EPS.Utils.Common\EPS.Utils.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="PredefinedReports\ReportEmployeeInOut.cs">
+      <DependentUpon>ReportEmployeeInOut.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportEmployeeInOut.Designer.cs">
+      <DependentUpon>ReportEmployeeInOut.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportGuess.cs">
+      <DependentUpon>ReportGuess.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportGuess.Designer.cs">
+      <DependentUpon>ReportGuess.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportInOutEmployee.cs">
+      <DependentUpon>ReportInOutEmployee.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportInOutEmployee.Designer.cs">
+      <DependentUpon>ReportInOutEmployee.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportInOutStudent - Copy.cs">
+      <SubType>Component</SubType>
+      <DependentUpon>ReportInOutStudent.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportInOutStudent - Copy.Designer.cs">
+      <DependentUpon>ReportInOutStudent.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportInOutStudent.cs">
+      <DependentUpon>ReportInOutStudent.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportInOutStudent.Designer.cs">
+      <DependentUpon>ReportInOutStudent.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportOverTime.cs">
+      <DependentUpon>ReportOverTime.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportOverTime.Designer.cs">
+      <DependentUpon>ReportOverTime.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportOverTimeHours.cs">
+      <DependentUpon>ReportOverTimeHours.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportOverTimeHours.Designer.cs">
+      <DependentUpon>ReportOverTimeHours.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportPersonInOut.cs">
+      <DependentUpon>ReportPersonInOut.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportPersonInOut.Designer.cs">
+      <DependentUpon>ReportPersonInOut.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportRealTime.cs">
+      <DependentUpon>ReportRealTime.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportRealTime.Designer.cs">
+      <DependentUpon>ReportRealTime.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportWorkingHour.cs">
+      <DependentUpon>ReportWorkingHour.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportWorkingHour.Designer.cs">
+      <DependentUpon>ReportWorkingHour.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportWorkingHourEarly.cs">
+      <DependentUpon>ReportWorkingHourEarly.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportWorkingHourEarly.Designer.cs">
+      <DependentUpon>ReportWorkingHourEarly.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportWorkingHourLate.cs">
+      <DependentUpon>ReportWorkingHourLate.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportWorkingHourLate.Designer.cs">
+      <DependentUpon>ReportWorkingHourLate.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\SummaryOfArrivals.cs">
+      <DependentUpon>SummaryOfArrivals.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\SummaryOfArrivals.Designer.cs">
+      <DependentUpon>SummaryOfArrivals.vsrepx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+
+</Project>

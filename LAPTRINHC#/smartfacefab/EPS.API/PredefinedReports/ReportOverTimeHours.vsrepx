@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="21.1.3.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v21.1, Version=21.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="ReportOverTimeHours" Landscape="true" PageWidth="1666" PageHeight="850" Version="21.1" ShowPrintMarginsWarning="false" EventsInfo="|ReportOverTimeHours,DataSourceDemanded,ReportOverTimeHours_DataSourceDemanded" DataMember="ReportOverTimeHours" DataSource="#Ref-0">
+  <Extensions>
+    <Item1 Ref="2" Key="VSReportExtInfo" Value=".vsrepx" />
+  </Extensions>
+  <Parameters>
+    <Item1 Ref="4" ValueInfo="2021-08-01" AllowNull="true" Name="p_filterDateFrom" Type="#Ref-3" />
+    <Item2 Ref="5" ValueInfo="2021-08-16" AllowNull="true" Name="p_filterDateTo" Type="#Ref-3" />
+    <Item3 Ref="7" AllowNull="true" Name="p_departmentId" />
+    <Item4 Ref="8" AllowNull="true" Name="p_filterNamePerson" />
+    <Item5 Ref="9" AllowNull="true" Name="p_departmentName" />
+    <Item6 Ref="11" ValueInfo="0" AllowNull="true" Name="p_company" Type="#Ref-10" />
+    <Item7 Ref="12" Name="p_lang" />
+  </Parameters>
+  <Bands>
+    <Item1 Ref="13" ControlType="TopMarginBand" Name="TopMargin" />
+    <Item2 Ref="14" ControlType="BottomMarginBand" Name="BottomMargin" />
+    <Item3 Ref="15" ControlType="DetailBand" Name="Detail">
+      <Controls>
+        <Item1 Ref="16" ControlType="XRTable" Name="table6" TextAlignment="MiddleCenter" Padding="2,2,0,0,96" Borders="Left, Right, Bottom">
+          <Rows>
+            <Item1 Ref="17" ControlType="XRTableRow" Name="tableRow6">
+              <Cells>
+                <Item1 Ref="18" ControlType="XRTableCell" Name="tableCell52" Multiline="true">
+                  <Summary Ref="19" Running="Page" />
+                  <ExpressionBindings>
+                    <Item1 Ref="20" EventName="BeforePrint" PropertyName="Text" Expression="sumRecordNumber()" />
+                  </ExpressionBindings>
+                </Item1>
+                <Item2 Ref="21" ControlType="XRTableCell" Name="tableCell53" Multiline="true" TextAlignment="MiddleLeft">
+                  <ExpressionBindings>
+                    <Item1 Ref="22" EventName="BeforePrint" PropertyName="Text" Expression="[PersonCode]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="23" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="24" ControlType="XRTableCell" Name="tableCell54" Multiline="true" TextAlignment="MiddleLeft">
+                  <ExpressionBindings>
+                    <Item1 Ref="25" EventName="BeforePrint" PropertyName="Text" Expression="[Fullname]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="26" UseTextAlignment="false" />
+                </Item3>
+                <Item4 Ref="27" ControlType="XRTableCell" Name="tableCell55" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="28" EventName="BeforePrint" PropertyName="Text" Expression="[1]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="29" UseTextAlignment="false" />
+                </Item4>
+                <Item5 Ref="30" ControlType="XRTableCell" Name="tableCell56" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="31" EventName="BeforePrint" PropertyName="Text" Expression="[2]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="32" UseTextAlignment="false" />
+                </Item5>
+                <Item6 Ref="33" ControlType="XRTableCell" Name="tableCell57" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="34" EventName="BeforePrint" PropertyName="Text" Expression="[3]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="35" UseTextAlignment="false" />
+                </Item6>
+                <Item7 Ref="36" ControlType="XRTableCell" Name="tableCell58" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="37" EventName="BeforePrint" PropertyName="Text" Expression="[4]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="38" UseTextAlignment="false" />
+                </Item7>
+                <Item8 Ref="39" ControlType="XRTableCell" Name="tableCell59" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="40" EventName="BeforePrint" PropertyName="Text" Expression="[5]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="41" UseTextAlignment="false" />
+                </Item8>
+                <Item9 Ref="42" ControlType="XRTableCell" Name="tableCell60" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="43" EventName="BeforePrint" PropertyName="Text" Expression="[6]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="44" UseTextAlignment="false" />
+                </Item9>
+                <Item10 Ref="45" ControlType="XRTableCell" Name="tableCell61" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="46" EventName="BeforePrint" PropertyName="Text" Expression="[7]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="47" UseTextAlignment="false" />
+                </Item10>
+                <Item11 Ref="48" ControlType="XRTableCell" Name="tableCell62" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="49" EventName="BeforePrint" PropertyName="Text" Expression="[8]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="50" UseTextAlignment="false" />
+                </Item11>
+                <Item12 Ref="51" ControlType="XRTableCell" Name="tableCell63" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="52" EventName="BeforePrint" PropertyName="Text" Expression="[9]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="53" UseTextAlignment="false" />
+                </Item12>
+                <Item13 Ref="54" ControlType="XRTableCell" Name="tableCell64" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="55" EventName="BeforePrint" PropertyName="Text" Expression="[10]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="56" UseTextAlignment="false" />
+                </Item13>
+                <Item14 Ref="57" ControlType="XRTableCell" Name="tableCell65" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="58" EventName="BeforePrint" PropertyName="Text" Expression="[11]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="59" UseTextAlignment="false" />
+                </Item14>
+                <Item15 Ref="60" ControlType="XRTableCell" Name="tableCell66" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="61" EventName="BeforePrint" PropertyName="Text" Expression="[12]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="62" UseTextAlignment="false" />
+                </Item15>
+                <Item16 Ref="63" ControlType="XRTableCell" Name="tableCell67" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="64" EventName="BeforePrint" PropertyName="Text" Expression="[13]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="65" UseTextAlignment="false" />
+                </Item16>
+                <Item17 Ref="66" ControlType="XRTableCell" Name="tableCell68" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="67" EventName="BeforePrint" PropertyName="Text" Expression="[14]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="68" UseTextAlignment="false" />
+                </Item17>
+                <Item18 Ref="69" ControlType="XRTableCell" Name="tableCell69" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="70" EventName="BeforePrint" PropertyName="Text" Expression="[15]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="71" UseTextAlignment="false" />
+                </Item18>
+                <Item19 Ref="72" ControlType="XRTableCell" Name="tableCell70" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="73" EventName="BeforePrint" PropertyName="Text" Expression="[16]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="74" UseTextAlignment="false" />
+                </Item19>
+                <Item20 Ref="75" ControlType="XRTableCell" Name="tableCell71" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="76" EventName="BeforePrint" PropertyName="Text" Expression="[17]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="77" UseTextAlignment="false" />
+                </Item20>
+                <Item21 Ref="78" ControlType="XRTableCell" Name="tableCell72" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="79" EventName="BeforePrint" PropertyName="Text" Expression="[18]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="80" UseTextAlignment="false" />
+                </Item21>
+                <Item22 Ref="81" ControlType="XRTableCell" Name="tableCell73" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="82" EventName="BeforePrint" PropertyName="Text" Expression="[19]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="83" UseTextAlignment="false" />
+                </Item22>
+                <Item23 Ref="84" ControlType="XRTableCell" Name="tableCell74" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="85" EventName="BeforePrint" PropertyName="Text" Expression="[20]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="86" UseTextAlignment="false" />
+                </Item23>
+                <Item24 Ref="87" ControlType="XRTableCell" Name="tableCell75" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="88" EventName="BeforePrint" PropertyName="Text" Expression="[21]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="89" UseTextAlignment="false" />
+                </Item24>
+                <Item25 Ref="90" ControlType="XRTableCell" Name="tableCell76" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="91" EventName="BeforePrint" PropertyName="Text" Expression="[22]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="92" UseTextAlignment="false" />
+                </Item25>
+                <Item26 Ref="93" ControlType="XRTableCell" Name="tableCell77" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="94" EventName="BeforePrint" PropertyName="Text" Expression="[23]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="95" UseTextAlignment="false" />
+                </Item26>
+                <Item27 Ref="96" ControlType="XRTableCell" Name="tableCell78" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="97" EventName="BeforePrint" PropertyName="Text" Expression="[24]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="98" UseTextAlignment="false" />
+                </Item27>
+                <Item28 Ref="99" ControlType="XRTableCell" Name="tableCell79" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="100" EventName="BeforePrint" PropertyName="Text" Expression="[25]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="101" UseTextAlignment="false" />
+                </Item28>
+                <Item29 Ref="102" ControlType="XRTableCell" Name="tableCell80" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="103" EventName="BeforePrint" PropertyName="Text" Expression="[26]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="104" UseTextAlignment="false" />
+                </Item29>
+                <Item30 Ref="105" ControlType="XRTableCell" Name="tableCell81" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="106" EventName="BeforePrint" PropertyName="Text" Expression="[27]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="107" UseTextAlignment="false" />
+                </Item30>
+                <Item31 Ref="108" ControlType="XRTableCell" Name="tableCell82" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="109" EventName="BeforePrint" PropertyName="Text" Expression="[28]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="110" UseTextAlignment="false" />
+                </Item31>
+                <Item32 Ref="111" ControlType="XRTableCell" Name="tableCell83" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="112" EventName="BeforePrint" PropertyName="Text" Expression="[29]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="113" UseTextAlignment="false" />
+                </Item32>
+                <Item33 Ref="114" ControlType="XRTableCell" Name="tableCell84" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="115" EventName="BeforePrint" PropertyName="Text" Expression="[30]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="116" UseTextAlignment="false" />
+                </Item33>
+                <Item34 Ref="117" ControlType="XRTableCell" Name="tableCell85" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="118" EventName="BeforePrint" PropertyName="Text" Expression="[31]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="119" UseTextAlignment="false" />
+                </Item34>
+                <Item35 Ref="120" ControlType="XRTableCell" Name="tableCell89" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="121" EventName="BeforePrint" PropertyName="Text" Expression="Iif(IsNullOrEmpty([1]), 0, [1])&#xA;+ Iif(IsNullOrEmpty([2]), 0, [2])&#xA;+ Iif(IsNullOrEmpty([3]), 0, [3])&#xA;+ Iif(IsNullOrEmpty([4]), 0, [4])&#xA;+ Iif(IsNullOrEmpty([5]), 0, [5])&#xA;+ Iif(IsNullOrEmpty([6]), 0, [6])&#xA;+ Iif(IsNullOrEmpty([7]), 0, [7])&#xA;+ Iif(IsNullOrEmpty([8]), 0, [8])&#xA;+ Iif(IsNullOrEmpty([9]), 0, [9])&#xA;+ Iif(IsNullOrEmpty([10]), 0, [10])&#xA;+ Iif(IsNullOrEmpty([11]), 0, [11])&#xA;+ Iif(IsNullOrEmpty([12]), 0, [12])&#xA;+ Iif(IsNullOrEmpty([13]), 0, [13])&#xA;+ Iif(IsNullOrEmpty([14]), 0, [14])&#xA;+ Iif(IsNullOrEmpty([15]), 0, [15])&#xA;+ Iif(IsNullOrEmpty([16]), 0, [16])&#xA;+ Iif(IsNullOrEmpty([17]), 0, [17])&#xA;+ Iif(IsNullOrEmpty([18]), 0, [18])&#xA;+ Iif(IsNullOrEmpty([19]), 0, [19])&#xA;+ Iif(IsNullOrEmpty([20]), 0, [20])&#xA;+ Iif(IsNullOrEmpty([21]), 0, [21])&#xA;+ Iif(IsNullOrEmpty([22]), 0, [22])&#xA;+ Iif(IsNullOrEmpty([23]), 0, [23])&#xA;+ Iif(IsNullOrEmpty([24]), 0, [24])&#xA;+ Iif(IsNullOrEmpty([25]), 0, [25])&#xA;+ Iif(IsNullOrEmpty([26]), 0, [26])&#xA;+ Iif(IsNullOrEmpty([27]), 0, [27])&#xA;+ Iif(IsNullOrEmpty([28]), 0, [28])&#xA;+ Iif(IsNullOrEmpty([29]), 0, [29])&#xA;+ Iif(IsNullOrEmpty([30]), 0, [30])&#xA;+ Iif(IsNullOrEmpty([31]), 0, [31])&#xA;" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="122" UseTextAlignment="false" />
+                </Item35>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="123" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item3>
+    <Item4 Ref="124" ControlType="ReportHeaderBand" Name="ReportHeader">
+      <Controls>
+        <Item1 Ref="125" ControlType="XRLabel" Name="label1" Multiline="true" TextAlignment="MiddleCenter" Padding="2,2,0,0,100">
+          <StylePriority Ref="126" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="127" ControlType="XRTable" Name="table1" Padding="2,2,0,0,96">
+          <Rows>
+            <Item1 Ref="128" ControlType="XRTableRow" Name="tableRow1">
+              <Cells>
+                <Item1 Ref="129" ControlType="XRTableCell" Name="tableCell1" Multiline="true" TextAlignment="MiddleRight">
+                  <StylePriority Ref="130" UseFont="false" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="131" ControlType="XRTableCell" Name="tableCell2" Multiline="true" TextAlignment="MiddleLeft">
+                  <ExpressionBindings>
+                    <Item1 Ref="132" EventName="BeforePrint" PropertyName="Text" Expression="?p_filterDateFrom" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="133" UseFont="false" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="134" ControlType="XRTableCell" Name="tableCell3" Multiline="true" TextAlignment="MiddleRight">
+                  <StylePriority Ref="135" UseFont="false" UseTextAlignment="false" />
+                </Item3>
+                <Item4 Ref="136" ControlType="XRTableCell" Name="tableCell4" Multiline="true" TextAlignment="MiddleLeft">
+                  <ExpressionBindings>
+                    <Item1 Ref="137" EventName="BeforePrint" PropertyName="Text" Expression="?p_filterDateTo" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="138" UseFont="false" UseTextAlignment="false" />
+                </Item4>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="139" UseFont="false" />
+        </Item2>
+        <Item3 Ref="140" ControlType="XRTable" Name="table2" TextAlignment="MiddleCenter" Padding="2,2,0,0,96">
+          <Rows>
+            <Item1 Ref="141" ControlType="XRTableRow" Name="tableRow2">
+              <Cells>
+                <Item1 Ref="142" ControlType="XRTableCell" Name="tableCell5" Multiline="true" TextAlignment="MiddleRight">
+                  <StylePriority Ref="143" UseFont="false" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="144" ControlType="XRTableCell" Name="tableCell7" Multiline="true" TextAlignment="MiddleLeft">
+                  <ExpressionBindings>
+                    <Item1 Ref="145" EventName="BeforePrint" PropertyName="Text" Expression="?p_departmentName" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="146" UseFont="false" UseTextAlignment="false" />
+                </Item2>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="147" UseFont="false" UseTextAlignment="false" />
+        </Item3>
+      </Controls>
+    </Item4>
+    <Item5 Ref="148" ControlType="PageHeaderBand" Name="PageHeader">
+      <Controls>
+        <Item1 Ref="149" ControlType="XRTable" Name="table7" Padding="2,2,0,0,96" Borders="All">
+          <Rows>
+            <Item1 Ref="150" ControlType="XRTableRow" Name="tableRow7">
+              <Cells>
+                <Item1 Ref="151" ControlType="XRTableCell" Name="tableCell6" Multiline="true" TextAlignment="MiddleCenter" Borders="All">
+                  <StylePriority Ref="152" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="153" ControlType="XRTableCell" Name="tableCell8" Multiline="true" TextAlignment="MiddleCenter" Borders="Top, Right, Bottom">
+                  <StylePriority Ref="154" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="155" ControlType="XRTableCell" Name="tableCell9" Multiline="true" TextAlignment="MiddleCenter" Borders="Top, Bottom">
+                  <StylePriority Ref="156" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                </Item3>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="157" UseFont="false" UseBorders="false" />
+        </Item1>
+        <Item2 Ref="158" ControlType="XRTable" Name="table3" TextAlignment="MiddleCenter" Padding="2,2,0,0,96" Borders="Left, Right, Bottom">
+          <Rows>
+            <Item1 Ref="159" ControlType="XRTableRow" Name="tableRow3">
+              <Cells>
+                <Item1 Ref="160" ControlType="XRTableCell" Name="date1" Multiline="true">
+                  <StylePriority Ref="161" UseFont="false" />
+                </Item1>
+                <Item2 Ref="162" ControlType="XRTableCell" Name="date2" Multiline="true">
+                  <StylePriority Ref="163" UseFont="false" />
+                </Item2>
+                <Item3 Ref="164" ControlType="XRTableCell" Name="date3" Multiline="true">
+                  <StylePriority Ref="165" UseFont="false" />
+                </Item3>
+                <Item4 Ref="166" ControlType="XRTableCell" Name="date4" Multiline="true">
+                  <StylePriority Ref="167" UseFont="false" />
+                </Item4>
+                <Item5 Ref="168" ControlType="XRTableCell" Name="date5" Multiline="true">
+                  <StylePriority Ref="169" UseFont="false" />
+                </Item5>
+                <Item6 Ref="170" ControlType="XRTableCell" Name="date6" Multiline="true">
+                  <StylePriority Ref="171" UseFont="false" />
+                </Item6>
+                <Item7 Ref="172" ControlType="XRTableCell" Name="date7" Multiline="true">
+                  <StylePriority Ref="173" UseFont="false" />
+                </Item7>
+                <Item8 Ref="174" ControlType="XRTableCell" Name="date8" Multiline="true">
+                  <StylePriority Ref="175" UseFont="false" />
+                </Item8>
+                <Item9 Ref="176" ControlType="XRTableCell" Name="date9" Multiline="true">
+                  <StylePriority Ref="177" UseFont="false" />
+                </Item9>
+                <Item10 Ref="178" ControlType="XRTableCell" Name="date10" Multiline="true">
+                  <StylePriority Ref="179" UseFont="false" />
+                </Item10>
+                <Item11 Ref="180" ControlType="XRTableCell" Name="date11" Multiline="true">
+                  <StylePriority Ref="181" UseFont="false" />
+                </Item11>
+                <Item12 Ref="182" ControlType="XRTableCell" Name="date12" Multiline="true">
+                  <StylePriority Ref="183" UseFont="false" />
+                </Item12>
+                <Item13 Ref="184" ControlType="XRTableCell" Name="date13" Multiline="true">
+                  <StylePriority Ref="185" UseFont="false" />
+                </Item13>
+                <Item14 Ref="186" ControlType="XRTableCell" Name="date14" Multiline="true">
+                  <StylePriority Ref="187" UseFont="false" />
+                </Item14>
+                <Item15 Ref="188" ControlType="XRTableCell" Name="date15" Multiline="true">
+                  <StylePriority Ref="189" UseFont="false" />
+                </Item15>
+                <Item16 Ref="190" ControlType="XRTableCell" Name="date16" Multiline="true">
+                  <StylePriority Ref="191" UseFont="false" />
+                </Item16>
+                <Item17 Ref="192" ControlType="XRTableCell" Name="date17" Multiline="true">
+                  <StylePriority Ref="193" UseFont="false" />
+                </Item17>
+                <Item18 Ref="194" ControlType="XRTableCell" Name="date18" Multiline="true">
+                  <StylePriority Ref="195" UseFont="false" />
+                </Item18>
+                <Item19 Ref="196" ControlType="XRTableCell" Name="date19" Multiline="true">
+                  <StylePriority Ref="197" UseFont="false" />
+                </Item19>
+                <Item20 Ref="198" ControlType="XRTableCell" Name="date20" Multiline="true">
+                  <StylePriority Ref="199" UseFont="false" />
+                </Item20>
+                <Item21 Ref="200" ControlType="XRTableCell" Name="date21" Multiline="true">
+                  <StylePriority Ref="201" UseFont="false" />
+                </Item21>
+                <Item22 Ref="202" ControlType="XRTableCell" Name="date22" Multiline="true">
+                  <StylePriority Ref="203" UseFont="false" />
+                </Item22>
+                <Item23 Ref="204" ControlType="XRTableCell" Name="date23" Multiline="true">
+                  <StylePriority Ref="205" UseFont="false" />
+                </Item23>
+                <Item24 Ref="206" ControlType="XRTableCell" Name="date24" Multiline="true">
+                  <StylePriority Ref="207" UseFont="false" />
+                </Item24>
+                <Item25 Ref="208" ControlType="XRTableCell" Name="date25" Multiline="true">
+                  <StylePriority Ref="209" UseFont="false" />
+                </Item25>
+                <Item26 Ref="210" ControlType="XRTableCell" Name="date26" Multiline="true">
+                  <StylePriority Ref="211" UseFont="false" />
+                </Item26>
+                <Item27 Ref="212" ControlType="XRTableCell" Name="date27" Multiline="true">
+                  <StylePriority Ref="213" UseFont="false" />
+                </Item27>
+                <Item28 Ref="214" ControlType="XRTableCell" Name="date28" Multiline="true">
+                  <StylePriority Ref="215" UseFont="false" />
+                </Item28>
+                <Item29 Ref="216" ControlType="XRTableCell" Name="date29" Multiline="true">
+                  <StylePriority Ref="217" UseFont="false" />
+                </Item29>
+                <Item30 Ref="218" ControlType="XRTableCell" Name="date30" Multiline="true">
+                  <StylePriority Ref="219" UseFont="false" />
+                </Item30>
+                <Item31 Ref="220" ControlType="XRTableCell" Name="date31" Multiline="true">
+                  <StylePriority Ref="221" UseFont="false" />
+                </Item31>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="222" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="223" ControlType="XRTable" Name="table4" TextAlignment="MiddleCenter" Padding="2,2,0,0,96" Borders="All">
+          <Rows>
+            <Item1 Ref="224" ControlType="XRTableRow" Name="tableRow4">
+              <Cells>
+                <Item1 Ref="225" ControlType="XRTableCell" Name="tableCell18" Multiline="true">
+                  <StylePriority Ref="226" UseFont="false" />
+                </Item1>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="227" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="228" ControlType="XRTable" Name="table5" Padding="2,2,0,0,96" Borders="All">
+          <Rows>
+            <Item1 Ref="229" ControlType="XRTableRow" Name="tableRow5">
+              <Cells>
+                <Item1 Ref="230" ControlType="XRTableCell" Name="tableCell23" Multiline="true" TextAlignment="MiddleCenter" Borders="Top, Right, Bottom">
+                  <StylePriority Ref="231" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                </Item1>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="232" UseBorders="false" />
+        </Item4>
+      </Controls>
+    </Item5>
+  </Bands>
+  <LocalizationItems>
+    <Item1 Ref="233" Component="#Ref-160" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item2 Ref="234" Component="#Ref-160" Culture="Default" Path="Text" Data="1" />
+    <Item3 Ref="235" Component="#Ref-160" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item4 Ref="236" Component="#Ref-178" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item5 Ref="237" Component="#Ref-178" Culture="Default" Path="Text" Data="10" />
+    <Item6 Ref="238" Component="#Ref-178" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item7 Ref="239" Component="#Ref-180" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item8 Ref="240" Component="#Ref-180" Culture="Default" Path="Text" Data="11" />
+    <Item9 Ref="241" Component="#Ref-180" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item10 Ref="242" Component="#Ref-182" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item11 Ref="243" Component="#Ref-182" Culture="Default" Path="Text" Data="12" />
+    <Item12 Ref="244" Component="#Ref-182" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item13 Ref="245" Component="#Ref-184" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item14 Ref="246" Component="#Ref-184" Culture="Default" Path="Text" Data="13" />
+    <Item15 Ref="247" Component="#Ref-184" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item16 Ref="248" Component="#Ref-186" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item17 Ref="249" Component="#Ref-186" Culture="Default" Path="Text" Data="14" />
+    <Item18 Ref="250" Component="#Ref-186" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item19 Ref="251" Component="#Ref-188" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item20 Ref="252" Component="#Ref-188" Culture="Default" Path="Text" Data="15" />
+    <Item21 Ref="253" Component="#Ref-188" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item22 Ref="254" Component="#Ref-190" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item23 Ref="255" Component="#Ref-190" Culture="Default" Path="Text" Data="16" />
+    <Item24 Ref="256" Component="#Ref-190" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item25 Ref="257" Component="#Ref-192" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item26 Ref="258" Component="#Ref-192" Culture="Default" Path="Text" Data="17" />
+    <Item27 Ref="259" Component="#Ref-192" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item28 Ref="260" Component="#Ref-194" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item29 Ref="261" Component="#Ref-194" Culture="Default" Path="Text" Data="18" />
+    <Item30 Ref="262" Component="#Ref-194" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item31 Ref="263" Component="#Ref-196" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item32 Ref="264" Component="#Ref-196" Culture="Default" Path="Text" Data="19" />
+    <Item33 Ref="265" Component="#Ref-196" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item34 Ref="266" Component="#Ref-162" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item35 Ref="267" Component="#Ref-162" Culture="Default" Path="Text" Data="2" />
+    <Item36 Ref="268" Component="#Ref-162" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item37 Ref="269" Component="#Ref-198" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item38 Ref="270" Component="#Ref-198" Culture="Default" Path="Text" Data="20" />
+    <Item39 Ref="271" Component="#Ref-198" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item40 Ref="272" Component="#Ref-200" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item41 Ref="273" Component="#Ref-200" Culture="Default" Path="Text" Data="21" />
+    <Item42 Ref="274" Component="#Ref-200" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item43 Ref="275" Component="#Ref-202" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item44 Ref="276" Component="#Ref-202" Culture="Default" Path="Text" Data="22" />
+    <Item45 Ref="277" Component="#Ref-202" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item46 Ref="278" Component="#Ref-204" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item47 Ref="279" Component="#Ref-204" Culture="Default" Path="Text" Data="23" />
+    <Item48 Ref="280" Component="#Ref-204" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item49 Ref="281" Component="#Ref-206" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item50 Ref="282" Component="#Ref-206" Culture="Default" Path="Text" Data="24" />
+    <Item51 Ref="283" Component="#Ref-206" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item52 Ref="284" Component="#Ref-208" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item53 Ref="285" Component="#Ref-208" Culture="Default" Path="Text" Data="25" />
+    <Item54 Ref="286" Component="#Ref-208" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item55 Ref="287" Component="#Ref-210" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item56 Ref="288" Component="#Ref-210" Culture="Default" Path="Text" Data="26" />
+    <Item57 Ref="289" Component="#Ref-210" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item58 Ref="290" Component="#Ref-212" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item59 Ref="291" Component="#Ref-212" Culture="Default" Path="Text" Data="27" />
+    <Item60 Ref="292" Component="#Ref-212" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item61 Ref="293" Component="#Ref-214" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item62 Ref="294" Component="#Ref-214" Culture="Default" Path="Text" Data="28" />
+    <Item63 Ref="295" Component="#Ref-214" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item64 Ref="296" Component="#Ref-216" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item65 Ref="297" Component="#Ref-216" Culture="Default" Path="Text" Data="29" />
+    <Item66 Ref="298" Component="#Ref-216" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item67 Ref="299" Component="#Ref-164" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item68 Ref="300" Component="#Ref-164" Culture="Default" Path="Text" Data="3" />
+    <Item69 Ref="301" Component="#Ref-164" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item70 Ref="302" Component="#Ref-218" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item71 Ref="303" Component="#Ref-218" Culture="Default" Path="Text" Data="30" />
+    <Item72 Ref="304" Component="#Ref-218" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item73 Ref="305" Component="#Ref-220" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item74 Ref="306" Component="#Ref-220" Culture="Default" Path="Text" Data="31" />
+    <Item75 Ref="307" Component="#Ref-220" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item76 Ref="308" Component="#Ref-166" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item77 Ref="309" Component="#Ref-166" Culture="Default" Path="Text" Data="4" />
+    <Item78 Ref="310" Component="#Ref-166" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item79 Ref="311" Component="#Ref-168" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item80 Ref="312" Component="#Ref-168" Culture="Default" Path="Text" Data="5" />
+    <Item81 Ref="313" Component="#Ref-168" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item82 Ref="314" Component="#Ref-170" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item83 Ref="315" Component="#Ref-170" Culture="Default" Path="Text" Data="6" />
+    <Item84 Ref="316" Component="#Ref-170" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item85 Ref="317" Component="#Ref-172" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item86 Ref="318" Component="#Ref-172" Culture="Default" Path="Text" Data="7" />
+    <Item87 Ref="319" Component="#Ref-172" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item88 Ref="320" Component="#Ref-174" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item89 Ref="321" Component="#Ref-174" Culture="Default" Path="Text" Data="8" />
+    <Item90 Ref="322" Component="#Ref-174" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item91 Ref="323" Component="#Ref-176" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item92 Ref="324" Component="#Ref-176" Culture="Default" Path="Text" Data="9" />
+    <Item93 Ref="325" Component="#Ref-176" Culture="Default" Path="Weight" Data="0.073728362582323181" />
+    <Item94 Ref="326" Component="#Ref-15" Culture="Default" Path="HeightF" Data="46.99077" />
+    <Item95 Ref="327" Component="#Ref-125" Culture="Default" Path="Font" Data="Calibri, 20.25pt, style=Bold, charSet=0" />
+    <Item96 Ref="328" Component="#Ref-125" Culture="Default" Path="LocationFloat" Data="0,0" />
+    <Item97 Ref="329" Component="#Ref-125" Culture="Default" Path="SizeF" Data="1494,44.87502" />
+    <Item98 Ref="330" Component="#Ref-125" Culture="Default" Path="Text" Data="BÁO CÁO LÀM THÊM NGOÀI GIỜ (OT)" />
+    <Item99 Ref="331" Component="#Ref-125" Culture="en" Path="Text" Data="OVERTIME REPORT" />
+    <Item100 Ref="332" Component="#Ref-148" Culture="Default" Path="HeightF" Data="117.129654" />
+    <Item101 Ref="333" Component="#Ref-11" Culture="Default" Path="Description" Data="Đơn vị" />
+    <Item102 Ref="334" Component="#Ref-7" Culture="Default" Path="Description" Data="Phòng ban - id" />
+    <Item103 Ref="335" Component="#Ref-9" Culture="Default" Path="Description" Data="Phòng ban - name" />
+    <Item104 Ref="336" Component="#Ref-4" Culture="Default" Path="Description" Data="Từ ngày" />
+    <Item105 Ref="337" Component="#Ref-5" Culture="Default" Path="Description" Data="Đến ngày" />
+    <Item106 Ref="338" Component="#Ref-8" Culture="Default" Path="Description" Data="Nhân viên" />
+    <Item107 Ref="339" Component="#Ref-12" Culture="Default" Path="Description" Data="localization" />
+    <Item108 Ref="340" Component="#Ref-124" Culture="Default" Path="HeightF" Data="134.0279" />
+    <Item109 Ref="341" Component="#Ref-1" Culture="Default" Path="Font" Data="Arial, 9.75pt" />
+    <Item110 Ref="342" Component="#Ref-1" Culture="Default" Path="Margins" Data="99, 63, 100, 100" />
+    <Item111 Ref="343" Component="#Ref-1" Culture="Default" Path="PaperKind" Data="Custom" />
+    <Item112 Ref="344" Component="#Ref-127" Culture="Default" Path="Font" Data="Calibri, 12pt, charSet=0" />
+    <Item113 Ref="345" Component="#Ref-127" Culture="Default" Path="LocationFloat" Data="0.000127156571,44.87502" />
+    <Item114 Ref="346" Component="#Ref-127" Culture="Default" Path="SizeF" Data="1494,24.9999962" />
+    <Item115 Ref="347" Component="#Ref-140" Culture="Default" Path="Font" Data="Calibri, 12pt, charSet=0" />
+    <Item116 Ref="348" Component="#Ref-140" Culture="Default" Path="LocationFloat" Data="0,69.8750153" />
+    <Item117 Ref="349" Component="#Ref-140" Culture="Default" Path="SizeF" Data="1494,25" />
+    <Item118 Ref="350" Component="#Ref-158" Culture="Default" Path="Font" Data="Calibri, 12pt, charSet=0" />
+    <Item119 Ref="351" Component="#Ref-158" Culture="Default" Path="LocationFloat" Data="235.185333,70.1388855" />
+    <Item120 Ref="352" Component="#Ref-158" Culture="Default" Path="SizeF" Data="1170.43921,46.99077" />
+    <Item121 Ref="353" Component="#Ref-223" Culture="Default" Path="Font" Data="Calibri, 12pt, charSet=0" />
+    <Item122 Ref="354" Component="#Ref-223" Culture="Default" Path="LocationFloat" Data="235.185242,0" />
+    <Item123 Ref="355" Component="#Ref-223" Culture="Default" Path="SizeF" Data="1170.43933,70.1389" />
+    <Item124 Ref="356" Component="#Ref-228" Culture="Default" Path="LocationFloat" Data="1405.62476,0" />
+    <Item125 Ref="357" Component="#Ref-228" Culture="Default" Path="SizeF" Data="88.3752441,117.129654" />
+    <Item126 Ref="358" Component="#Ref-16" Culture="Default" Path="Font" Data="Calibri, 12pt, charSet=0" />
+    <Item127 Ref="359" Component="#Ref-16" Culture="Default" Path="LocationFloat" Data="0,0" />
+    <Item128 Ref="360" Component="#Ref-16" Culture="Default" Path="SizeF" Data="1494,46.99077" />
+    <Item129 Ref="361" Component="#Ref-149" Culture="Default" Path="Font" Data="Arial, 9.75pt, style=Bold, charSet=0" />
+    <Item130 Ref="362" Component="#Ref-149" Culture="Default" Path="LocationFloat" Data="0,0" />
+    <Item131 Ref="363" Component="#Ref-149" Culture="Default" Path="SizeF" Data="235.185364,117.129654" />
+    <Item132 Ref="364" Component="#Ref-129" Culture="Default" Path="Font" Data="Calibri, 12pt, charSet=0" />
+    <Item133 Ref="365" Component="#Ref-129" Culture="Default" Path="Text" Data="Từ ngày:" />
+    <Item134 Ref="366" Component="#Ref-129" Culture="en" Path="Text" Data="From:" />
+    <Item135 Ref="367" Component="#Ref-129" Culture="Default" Path="Weight" Data="1.0616622418821182" />
+    <Item136 Ref="368" Component="#Ref-225" Culture="Default" Path="Font" Data="Arial, 12pt, style=Bold, charSet=0" />
+    <Item137 Ref="369" Component="#Ref-225" Culture="Default" Path="Text" Data="Ngày làm việc" />
+    <Item138 Ref="370" Component="#Ref-225" Culture="en" Path="Text" Data="Workday" />
+    <Item139 Ref="371" Component="#Ref-225" Culture="Default" Path="Weight" Data="2.2855805687145807" />
+    <Item140 Ref="372" Component="#Ref-131" Culture="Default" Path="Font" Data="Calibri, 12pt, charSet=0" />
+    <Item141 Ref="373" Component="#Ref-131" Culture="Default" Path="Text" Data="22/22/2222" />
+    <Item142 Ref="374" Component="#Ref-131" Culture="Default" Path="TextFormatString" Data="{0:dd/MM/yyyy}" />
+    <Item143 Ref="375" Component="#Ref-131" Culture="Default" Path="Weight" Data="0.24528451213781974" />
+    <Item144 Ref="376" Component="#Ref-230" Culture="Default" Path="Font" Data="Arial, 12pt, style=Bold, charSet=0" />
+    <Item145 Ref="377" Component="#Ref-230" Culture="Default" Path="Text" Data="Tổng giờ làm thêm (OT)" />
+    <Item146 Ref="378" Component="#Ref-230" Culture="en" Path="Text" Data="Total overtime hours" />
+    <Item147 Ref="379" Component="#Ref-230" Culture="Default" Path="Weight" Data="1" />
+    <Item148 Ref="380" Component="#Ref-134" Culture="Default" Path="Font" Data="Times New Roman, 12pt, charSet=0" />
+    <Item149 Ref="381" Component="#Ref-134" Culture="Default" Path="Text" Data="Đến ngày:" />
+    <Item150 Ref="382" Component="#Ref-134" Culture="en" Path="Text" Data="To:" />
+    <Item151 Ref="383" Component="#Ref-134" Culture="Default" Path="Weight" Data="0.22452863817781812" />
+    <Item152 Ref="384" Component="#Ref-136" Culture="Default" Path="Font" Data="Times New Roman, 12pt, charSet=0" />
+    <Item153 Ref="385" Component="#Ref-136" Culture="Default" Path="Text" Data="22/22/2222" />
+    <Item154 Ref="386" Component="#Ref-136" Culture="Default" Path="TextFormatString" Data="{0:dd/MM/yyyy}" />
+    <Item155 Ref="387" Component="#Ref-136" Culture="Default" Path="Weight" Data="1.1579727135269018" />
+    <Item156 Ref="388" Component="#Ref-142" Culture="Default" Path="Font" Data="Calibri, 12pt, charSet=0" />
+    <Item157 Ref="389" Component="#Ref-142" Culture="Default" Path="Text" Data="Phòng ban:" />
+    <Item158 Ref="390" Component="#Ref-142" Culture="en" Path="Text" Data="Department:" />
+    <Item159 Ref="391" Component="#Ref-142" Culture="Default" Path="Weight" Data="1" />
+    <Item160 Ref="392" Component="#Ref-18" Culture="Default" Path="Text" Data="STT" />
+    <Item161 Ref="393" Component="#Ref-18" Culture="Default" Path="Weight" Data="0.094473695966341809" />
+    <Item162 Ref="394" Component="#Ref-21" Culture="Default" Path="Weight" Data="0.14419634748190374" />
+    <Item163 Ref="395" Component="#Ref-21" Culture="en" Path="Weight" Data="0.17063996328301961" />
+    <Item164 Ref="396" Component="#Ref-24" Culture="Default" Path="Weight" Data="0.22058893955524733" />
+    <Item165 Ref="397" Component="#Ref-24" Culture="en" Path="Weight" Data="0.19414532375413146" />
+    <Item166 Ref="398" Component="#Ref-27" Culture="Default" Path="Text" Data="1" />
+    <Item167 Ref="399" Component="#Ref-27" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item168 Ref="400" Component="#Ref-27" Culture="Default" Path="Weight" Data="0.073728328774416887" />
+    <Item169 Ref="401" Component="#Ref-30" Culture="Default" Path="Text" Data="2" />
+    <Item170 Ref="402" Component="#Ref-30" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item171 Ref="403" Component="#Ref-30" Culture="Default" Path="Weight" Data="0.073728515025774821" />
+    <Item172 Ref="404" Component="#Ref-33" Culture="Default" Path="Text" Data="3" />
+    <Item173 Ref="405" Component="#Ref-33" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item174 Ref="406" Component="#Ref-33" Culture="Default" Path="Weight" Data="0.073728388254033717" />
+    <Item175 Ref="407" Component="#Ref-36" Culture="Default" Path="Text" Data="4" />
+    <Item176 Ref="408" Component="#Ref-36" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item177 Ref="409" Component="#Ref-36" Culture="Default" Path="Weight" Data="0.073728388408472817" />
+    <Item178 Ref="410" Component="#Ref-39" Culture="Default" Path="Text" Data="5" />
+    <Item179 Ref="411" Component="#Ref-39" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item180 Ref="412" Component="#Ref-39" Culture="Default" Path="Weight" Data="0.07372832886804434" />
+    <Item181 Ref="413" Component="#Ref-151" Culture="Default" Path="Font" Data="Arial, 12pt, style=Bold, charSet=0" />
+    <Item182 Ref="414" Component="#Ref-151" Culture="Default" Path="Text" Data="STT" />
+    <Item183 Ref="415" Component="#Ref-151" Culture="en" Path="Text" Data="No." />
+    <Item184 Ref="416" Component="#Ref-151" Culture="Default" Path="Weight" Data="1" />
+    <Item185 Ref="417" Component="#Ref-42" Culture="Default" Path="Text" Data="6" />
+    <Item186 Ref="418" Component="#Ref-42" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item187 Ref="419" Component="#Ref-42" Culture="Default" Path="Weight" Data="0.07372850764485861" />
+    <Item188 Ref="420" Component="#Ref-45" Culture="Default" Path="Text" Data="7" />
+    <Item189 Ref="421" Component="#Ref-45" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item190 Ref="422" Component="#Ref-45" Culture="Default" Path="Weight" Data="0.073728388388392824" />
+    <Item191 Ref="423" Component="#Ref-48" Culture="Default" Path="Text" Data="8" />
+    <Item192 Ref="424" Component="#Ref-48" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item193 Ref="425" Component="#Ref-48" Culture="Default" Path="Weight" Data="0.07372839212756721" />
+    <Item194 Ref="426" Component="#Ref-51" Culture="Default" Path="Text" Data="9" />
+    <Item195 Ref="427" Component="#Ref-51" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item196 Ref="428" Component="#Ref-51" Culture="Default" Path="Weight" Data="0.07372827095319287" />
+    <Item197 Ref="429" Component="#Ref-54" Culture="Default" Path="Text" Data="10" />
+    <Item198 Ref="430" Component="#Ref-54" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item199 Ref="431" Component="#Ref-54" Culture="Default" Path="Weight" Data="0.073728393762834521" />
+    <Item200 Ref="432" Component="#Ref-57" Culture="Default" Path="Text" Data="11" />
+    <Item201 Ref="433" Component="#Ref-57" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item202 Ref="434" Component="#Ref-57" Culture="Default" Path="Weight" Data="0.073728263514460837" />
+    <Item203 Ref="435" Component="#Ref-60" Culture="Default" Path="Text" Data="12" />
+    <Item204 Ref="436" Component="#Ref-60" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item205 Ref="437" Component="#Ref-60" Culture="Default" Path="Weight" Data="0.073728509303834233" />
+    <Item206 Ref="438" Component="#Ref-63" Culture="Default" Path="Text" Data="13" />
+    <Item207 Ref="439" Component="#Ref-63" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item208 Ref="440" Component="#Ref-63" Culture="Default" Path="Weight" Data="0.07372839506317154" />
+    <Item209 Ref="441" Component="#Ref-66" Culture="Default" Path="Text" Data="14" />
+    <Item210 Ref="442" Component="#Ref-66" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item211 Ref="443" Component="#Ref-66" Culture="Default" Path="Weight" Data="0.073728514410269924" />
+    <Item212 Ref="444" Component="#Ref-69" Culture="Default" Path="Text" Data="15" />
+    <Item213 Ref="445" Component="#Ref-69" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item214 Ref="446" Component="#Ref-69" Culture="Default" Path="Weight" Data="0.073728156850298487" />
+    <Item215 Ref="447" Component="#Ref-144" Culture="Default" Path="Font" Data="Calibri, 12pt, charSet=0" />
+    <Item216 Ref="448" Component="#Ref-144" Culture="Default" Path="Weight" Data="0.9943413911027682" />
+    <Item217 Ref="449" Component="#Ref-72" Culture="Default" Path="Text" Data="16" />
+    <Item218 Ref="450" Component="#Ref-72" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item219 Ref="451" Component="#Ref-72" Culture="Default" Path="Weight" Data="0.073728395264863633" />
+    <Item220 Ref="452" Component="#Ref-75" Culture="Default" Path="Text" Data="17" />
+    <Item221 Ref="453" Component="#Ref-75" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item222 Ref="454" Component="#Ref-75" Culture="Default" Path="Weight" Data="0.073728384481707987" />
+    <Item223 Ref="455" Component="#Ref-78" Culture="Default" Path="Text" Data="18" />
+    <Item224 Ref="456" Component="#Ref-78" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item225 Ref="457" Component="#Ref-78" Culture="Default" Path="Weight" Data="0.073728514410269938" />
+    <Item226 Ref="458" Component="#Ref-81" Culture="Default" Path="Text" Data="19" />
+    <Item227 Ref="459" Component="#Ref-81" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item228 Ref="460" Component="#Ref-81" Culture="Default" Path="Weight" Data="0.073728268427775134" />
+    <Item229 Ref="461" Component="#Ref-84" Culture="Default" Path="Text" Data="20" />
+    <Item230 Ref="462" Component="#Ref-84" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item231 Ref="463" Component="#Ref-84" Culture="Default" Path="Weight" Data="0.073728859813962544" />
+    <Item232 Ref="464" Component="#Ref-87" Culture="Default" Path="Text" Data="21" />
+    <Item233 Ref="465" Component="#Ref-87" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item234 Ref="466" Component="#Ref-87" Culture="Default" Path="Weight" Data="0.0737282637206502" />
+    <Item235 Ref="467" Component="#Ref-90" Culture="Default" Path="Text" Data="22" />
+    <Item236 Ref="468" Component="#Ref-90" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item237 Ref="469" Component="#Ref-90" Culture="Default" Path="Weight" Data="0.0737283829898294" />
+    <Item238 Ref="470" Component="#Ref-93" Culture="Default" Path="Text" Data="23" />
+    <Item239 Ref="471" Component="#Ref-93" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item240 Ref="472" Component="#Ref-93" Culture="Default" Path="Weight" Data="0.073728621363129132" />
+    <Item241 Ref="473" Component="#Ref-96" Culture="Default" Path="Text" Data="24" />
+    <Item242 Ref="474" Component="#Ref-96" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item243 Ref="475" Component="#Ref-96" Culture="Default" Path="Weight" Data="0.07372814461649474" />
+    <Item244 Ref="476" Component="#Ref-99" Culture="Default" Path="Text" Data="25" />
+    <Item245 Ref="477" Component="#Ref-99" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item246 Ref="478" Component="#Ref-99" Culture="Default" Path="Weight" Data="0.073728621280639062" />
+    <Item247 Ref="479" Component="#Ref-153" Culture="Default" Path="Font" Data="Arial, 12pt, style=Bold, charSet=0" />
+    <Item248 Ref="480" Component="#Ref-153" Culture="Default" Path="Text" Data="Mã nhân viên" />
+    <Item249 Ref="481" Component="#Ref-153" Culture="en" Path="Text" Data="Employee code" />
+    <Item250 Ref="482" Component="#Ref-153" Culture="Default" Path="Weight" Data="1.5263134008736086" />
+    <Item251 Ref="483" Component="#Ref-153" Culture="en" Path="Weight" Data="1.806216854931529" />
+    <Item252 Ref="484" Component="#Ref-102" Culture="Default" Path="Text" Data="26" />
+    <Item253 Ref="485" Component="#Ref-102" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item254 Ref="486" Component="#Ref-102" Culture="Default" Path="Weight" Data="0.073728152065666019" />
+    <Item255 Ref="487" Component="#Ref-105" Culture="Default" Path="Text" Data="27" />
+    <Item256 Ref="488" Component="#Ref-105" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item257 Ref="489" Component="#Ref-105" Culture="Default" Path="Weight" Data="0.0737284020505789" />
+    <Item258 Ref="490" Component="#Ref-108" Culture="Default" Path="Text" Data="28" />
+    <Item259 Ref="491" Component="#Ref-108" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item260 Ref="492" Component="#Ref-108" Culture="Default" Path="Weight" Data="0.0737284020505789" />
+    <Item261 Ref="493" Component="#Ref-111" Culture="Default" Path="Text" Data="29" />
+    <Item262 Ref="494" Component="#Ref-111" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item263 Ref="495" Component="#Ref-111" Culture="Default" Path="Weight" Data="0.0737284020505789" />
+    <Item264 Ref="496" Component="#Ref-114" Culture="Default" Path="Text" Data="30" />
+    <Item265 Ref="497" Component="#Ref-114" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item266 Ref="498" Component="#Ref-114" Culture="Default" Path="Weight" Data="0.073728387152246722" />
+    <Item267 Ref="499" Component="#Ref-117" Culture="Default" Path="Text" Data="31" />
+    <Item268 Ref="500" Component="#Ref-117" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item269 Ref="501" Component="#Ref-117" Culture="Default" Path="Weight" Data="0.073728327558918144" />
+    <Item270 Ref="502" Component="#Ref-120" Culture="Default" Path="TextFormatString" Data="{0:0.##}" />
+    <Item271 Ref="503" Component="#Ref-120" Culture="Default" Path="Weight" Data="0.17257550098497754" />
+    <Item272 Ref="504" Component="#Ref-155" Culture="Default" Path="Font" Data="Arial, 12pt, style=Bold, charSet=0" />
+    <Item273 Ref="505" Component="#Ref-155" Culture="Default" Path="Text" Data="Nhân viên" />
+    <Item274 Ref="506" Component="#Ref-155" Culture="en" Path="Text" Data="Employee name" />
+    <Item275 Ref="507" Component="#Ref-155" Culture="Default" Path="Weight" Data="2.3349259002234648" />
+    <Item276 Ref="508" Component="#Ref-155" Culture="en" Path="Weight" Data="2.0550224461655446" />
+    <Item277 Ref="509" Component="#Ref-128" Culture="Default" Path="Weight" Data="1" />
+    <Item278 Ref="510" Component="#Ref-141" Culture="Default" Path="Weight" Data="1" />
+    <Item279 Ref="511" Component="#Ref-159" Culture="Default" Path="Weight" Data="1" />
+    <Item280 Ref="512" Component="#Ref-224" Culture="Default" Path="Weight" Data="1" />
+    <Item281 Ref="513" Component="#Ref-229" Culture="Default" Path="Weight" Data="1" />
+    <Item282 Ref="514" Component="#Ref-17" Culture="Default" Path="Weight" Data="1" />
+    <Item283 Ref="515" Component="#Ref-150" Culture="Default" Path="Weight" Data="1" />
+  </LocalizationItems>
+  <ComponentStorage>
+    <Item1 Ref="516" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.1" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxDb25uZWN0aW9uIE5hbWU9IkVQUyIgRnJvbUFwcENvbmZpZz0idHJ1ZSIgLz48UXVlcnkgVHlwZT0iU3RvcmVkUHJvY1F1ZXJ5IiBOYW1lPSJSZXBvcnRPdmVyVGltZUhvdXJzIj48UGFyYW1ldGVyIE5hbWU9IkBEYXRlRnJvbSIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uRGF0ZVRpbWUpKD9wX2ZpbHRlckRhdGVGcm9tKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iQERhdGVUbyIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uRGF0ZVRpbWUpKD9wX2ZpbHRlckRhdGVUbyk8L1BhcmFtZXRlcj48UGFyYW1ldGVyIE5hbWU9IkBEZXB0SWQiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLkludDMyKSg/cF9kZXBhcnRtZW50SWQpPC9QYXJhbWV0ZXI+PFBhcmFtZXRlciBOYW1lPSJATmFtZVBlcnNvbiIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uU3RyaW5nKSg/cF9maWx0ZXJOYW1lUGVyc29uKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iQENvbXBhbnkiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLkludDMyKSg/cF9jb21wYW55KTwvUGFyYW1ldGVyPjxQcm9jTmFtZT5SZXBvcnRPdmVyVGltZUhvdXJzPC9Qcm9jTmFtZT48L1F1ZXJ5PjxSZXN1bHRTY2hlbWE+PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxWaWV3IE5hbWU9IlJlcG9ydE92ZXJUaW1lSG91cnMiPjxGaWVsZCBOYW1lPSJQZXJzb25JZCIgVHlwZT0iR3VpZCIgLz48RmllbGQgTmFtZT0iUGVyc29uQ29kZSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJGdWxsbmFtZSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb21wSWQiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJEZXB0SWQiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSIxIiBUeXBlPSJEb3VibGUiIC8+PEZpZWxkIE5hbWU9IjIiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMyIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSI0IiBUeXBlPSJEb3VibGUiIC8+PEZpZWxkIE5hbWU9IjUiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iNiIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSI3IiBUeXBlPSJEb3VibGUiIC8+PEZpZWxkIE5hbWU9IjgiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iOSIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIxMCIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIxMSIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIxMiIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIxMyIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIxNCIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIxNSIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIxNiIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIxNyIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIxOCIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIxOSIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIyMCIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIyMSIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIyMiIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIyMyIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIyNCIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIyNSIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIyNiIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIyNyIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIyOCIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIyOSIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIzMCIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIzMSIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSJEYXlMYXRlIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iRGF5RWFybHkiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJEYXlDaGVja2luIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iRGF5Q2hlY2tvdXQiIFR5cGU9IkludDMyIiAvPjwvVmlldz48L0RhdGFTZXQ+PC9SZXN1bHRTY2hlbWE+PENvbm5lY3Rpb25PcHRpb25zIENsb3NlQ29ubmVjdGlvbj0idHJ1ZSIgLz48L1NxbERhdGFTb3VyY2U+" />
+    <Item2 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.1" Name="sqlDataSource2" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTIiPjxDb25uZWN0aW9uIE5hbWU9IkVQUyIgRnJvbUFwcENvbmZpZz0idHJ1ZSIgLz48UXVlcnkgVHlwZT0iU3RvcmVkUHJvY1F1ZXJ5IiBOYW1lPSJSZXBvcnRPdmVyVGltZUhvdXJzIj48UGFyYW1ldGVyIE5hbWU9IkBEYXRlRnJvbSIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uRGF0ZVRpbWUpKD9wX2ZpbHRlckRhdGVGcm9tKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iQERhdGVUbyIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uRGF0ZVRpbWUpKD9wX2ZpbHRlckRhdGVUbyk8L1BhcmFtZXRlcj48UGFyYW1ldGVyIE5hbWU9IkBEZXB0SWQiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLlN0cmluZykoP3BfZGVwYXJ0bWVudElkKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iQE5hbWVQZXJzb24iIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLlN0cmluZykoP3BfZmlsdGVyTmFtZVBlcnNvbik8L1BhcmFtZXRlcj48UGFyYW1ldGVyIE5hbWU9IkBDb21wYW55IiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5JbnQzMikoP3BfY29tcGFueSk8L1BhcmFtZXRlcj48UHJvY05hbWU+UmVwb3J0T3ZlclRpbWVIb3VyczwvUHJvY05hbWU+PC9RdWVyeT48UmVzdWx0U2NoZW1hPjxEYXRhU2V0IE5hbWU9InNxbERhdGFTb3VyY2UyIj48VmlldyBOYW1lPSJSZXBvcnRPdmVyVGltZUhvdXJzIj48RmllbGQgTmFtZT0iUGVyc29uSWQiIFR5cGU9Ikd1aWQiIC8+PEZpZWxkIE5hbWU9IlBlcnNvbkNvZGUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRnVsbG5hbWUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29tcElkIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iRGVwdElkIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iMSIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSIyIiBUeXBlPSJEb3VibGUiIC8+PEZpZWxkIE5hbWU9IjMiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iNCIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSI1IiBUeXBlPSJEb3VibGUiIC8+PEZpZWxkIE5hbWU9IjYiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iNyIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSI4IiBUeXBlPSJEb3VibGUiIC8+PEZpZWxkIE5hbWU9IjkiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMTAiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMTEiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMTIiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMTMiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMTQiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMTUiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMTYiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMTciIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMTgiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMTkiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMjAiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMjEiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMjIiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMjMiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMjQiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMjUiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMjYiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMjciIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMjgiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMjkiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMzAiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iMzEiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iRGF5TGF0ZSIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkRheUVhcmx5IiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iRGF5Q2hlY2tpbiIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkRheUNoZWNrb3V0IiBUeXBlPSJJbnQzMiIgLz48L1ZpZXc+PC9EYXRhU2V0PjwvUmVzdWx0U2NoZW1hPjxDb25uZWN0aW9uT3B0aW9ucyBDbG9zZUNvbm5lY3Rpb249InRydWUiIC8+PC9TcWxEYXRhU291cmNlPg==" />
+  </ComponentStorage>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v21.1" Ref="3" Content="System.DateTime" Type="System.Type" />
+    <Item2 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v21.1" Ref="10" Content="System.Int32" Type="System.Type" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

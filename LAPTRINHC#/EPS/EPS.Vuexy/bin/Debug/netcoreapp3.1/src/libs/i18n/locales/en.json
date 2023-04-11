@@ -1,0 +1,238 @@
+﻿{
+  "Nav": {
+    "Home": "Home",
+    "System": "System ",
+    "Users": "User",
+    "ChildUser": {
+      "ListAccess": "List of User",
+      "DetailAccess": "User detail",
+      "CreateAccess": "Add user",
+      "PrivilegesAccess": "Grant User Permission"
+    },
+    "PersonalInformation": "Personal info",
+    "Roles": "User Group",
+    "ChildRoles": {
+      "ListAccess": "List of User group",
+      "DetailAccess": "User group detail",
+      "CreateAccess": "Add user group",
+      "PrivilegesAccess": "Grant User Group Permission"
+    },
+    "Company": "Organization",
+    "ChildCompany": {
+      "ListAccess": "Organization list",
+      "DetailAccess": "Organization detail",
+      "CreateAccess": "Add Organization"
+    }
+  },
+  "Header": {
+    "ChangePassword": "Change password"
+  },
+  "Bgrid": {
+    "Index": "No.",
+    "Sentence": {
+      "ShowResultFrom": "Show results from",
+      "To": "To",
+      "Intotal": "In total of",
+      "Record": "Records"
+    },
+    "Pagesize": "Page size",
+    "Columns": "Columns"
+  },
+  "Button": {
+    "Search": "Search",
+    "Create": "Add",
+    "View": "View",
+    "Delete": "Delete",
+    "Submit": "Save",
+    "Cancel": "Cancel",
+    "Edit": "Edit",
+    "Yes": "Yes",
+    "No": "No",
+    "Back": "Back",
+    "Privileges": "Privileges"
+  },
+  "Messages": {
+    "ConfirmDelete": "Do you want to delete?",
+    "DeleteSuccess": "Delete successfully",
+    "DeleteError": "Please select row to delete",
+    "UpdateSuccess": "Update successfully",
+    "CreateSuccess": "Create successfully",
+    "CannotDelete": "Cannot delete a parent row: a foreign key constraint fails"
+  },
+  "TitleDetail": {
+    "View": "view",
+    "Delete": "delete",
+    "Add": "add"
+  },
+  "PlaceHolder": {
+    "Select": "Choose value",
+    "SearchInput": "Input value",
+    "Captcha": "Input captcha"
+  },
+  "Constant": {
+    "Error1": "There is related data, unable to delete record!",
+    "Error2": "Error occurred. Please contact administrator!",
+    "Error7": "Please select time period!"
+  },
+  "Exception": {
+    "Ex1": "Already have related data, record cannot be deleted",
+    "Ex2": "already exists in the system.",
+    "Ex3": "Does not exist in the system."
+  },
+  "PrivilegesText": {
+    "ManageCompany": "Sửa đơn vị",
+    "ManageRole": "Sửa nhóm người dùng",
+    "ManageUser": "Sửa người dùng",
+    "ViewFAQuestions": "Xem câu hỏi thường gặp",
+    "ViewRole": "Xem nhóm người dùng",
+    "ViewUser": "Xem người dùng",
+    "ViewCompany": "Xem đơn vị"
+  },
+  "ChangePassword": {
+    "List": {
+      "Header": "Change Password",
+      "Form": {
+        "UserName": "User name: ",
+        "Logout": "Log out",
+        "FullName": "Full name:",
+        "OldPass": "Old Password:",
+        "NewPass": "New Password:",
+        "NewPassConfirmation": "Confirm the new password:",
+        "Message": {
+          "Header": "Change Password successfully! Please login again!",
+          "NewPass": "Please type the new password",
+          "OldPass": "Please type the old password",
+          "NewPassConfirmation": "New password does not match",
+          "PassRequired": "Password must be at least 8 characters",
+          "PassWordRequired": "Password must contain uppercase, lowercase letters, numbers and special characters"
+        }
+      }
+    }
+  },
+  "System": {
+    "Company": {
+      "List": {
+        "Header": "List of subordinate organization",
+        "SearchForm": {
+          "CompanyName": "Organization Name/Code:"
+        },
+        "Table": {
+          "TableName": "List of subordinate organization",
+          "Index": "No.",
+          "Code": "Organization code",
+          "Name": "Organization name",
+          "Action": "Active"
+        }
+      },
+      "Detail": {
+        "Header": "Organization detail",
+        "Label": {
+          "ParentName": "Subordinate organization:",
+          "CompanyType": "Organization Type:",
+          "CompanyTypeRequire": "Please select organization type",
+          "Code": "Organization code:",
+          "CodeRequire": "Please fill organization code",
+          "NameRequire": "Please fill organization name",
+          "Name": "Organization name:",
+          "Address": "Address:",
+          "TaxCode": "Tax code:",
+          "TaxCodeRequire": "Minimum 9 digits",
+          "ParentRequire": "Please select organization",
+          "CodeAlphaNumAndDash": "Please input alphabet and number"
+        }
+      },
+      "Create": {
+        "Header": "Create organization"
+      },
+      "Error": {
+        "CompanyCodeExists": "Company code already exist!"
+      }
+    },
+    "User": {
+      "List": {
+        "Header": "Search criteria",
+        "SearchForm": {
+          "CompanyName": "Organization:",
+          "UserName": "User name:"
+        },
+        "Table": {
+          "TableName": "List of User",
+          "Index": "No.",
+          "Company": "Organization",
+          "Name": "User name",
+          "RolesName": "User group",
+          "Phone": "Phone number"
+        }
+      },
+      "Detail": {
+        "Header": "User information",
+        "Label": {
+          "CompanyName": "Organization:",
+          "FullName": "Full name:",
+          "NameRequire": "Please fill full name",
+          "Name": "User name:",
+          "UserNameRequire": "Please fill account name",
+          "Password": "Password:",
+          "ConfirmPassword": "Confirm the password:",
+          "ConfirmPasswordRequire": "Please re-enter your password",
+          "ConfirmationRequire": "Password does not match ",
+          "PasswordRequire": "Please type the password",
+          "MaxlengthRequire": "Password must be at least 8 characters",
+          "SpecialRequire": "Password must contain uppercase, lowercase letters, numbers and special characters",
+          "RoleName": "Organization type:",
+          "RoleNameRequire": "Please enter user group:",
+          "Role": "Permission group:",
+          "Phone": "Phone number:",
+          "PhoneRequire": "Please input phone number",
+          "PhoneMaxLength": "Maximum 10 digits",
+          "PhoneMinLength": "Minimum 10 digits",
+          "PhoneNumeric": "Please input only numbers",
+          "UserNameAlphaNumAndDash": "Please input alphabet and number"
+        }
+      },
+      "Create": {
+        "Header": "Add User"
+      },
+      "Privileges": {
+        "Header": "Grant user permission",
+        "Label": {
+          "CategoriesList": "Category list",
+          "Categories": "Categories",
+          "Decentralization": "Grant permission successfully"
+        }
+      }
+    },
+    "Role": {
+      "List": {
+        "Header": "Manage User Group",
+        "SearchForm": {
+          "RoleName": "User group name:"
+        },
+        "Table": {
+          "TableName": "List of user group",
+          "Index": "No.",
+          "Status": "Status",
+          "Name": "Name",
+          "Description": "Description"
+        }
+      },
+      "Detail": {
+        "Header": "User group detail",
+        "Label": {
+          "Description": "Description:",
+          "Status": "Status:",
+          "NameRequire": "Please fill the name of the user group"
+        }
+      },
+      "Create": {
+        "Header": "Add user group"
+      },
+      "Privileges": {
+        "Header": "Grant permission",
+        "Label": {
+          "CategoriesList": "Function List"
+        }
+      }
+    }
+  }
+}

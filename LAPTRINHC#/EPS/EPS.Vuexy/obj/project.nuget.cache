@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "XjA+cA4QoWTbPtWdYTE32VmTvEz3x30BeaHUG/Vgp+v17kGnxbmCDhYw4krrV3wOLCB56KoDyxxWFfFV4zOacQ==",
+  "success": true,
+  "projectFilePath": "D:\\GH\\drawturtle\\LAPTRINHC#\\EPS\\EPS.Vuexy\\EPS.Porto.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\haduy\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.30\\microsoft.netcore.app.host.win-x64.3.1.30.nupkg.sha512",
+    "C:\\Users\\haduy\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\haduy\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\haduy\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

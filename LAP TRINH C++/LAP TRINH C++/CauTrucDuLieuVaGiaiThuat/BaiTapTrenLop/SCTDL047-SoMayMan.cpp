@@ -1,47 +1,55 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool is_lucky(int n) {
-    while (n > 0) {
-        int d = n % 10;
-        if (d != 4 && d != 7) {
-            return false;
-        }
-        n /= 10;
-    }
-    return true;
-}
 
-int find_lucky(int n, string s) {
-    if (s.size() > 6) {  // Vượt quá giới hạn cho phép
-        return -1;
-    }
-    int num = stoi(s);
-    if (num > 0 && is_lucky(num) && accumulate(s.begin(), s.end(), 0) - '0' == n) {
-        return num;
-    }
-    if (s.empty()) {
-        s = "0";
-    }
-    if (s.back() == '4') {  // Tìm số may mắn bằng cách thay đổi chữ số 4 đầu tiên bằng 7
-        return find_lucky(n, s.substr(0, s.size() - 1) + "7");
-    } else {
-        return find_lucky(n, s.substr(0, s.size() - 1) + "4") * 10 + 4;  // Tìm số may mắn tiếp theo
-    }
-}
 
 int main() {
+
+    ios_base::sync_with_stdio(0);cin.tie(0);
     int t;
     cin >> t;
     while (t--) {
         int n;
         cin >> n;
-        int ans = find_lucky(n, "");
-        if (ans == -1) {
-            cout << "-1\n";
-        } else {
-            cout << ans << "\n";
+        int d4 = 0, d7=0;
+        int res4 = 1e5, res7 = 1e5;
+        for(int i = n; i>=0 ; i--)
+        {
+            if( n >= 4*i && (n-4*i) % 7 == 0)
+            {
+                d4 = i;
+                d7 = (n-4*i)/7;
+                if(res4 + res7 > d4 + d7)
+                {
+                    res4 = d4; 
+                    res7 = d7;
+                }
+                else if (res4 + res7 == d4 + d7)
+                {
+                    if(res4 > d4)
+                    {
+                        res4 = d4;
+                        res7 = d7;
+                    }
+                }
+            }
         }
+        if(4*res4 + 7*res7 == n)
+        {
+            for(int i = 0 ; i < res4 ; i++)
+            {
+                cout << 4;
+            }
+            for (int i = 0; i < res7; i++)
+            {
+                cout << 7;
+            }   
+        }
+        else
+        {
+            cout << -1;
+        }
+        cout << endl;
     }
     return 0;
 }

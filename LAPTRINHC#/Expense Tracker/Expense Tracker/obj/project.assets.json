@@ -10588,7 +10588,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\haduy\\.nuget\\packages\\": {}
+    "C:\\Users\\haduy\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -10599,14 +10600,19 @@
       "packagesPath": "C:\\Users\\haduy\\.nuget\\packages\\",
       "outputPath": "D:\\GH\\drawturtle\\LAPTRINHC#\\Expense Tracker\\Expense Tracker\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
+      ],
       "configFilePaths": [
         "C:\\Users\\haduy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },

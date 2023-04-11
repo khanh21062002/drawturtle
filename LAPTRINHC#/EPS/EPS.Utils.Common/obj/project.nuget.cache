@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "zSV1bMAha76vzthsxWg/9J3RNy04yBS3PO93qgyIaBgtKsoYDZ3lupsGNsUrGTUA2R05B/LuprAaQA7UiNVyaQ==",
+  "success": true,
+  "projectFilePath": "D:\\GH\\drawturtle\\LAPTRINHC#\\EPS\\EPS.Utils.Common\\EPS.Utils.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\haduy\\.nuget\\packages\\system.linq.dynamic.core\\1.0.22\\system.linq.dynamic.core.1.0.22.nupkg.sha512",
+    "C:\\Users\\haduy\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\haduy\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\haduy\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

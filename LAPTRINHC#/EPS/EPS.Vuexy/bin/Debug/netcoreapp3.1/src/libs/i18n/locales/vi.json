@@ -1,0 +1,239 @@
+{
+  "Nav": {
+    "Home": "Trang chủ",
+    "System": "Quản lý hệ thống",
+    "Users": "Người dùng",
+    "ChildUser": {
+      "ListAccess": "Danh sách người dùng",
+      "DetailAccess": "Thông tin người dùng",
+      "CreateAccess": "Thêm mới người dùng",
+      "PrivilegesAccess": "Phân quyền người dùng"
+    },
+    "PersonalInformation": "Thông tin cá nhân",
+    "Roles": "Nhóm người dùng",
+    "ChildRoles": {
+      "ListAccess": "Danh sách nhóm người dùng",
+      "DetailAccess": "Thông tin nhóm người dùng",
+      "CreateAccess": "Thêm mới nhóm người dùng",
+      "PrivilegesAccess": "Phân quyền nhóm người dùng"
+    },
+    "Company": "Đơn vị",
+    "ChildCompany": {
+      "ListAccess": "Danh sách đơn vị",
+      "DetailAccess": "Thông tin đơn vị",
+      "CreateAccess": "Thêm mới đơn vị"
+    }
+  },
+  "Header": {
+    "ChangePassword": "Đổi mật khẩu"
+  },
+  "Bgrid": {
+    "Index": "STT",
+    "Sentence": {
+      "ShowResultFrom": "Hiển thị bản ghi từ",
+      "To": "Đến",
+      "Intotal": "Trong tổng số",
+      "Record": "Bản ghi"
+    },
+    "Pagesize": "Kích thước trang",
+    "Columns": "Danh sách cột"
+  },
+  "Button": {
+    "Search": "Tìm kiếm",
+    "Create": "Thêm mới",
+    "View": "Xem",
+    "Delete": "Xóa",
+    "Submit": "Ghi lại",
+    "Cancel": "Hủy",
+    "Edit": "Sửa",
+    "Yes": "Đồng ý",
+    "No": "Không",
+    "Back": "Quay lại",
+    "Privileges": "Phân quyền"
+  },
+  "Messages": {
+    "ConfirmDelete": "Bạn có chắc chắn muốn xóa?",
+    "DeleteSuccess": "Xóa thành công",
+    "DeleteError": "Vui lòng chọn dòng cần xóa",
+    "UpdateSuccess": "Cập nhật thành công",
+    "CreateSuccess": "Tạo mới thành công",
+    "CannotDelete": "Không thể xóa bản ghi do có dữ liệu ràng buộc"
+  },
+  "TitleDetail": {
+    "View": "Xem",
+    "Delete": "Xóa",
+    "Add": "Thêm"
+  },
+  "PlaceHolder": {
+    "Select": "Chọn giá trị",
+    "SearchInput": "Nhập giá trị"
+  },
+  "Constant": {
+    "Error1": "Đã có dữ liệu ràng buộc không thể xóa thông tin!",
+    "Error2": "Đã có lỗi xảy ra. Vui lòng liên hệ quản trị viên!",
+    "Error7": "Vui lòng chọn khoảng thời gian cần tìm kiếm!"
+  },
+  "Exception": {
+    "Ex1": "Đã có dữ liệu ràng buộc không thể xóa thông tin",
+    "Ex2": "đã tồn tại trong hệ thống.",
+    "Ex3": "Không tồn tại trong hệ thống."
+  },
+  "PrivilegesText": {
+    "ManageCompany": "Sửa đơn vị",
+    "ManageRole": "Sửa nhóm người dùng",
+    "ManageUser": "Sửa người dùng",
+    "ViewFAQuestions": "Xem câu hỏi thường gặp",
+    "ViewRole": "Xem nhóm người dùng",
+    "ViewUser": "Xem người dùng",
+    "ViewCompany": "Xem đơn vị"
+  },
+  "ChangePassword": {
+    "List": {
+      "Header": "Đổi mật khẩu",
+      "Form": {
+        "UserName": "Tên tài khoản: ",
+        "Logout": "Đăng xuất",
+        "FullName": "Họ và tên:",
+        "OldPass": "Mật khẩu cũ:",
+        "NewPass": "Mật khẩu mới:",
+        "NewPassConfirmation": "Nhập lại mật khẩu:",
+        "Message": {
+          "Header": "Đổi mật khẩu thành công! Vui lòng đăng nhập lại",
+          "NewPass": "Vui lòng nhập mật khẩu mới",
+          "OldPass": "Vui lòng nhập mật khẩu cũ",
+          "NewPassConfirmation": "Mật khẩu mới không khớp",
+          "PassRequired": "Mật khẩu phải có ít nhất 8 ký tự",
+          "PassWordRequired": "Mật khẩu phải chứa chữ hoa, chữ thường, số và ký tự đặc biệt"
+        }
+      }
+    }
+  },
+  "System": {
+    "Company": {
+      "List": {
+        "Header": "Danh sách đơn vị trực thuộc",
+        "SearchForm": {
+          "CompanyName": "Tên/Mã đơn vị:"
+        },
+        "Table": {
+          "TableName": "Danh sách đơn vị trực thuộc",
+          "Index": "STT",
+          "Code": "Mã đơn vị",
+          "Name": "Tên đơn vị",
+          "Action": "Hoạt động"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin đơn vị",
+        "Label": {
+          "ParentName": "Đơn vị phụ thuộc:",
+          "CompanyType": "Loại đơn vị:",
+          "CompanyTypeItem1": "Nhà máy, xí nghiệp",
+          "CompanyTypeItem2": "Trường học",
+          "CompanyTypeRequire": "Vui lòng chọn loại đơn vị",
+          "Code": "Mã đơn vị:",
+          "CodeRequire": "Vui lòng nhập mã đơn vị",
+          "NameRequire": "Vui lòng nhập tên đơn vị",
+          "Name": "Tên đơn vị:",
+          "Address": "Địa chỉ:",
+          "TaxCode": "Mã số thuế:",
+          "TaxCodeRequire": "Tối thiểu 9 chữ số",
+          "ParentRequire": "Vui lòng chọn đơn vị",
+          "CodeAlphaNumAndDash": "Vui lòng không nhập ký tự đặc biệt"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới đơn vị"
+      },
+      "Error": {
+        "CompanyCodeExists": "Mã đơn vị đã tồn tại!"
+      }
+    },
+    "User": {
+      "List": {
+        "Header": "Danh sách người dùng",
+        "SearchForm": {
+          "CompanyName": "Đơn vị:",
+          "UserName": "Tên tài khoản:"
+        },
+        "Table": {
+          "TableName": "Danh sách người dùng",
+          "Index": "STT",
+          "Company": "Đơn vị",
+          "Name": "Tên tài khoản",
+          "RolesName": "Nhóm người dùng",
+          "Phone": "Số điện thoại"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin người dùng",
+        "Label": {
+          "CompanyName": "Đơn vị:",
+          "FullName": "Họ và tên:",
+          "NameRequire": "Vui lòng nhập họ tên",
+          "Name": "Tên tài khoản:",
+          "UserNameRequire": "Tên tài khoản:",
+          "Password": "Mật khẩu:",
+          "ConfirmPassword": "Nhập lại mật khẩu:",
+          "ConfirmPasswordRequire": "Vui lòng nhập lại mật khẩu",
+          "ConfirmationRequire": "Mật khẩu không khớp",
+          "PasswordRequire": "Vui lòng nhập mật khẩu",
+          "MaxlengthRequire": "Mật khẩu phải có ít nhất 8 kí tự",
+          "SpecialRequire": "Mật khẩu phải chứa chữ hoa, chữ thường, số và ký tự đặc biệt",
+          "RoleName": "Nhóm người dùng:",
+          "RoleNameRequire": "Vui lòng nhập nhóm người dùng:",
+          "Role": "Nhóm quyền:",
+          "Phone": "Số điện thoại:",
+          "PhoneRequire": "Vui lòng nhập số điện thoại",
+          "PhoneMaxLength": "Tối đa 10 số",
+          "PhoneMinLength": "Tối thiếu 10 số",
+          "PhoneNumeric": "Vui lòng chỉ nhập số",
+          "UserNameAlphaNumAndDash": "Vui lòng không nhập ký tự đặc biệt"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới người dùng"
+      },
+      "Privileges": {
+        "Header": "Phân quyền người dùng",
+        "Label": {
+          "CategoriesList": "Danh sách chuyên mục",
+          "Categories": "Chuyên mục",
+          "Decentralization": "Phân quyền thành công"
+        }
+      }
+    },
+    "Role": {
+      "List": {
+        "Header": "Quản lý nhóm người dùng",
+        "SearchForm": {
+          "RoleName": "Tên nhóm người dùng:"
+        },
+        "Table": {
+          "TableName": "Danh sách nhóm người dùng",
+          "Index": "STT",
+          "Status": "Trạng thái",
+          "Name": "Tên",
+          "Description": "Mô tả"
+        }
+      },
+      "Detail": {
+        "Header": "Thông tin nhóm người dùng",
+        "Label": {
+          "Description": "Mô tả:",
+          "Status": "Trạng thái:",
+          "NameRequire": "Vui lòng nhập tên nhóm người dùng"
+        }
+      },
+      "Create": {
+        "Header": "Thêm mới nhóm người dùng"
+      },
+      "Privileges": {
+        "Header": "Phân quyền nhóm người dùng",
+        "Label": {
+          "CategoriesList": "Danh sách chức năng"
+        }
+      }
+    }
+  }
+}

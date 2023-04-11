@@ -1,0 +1,39 @@
+﻿using EPS.Utils.Service;
+using System;
+using System.Collections.Generic;
+using System.Linq.Expressions;
+
+namespace EPS.Service.Dtos.AccessTimeSeg
+{
+    public class AccessTimeSegGridPagingDto : PagingParams<AccessTimeSegGridDto>
+    {
+        public string FilterText { get; set; }   
+        public Nullable<int> department_ID { get; set; }
+        public Nullable<int> compId { get; set; }
+        public Nullable<int> deptId { get; set; }
+        public bool IsDelete { get; set; }
+
+        public override List<Expression<Func<AccessTimeSegGridDto, bool>>> GetPredicates()
+        {
+            var predicates = base.GetPredicates();
+            predicates.Add(x => x.IsDelete == false);
+
+            if (!string.IsNullOrEmpty(FilterText))
+            {
+                predicates.Add(x => x.TimeSegName.Contains(FilterText.Trim()) );
+            }
+
+            if (deptId.HasValue)
+            {
+                //Tìm kiếm theo đơn vị Id
+                predicates.Add(x => x.DeptId == deptId);
+            }
+            if (compId.HasValue)
+            {
+                //Tìm kiếm theo đơn vị Id
+                predicates.Add(x => x.CompId == compId);
+            }
+            return predicates;
+        }
+    }
+}

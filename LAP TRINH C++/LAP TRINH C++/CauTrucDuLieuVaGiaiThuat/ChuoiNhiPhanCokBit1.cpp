@@ -3,6 +3,7 @@
 
 using namespace std;
 
+
 void generateStrings(string s, int n, int k) {
     if (n == s.length()) {
         int count = 0;

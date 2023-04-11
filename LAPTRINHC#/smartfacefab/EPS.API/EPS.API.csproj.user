@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ShowAllFiles>false</ShowAllFiles>
+    <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
+    <Controller_SelectedScaffolderID>ApiControllerEmptyScaffolder</Controller_SelectedScaffolderID>
+    <Controller_SelectedScaffolderCategoryPath>root/Controller</Controller_SelectedScaffolderCategoryPath>
+    <WebStackScaffolding_ControllerDialogWidth>600</WebStackScaffolding_ControllerDialogWidth>
+    <NameOfLastUsedPublishProfile>H:\ATInnovation\Product\SmartfaceFAB\Web\smartfacefab\EPS.API\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="PredefinedReports\ReportEmployeeInOut.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportGuess.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportInOutEmployee.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportInOutStudent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportOverTime.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportOverTimeHours.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportPersonInOut.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportRealTime.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportWorkingHour.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportWorkingHourEarly.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PredefinedReports\ReportWorkingHourLate.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PredefinedReports\SummaryOfArrivals.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

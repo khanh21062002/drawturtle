@@ -1,0 +1,2557 @@
+﻿{
+  "RolesName_1": {
+    "SoftwareAgent": "Software Distributor",
+    "EndUser": "End User",
+    "Default_1": "Default",
+    "Administrator_1": "Administrator",
+    "Shools_1": "Shool",
+    "Flt": "Guest"
+  },
+  "ReportWorkingTime": {
+    "Header": "Statistics report of arrivals of customers",
+    "FromDate": "From date:",
+    "ToDate": "To date:",
+    "RequireDateMsg": " Please enter the date ",
+    "Department": "Department:",
+    "CreateButton": "Create Report"
+  },
+  "OverTimeHoursReport": {
+    "Header": "Overtime Report",
+    "FromDate": "From date:",
+    "FromDateReport": "Date:",
+    "ToDate": "To date:",
+    "RequireDateMsg": " Please enter the date ",
+    "Department": "Department:",
+    "Employee": "Employee:",
+    "CreateButton": "Create Report"
+  },
+  "PrivilegesText": {
+    "Manage": "Manage",
+    "ManageAccessTimeSeg": "Manage Access Time Segment",
+    "ManageAreaDetail": "Manage Area Permission",
+    "ViewAreaDetail": "View Access Permission",
+
+    "ManageClass": "Manage Class",
+    "ManageCompany": "Manage Company",
+    "ManageDayOff": "Manage Day Off",
+    "ManageDepartment": "Manage Department",
+    "ManageEvent": "Manage Event",
+    "ManageFAQuestions": "Manage FAQuestions",
+    "ManageGrades": "Manage Grades",
+    "ManageGroup": "Manage Group",
+    "ManageGroupAccess": "Manage Group Access",
+    "ManageGuess": "Manage Guest",
+    "ManageHolidays": "Manage Holiday",
+    "ManageMachine": "Manage Device",
+    "ManageNotification": "Manage Notification",
+    "ManageOverTime": "Manage OverTime",
+    "ManageOverTimeHours": "Manage OverTime Hours",
+    "ManageParent": "Manage Parent",
+    "ManageParentReport": "Manage Parent Report",
+    "ManagePerson": "Manage Person",
+    "ManageRegisterWorkingShift": "Manage Work Shift Registration",
+    "ManageReportWorking": "Manage Timekeeping Report",
+    "ManageRole": "Manage Role",
+    "ManageShiftTime": "Manage Work Shift",
+    "ManageStudent": "Manage Student",
+    "ManageStudentReport": "Manage Student Report",
+    "ManageTimeKeeping": "Manage Timekeeping",
+    "ManageUser": "Manage User",
+    "ManageWorkCalendar": "Manage Work Calendar",
+    "ManageReportWorkingLate": "Manage Report Late",
+    "ManageReportWorkingEarly": "Manage Report Early",
+    "ManageReportRealTime": "Manage Report Real Time",
+    "ManageReportInOutStudent": "Manage Report In Out Student",
+    "ManageReportInOutEmployee": "Manage Report In Out Employee",
+
+    "ViewAccessTimeSeg": "View Access Time Segment",
+    "ViewClass": "View Class",
+    "ViewCompany": "View Company",
+    "ViewDayOff": "View Day Off",
+    "ViewDepartment": "View Department",
+    "ViewEvent": "View Access History",
+    "ViewFAQuestions": "View FAQuestions",
+    "ViewGrades": "View Grade",
+    "ViewGroup": "View Access Group",
+    "ViewGroupAccess": "View Access Permission",
+    "ViewGuess": "View Guest",
+    "ViewHolidays": "View Holiday",
+    "ViewMachine": "View Device",
+    "ViewNotification": "View Notification",
+    "ViewOverTime": "View OverTime",
+    "ViewOverTimeHours": "View OverTime",
+    "ViewParent": "View Parent",
+    "ViewParentReport": "View Parent Report",
+    "ViewPerson": "View Employee",
+    "ViewRegisterWorkingShift": "View Work Shift Registration",
+    "ViewReportWorking": "View Timekeeping Report",
+    "ViewRole": "View User Group",
+    "ViewShiftTime": "View Work Shift",
+    "ViewStudent": "View Student",
+    "ViewStudentReport": "View Student Access History",
+    "ViewTimeKeeping": "View Timekeeping",
+    "ViewUser": "View User",
+    "ViewAreas": "View Area",
+    "ManageAreas": "Manage Area",
+    "ViewReportWorkingLate": "View Report Late",
+    "ViewReportWorkingEarly": "View Report Early",
+    "ViewReportRealTime": "View Report Real Time",
+    "ViewReportInOutStudent": "View Report In Out Student",
+    "ViewReportInOutEmployee": "View Report In Out Employee",
+
+    "ViewWorkCalendar": "View Work Calendar",
+    "ViewIssueCodeQR": "View issue code for update person",
+    "ManageIssueCodeQR": "Manage issue code for update person",
+    "ViewApproveCodeQR": "View approve code for update person",
+    "ManageApproveCodeQR": "Manage approve code for update person",
+    "ViewMonitoring": "View monitoring",
+    "ManageMonitoring": "Manage monitoring",
+    "ViewMenu": "View menu",
+    "ManageMenu": "Manage menu",
+    "ViewPreOrder": "View pre order",
+    "ManagePreOrder": "Manage pre order"
+  },
+  "TreeSelect": {
+    "noChildrenText": "No sub-options."
+  },
+  "Bgrid": {
+    "Index": "No.",
+    "Sentence": {
+      "ShowResultFrom": "Show results from",
+      "To": "To",
+      "Intotal": "In total of",
+      "Record": "Records"
+    },
+    "Pagesize": "Page size",
+    "Columns": "Columns"
+  },
+  "Common": {
+    "DayOfWeek": {
+      "Mon": "Mon / Thứ 2",
+      "Tue": "Tue / Thứ 3",
+      "Wed": "Wed / Thứ 4",
+      "Thu": "Thu / Thứ 5",
+      "Fri": "Fri / Thứ 6",
+      "Sat": "Sat / Thứ 7",
+      "Sun": "Sun / Chủ nhật"
+    }
+  },
+  "Home": {
+    "ColumnChart": {
+      "ChartName": "Track customers in and out of the store",
+      "SevenDays": "7 Days",
+      "TenDays": "10 Days",
+      "FifteenDays": "15 Days",
+      "Employee": "Employee",
+      "VIP": "VIP",
+      "Blacklist": "Blacklist",
+      "Guest": "Guest",
+      "Stranger": "Stranger",
+      "FirstGuest": "First time visitor",
+      "ReturnGuest": "Return guest",
+      "Hour": "Hour",
+      "Day": "Day",
+      "Count": "Count"
+    },
+    "PieChart": {
+      "ChartName": "Percentage of customers coming to the store",
+      "NoCheckIn": "Absent",
+      "Ontime": "On Time",
+      "Late": "Late",
+      "Person": "Employee"
+    },
+    "Table": {
+      "ChartName": "Statistics of visitors",
+      "Week": "Week",
+      "Month": "Month",
+      "Period": "Quarter",
+      "GridOptions": {
+        "fullName": "Full Name",
+        "deptName": "Department",
+        "latedays": "#OfLate",
+        "avatar": "Photo"
+      }
+    }
+  },
+  "Nav": {
+    "Home": "Home ",
+    "Systems": "System Management",
+    "Company": "Organization",
+    "EmployeeInOut": "Statistics of employees in out",
+    "ReportEmployeeInOut": {
+      "Header": "Statistics of employees entering and leaving the factory"
+    },
+    "PersonInOut": "Statistics of persons in out",
+    "ReportPersonInOut": {
+      "Header": "Statistics of the number of person in out"
+    },
+    "ChildCompany": {
+      "ListAccess": "Organization list",
+      "DetailAccess": "Organization detail",
+      "CreateAccess": "Add Organization"
+    },
+    "Device": "Device Management",
+    "ChildDevice": {
+      "ListAccess": "List of Device",
+      "DetailAccess": "Device detail",
+      "CreateAccess": "Create Device"
+    },
+    "Users": "User",
+    "ChildUser": {
+      "ListAccess": "List of User",
+      "DetailAccess": "User detail",
+      "CreateAccess": "Add user",
+      "PrivilegesAccess": "Grant User Permission"
+    },
+    "Roles": "User Group",
+    "ChildRoles": {
+      "ListAccess": "List of User group",
+      "DetailAccess": "User group detail",
+      "CreateAccess": "Add user group",
+      "PrivilegesAccess": "Grant User Group Permission"
+    },
+    "Category": "Category",
+    "Department": "Department",
+    "ChildDepartment": {
+      "ListAccess": "List of Department",
+      "DetailAccess": "Department detail",
+      "CreateAccess": "Add Department"
+    },
+    "Grades": "Grade",
+    "ChildGrades": {
+      "ListAccess": "List of Grade",
+      "DetailAccess": "Grade detail",
+      "CreateAccess": "Add grade"
+    },
+    "Utility": "Utility",
+    "ChildUtility": {
+      "ListAccess": "List of Utility",
+      "DetailAccess": "Utility detail",
+      "CreateAccess": "Add utility"
+    },
+    "Class": "Class",
+    "ChildClass": {
+      "ListAccess": "List of Class",
+      "DetailAccess": "Class detail",
+      "CreateAccess": "Add class"
+    },
+    "GroupPeople": "Access Group",
+    "ChildGroupPeople": {
+      "ListAccess": "List of Access Group",
+      "DetailAccess": "Access Group detail",
+      "CreateAccess": "Add Access Group"
+    },
+    "Machine": "Device",
+    "ChildMachine": {
+      "ListAccess": "List of Device",
+      "DetailAccess": "Device detail",
+      "CreateAccess": "Add Device"
+    },
+    "AccessTimeSeg": "Access Time Segment",
+    "ChildTimeSeg": {
+      "ListAccess": "List of Access Time Segment",
+      "DetailAccess": "Time Segment details",
+      "CreateAccess": "Add Time Segment"
+    },
+    "GroupAccess": "Grant Access Permission",
+    "ChildAccess": {
+      "ListAccess": "List of Access Permission",
+      "DetailAccess": "Access Permissions detail",
+      "CreateAccess": "Add new Access Permission"
+    },
+    "Areas": "Area",
+    "ChildAreas": {
+      "List": "Areas list",
+      "Detail": "Area detail",
+      "Create": "Create area"
+    },
+    "Menu": "Menu",
+    "ChildMenu": {
+      "List": "Menu list",
+      "Detail": "Menu detail",
+      "Create": "Create menu"
+    },
+    "PreOrder": "Pre order",
+    "ChildPreOrder": {
+      "List": "Pre order list",
+      "Detail": "Pre order detail",
+      "Create": "Create pre order"
+    },
+    "Person": "Blacklist management",
+    "ChildPerson": {
+      "ListAccess": "List of Blacklist",
+      "DetailAccess": "Detail",
+      "CreateAccess": "Create",
+      "ImportAccess": "Import"
+    },
+    "Employee": "List Employee",
+    "ChildEmployee": {
+      "ListAccess": "List of employee",
+      "DetailAccess": "Detail of employee",
+      "CreateAccess": "Create employee",
+      "ImportAccess": "Import nhân viên"
+    },
+    "Report": "Report ",
+    "EventHistory": "Access History",
+    "ChildHistory": {
+      "ListAccess": "List of access history",
+      "DetailAccess": "Detail of access history"
+    },
+    "ReportWorking": "Statistics arrivals customers",
+    "ChildWorking": {
+      "ListAccess": "Statistical report of arrivals"
+    },
+    "RealTime": "Actual working time",
+    "ChildWorking1": {
+      "ListAccess": "List of real time report"
+    },
+    "InOutStudent": "Student attendance",
+    "ChildWorking2": {
+      "ListAccess": "List of In Out Student"
+    },
+    "InOutEmployee": "Employee attendance",
+    "ChildWorking3": {
+      "ListAccess": "List of In Out Employee"
+    },
+    "ReportOverTimeHours": "Overtime",
+    "ReportOverTimeHoursLate": "Late arrival statistic",
+    "ReportOverTimeHoursEarly": "Early leaving statistic",
+    "ReportRealTime": " Report Real Time",
+    "ReportInOutStudent": " Report In Out Student",
+    "ReportInOutEmployee": " Report In Out Employee",
+    "OverTimeHoursReportEarly": {
+      "ListAccess": "Early leaving statistic report",
+      "Header": "Early leaving statistic report",
+      "FromDate": "From date:",
+      "ToDate": "To date:",
+      "RequireDateMsg": " Please enter the date",
+      "Department": "Department:",
+      "Employee": "Employee:",
+      "CreateButton": "Create Report"
+    },
+    "RealTimeList": {
+      "Header": "Actual working time report",
+      "ListAccess": "Actual working time report",
+      "FromDate": "From date:",
+      "ToDate": "To date:",
+      "RequireDateMsg": "Please enter the date",
+      "Department": "Department:",
+      "Employee": "Employee:",
+      "CreateButton": "Create Report"
+    },
+    "InOutStudentList": {
+      "Header": "Student attendance report",
+      "ListAccess": "Student attendance report",
+      "FromDate": "From date:",
+      "ToDate": "To date:",
+      "RequireDateMsg": " Please enter the date",
+      "Department": "Department:",
+      "Employee": "Employee:",
+      "CreateButton": "Create Report"
+    },
+    "InOutEmployeeList": {
+      "Header": "Employee attendance report",
+      "ListAccess": "Employee attendance report",
+      "FromDate": "From date:",
+      "ToDate": "To date:",
+      "RequireDateMsg": " Please enter the date",
+      "Department": "Department:",
+      "Employee": "Employee:",
+      "CreateButton": "Create Report"
+    },
+    "OverTimeHoursReportLate": {
+      "ListAccess": "Late arrival statistic report",
+      "Header": "Late arrival statistic report",
+      "FromDate": "From date:",
+      "ToDate": "To date:",
+      "RequireDateMsg": " Please enter the date",
+      "Department": "Department:",
+      "Employee": "Employee:",
+      "CreateButton": "Create Report"
+    },
+    "ChildReport": {
+      "ListAccess": "Overtime report"
+    },
+    "TimeSheet": "Timekeeping",
+    "ShiftTime": "Work Shift",
+    "ChildShiftTime": {
+      "ListAccess": "List of work shift",
+      "DetailAccess": "Detail of work shift ",
+      "CreateAccess": "Add work shift "
+    },
+    "RegisterWorkingShift": "Register work shift ",
+    "ChildTimeSheet": {
+      "ListAccess": "List of registered work shift",
+      "DetailAccess": "Detail of work shift",
+      "CreateAccess": "Register work shift"
+    },
+    "Holidays": "Holiday",
+    "ChildHolidays": {
+      "ListAccess": "List of holiday",
+      "DetailAccess": "Detail of holiday",
+      "CreateAccess": "Add holiday"
+    },
+    "DayOff": "Day Off",
+    "ChildDayOff": {
+      "ListAccess": "List of day off",
+      "DetailAccess": "Day off detail",
+      "CreateAccess": "Add day off"
+    },
+    "WorkCalendar": "Working Calendar",
+    "ChildWorkCalendar": {
+      "ListAccess": "List of working calendar ",
+      "DetailAccess": "Detail of working calendar ",
+      "CreateAccess": "Add working calendar "
+    },
+    "TimeKeeping": "Timekeeping Management",
+    "ChildTimeKeeping": {
+      "ListAccess": "Timekeeping history",
+      "DetailAccess": "Timekeeping history detail",
+      "CreateAccess": "Add timekeeping manually",
+      "ImportAccess": "Import timekeeping"
+    },
+    "OverTime": "Overtime Registration",
+    "ChildOverTime": {
+      "ListAccess": "List of overtime registration",
+      "DetailAccess": "Detail of overtime registration",
+      "CreateAccess": "Add an overtime registration"
+    },
+    "OverTimeHours": "Overtime Management",
+    "ChildOverTimeHours": {
+      "ListAccess": "List of overtime",
+      "DetailAccess": "Detail of overtime",
+      "CreateAccess": "Add an overtime"
+    },
+    "GuessManage": "Guest Management",
+    "ChildGuest": {
+      "guest": null,
+      "ListAccess": "List of registered guest",
+      "DetailAccess": "Detail of registered guest",
+      "CreateAccess": "Register"
+    },
+    "Notification": "Notifications",
+    "ChildNotification": {
+      "ListAccess": "List of Notification",
+      "DetailAccess": "Notification Detail",
+      "CreateAccess": "Add Notification"
+    },
+    "Manager_faq": "FAQ Management ",
+    "ChildManager_faq": {
+      "ListAccess": "List of question",
+      "DetailAccess": "Detail of question",
+      "CreateAccess": "Create of question"
+    },
+    "FAQuestions": "FAQ ",
+    "ChildFAQuestions": {
+      "ListAccess": "Frequently asked question"
+    },
+    "Student": "Student",
+    "ChildStudent": {
+      "ListAccess": "List of student",
+      "DetailAccess": "Student detail",
+      "CreateAccess": "Add student",
+      "ImportAccess": "Import student"
+    },
+    "Schools": "School management",
+    "Parent": "Authorized person",
+    "ChildParent": {
+      "ListAccess": "List of authorized person",
+      "DetailAccess": "Detail authorized person",
+      "CreateAccess": "Create authorized person",
+      "ImportAccess": "Import authorized person"
+    },
+    "StudentReport": "Student Access History",
+    "ChildStudentReport": {
+      "ListAccess": "Student attendance list"
+    },
+    "ParentReport": "Authorized Person Report",
+    "ChildParentReport": {
+      "ListAccess": "Authorized person Report"
+    },
+    "SystemNotification": "System Notification",
+    "PersonalInformation": "Personal info",
+    "Monitoring": "Monitoring",
+    "ChildMonitoring": {
+      "Filter": "Filter",
+      "Monitoring": "Access monitoring in out"
+    }
+  },
+  "Timesheet": {
+    "Dayoff": {
+      "List": {
+        "Header": "Day off management",
+        "SearchForm": {
+          "CompanyName": "Organization:",
+          "DeptName": "Department:",
+          "DateFrom": "From date:",
+          "DateTo": "To date:",
+          "PersonCode": "Employee code:",
+          "PersonName": "Full name:",
+          "AreaName": "Area:"
+        },
+        "Table": {
+          "TableName": "List of day off",
+          "Index": "No.",
+          "PersonCode": "Person code",
+          "PersonName": "Full name",
+          "DeptName": "Department",
+          "DateFrom": "From date",
+          "DateTo": "To date",
+          "TotalDay": "Total",
+          "Reason": "Reason"
+        }
+      },
+      "Create": {
+        "Header": "Add new day off",
+        "Form": {
+          "CompanyName": "Organization:",
+          "DepartmentName": "Department:",
+          "DepartmentRequire": "Please select department",
+          "EmployeeName": "Employee:",
+          "EmployeeRequire": "Please select employee",
+          "Reason": "Reason:",
+          "ReasonRequire": "Please fill reason",
+          "DateFrom": "Start date:",
+          "DateTo": "End date:",
+          "DateRequire": "Please select date",
+          "DateToUnique": "End date must be greater or equal Start date",
+          "HalfDay": "Half leave:",
+          "Salary": "Paid leave:",
+          "TotalDay": "Total:"
+        }
+      },
+      "Detail": {
+        "Header": "Day off detail",
+        "Form": {
+          "CompanyName": "Organization:",
+          "DepartmentName": "Department:",
+          "DepartmentRequire": "Please select department",
+          "EmployeeName": "Employee:",
+          "EmployeeRequire": "Please select employee",
+          "Reason": "Reason:",
+          "ReasonRequire": "Please fill reason",
+          "DateFrom": "Start date:",
+          "DateTo": "End date:",
+          "DateRequire": "Please select date",
+          "DateToUnique": "End date must be greater or equal Start date",
+          "HalfDay": "Half leave:",
+          "Salary": "Paid leave:",
+          "TotalDay": "Total:"
+        }
+      }
+    },
+    "Holidays": {
+      "List": {
+        "Header": "Holiday management",
+        "Form": {
+          "CompanyName": "Organization:",
+          "Year": "Year:"
+        },
+        "Table": {
+          "Date": "Date",
+          "Description": "Description",
+          "Coefficient": "Coefficient"
+        }
+      },
+      "Create": {
+        "Header": "Add new holiday",
+        "Form": {
+          "Company": "Organization",
+          "Date": "Date",
+          "DateRequire": "Please select date",
+          "Description": "Description",
+          "Coefficient": "Coefficient"
+        }
+      },
+      "Detail": {
+        "Header": "Detail of holiday",
+        "Form": {
+          "Company": "Organization",
+          "Date": "Date",
+          "DateRequire": "Please select date",
+          "Description": "Description",
+          "Coefficient": "Coefficient"
+        }
+      }
+    },
+    "Areas": "Area",
+    "ChildAreas": {
+      "List": "Areas list",
+      "Detail": "Area detail",
+      "Create": "Create area"
+    },
+    "OverTime": {
+      "List": {
+        "Header": "Overtime registration management",
+        "HeaderTable": "List of overtime registration",
+        "Form": {
+          "CompanyName": "Organization:",
+          "DepartmentName": "Department:",
+          "EmployeeCode": "Employee code:",
+          "EmployeeName": "Employee name:",
+          "DateFrom": "Start date:",
+          "DateFromRequire": "Start date must be smaller than end date",
+          "DateTo": "End date:"
+        },
+        "Table": {
+          "EmployeeCode": "Employee code",
+          "EmployeeName": "Employee name",
+          "DepartmentName": "Department",
+          "DateWorking": "Date working",
+          "Shift": "Shift",
+          "Hour": "Hour(s)",
+          "Note": "Note"
+        }
+      },
+      "Create": {
+        "Header": "Create new overtime registration",
+        "Form": {
+          "Company": "Organization:",
+          "DepartmentName": "Department:",
+          "DepartmentRequire": "Please select department",
+          "Employee": "Employee:",
+          "EmployeeRequire": "Please select employee",
+          "Date": "Date:",
+          "DateRequire": "Please select date",
+          "Shift": "Shift:",
+          "ShiftRequire": "Please select work shift",
+          "BreakTime": "Break time (min):",
+          "Minute": "Min",
+          "BreakTimeRequire": "Break time must be smaller than working time",
+          "TimeIn": "Start time:",
+          "TimeOut": "End time:",
+          "Hour": "Hour(s)",
+          "Note": "Note",
+          "NoteRequire": "The number of characters cannot exceed 250"
+        }
+      },
+      "Detail": {
+        "Header": "Detail of overtime registration",
+        "Form": {
+          "Company": "Organization:",
+          "DepartmentName": "Department:",
+          "DepartmentRequire": "Please select department",
+          "Employee": "Employee:",
+          "EmployeeRequire": "Please select employee",
+          "Date": "Date:",
+          "DateRequire": "Please select date",
+          "Shift": "Work shift:",
+          "ShiftRequire": "Please select shift",
+          "BreakTime": "Break time (min):",
+          "Minute": "Min",
+          "BreakTimeRequire": "Break time must be smaller than working time",
+          "TimeIn": "Start time:",
+          "TimeOut": "End time:",
+          "Hour": "Register time",
+          "Note": "Note",
+          "NoteRequire": "The number of characters cannot exceed 250"
+        }
+      }
+    },
+    "OverTimeHours": {
+      "List": {
+        "Header": "Manage Overtime",
+        "HeaderTable": "List of overtime",
+        "Form": {
+          "CompanyName": "Organization:",
+          "DepartmentName": "Department:",
+          "EmployeeGroup": "Access Group:",
+          "EmployeeCode": "Employee code:",
+          "EmployeeName": "Employee name:",
+          "DateFrom": "Start date:",
+          "DateFromRequire": "Start date must be smaller than end date",
+          "DateTo": "End date:"
+        },
+        "Table": {
+          "EmployeeCode": "Employee code",
+          "EmployeeName": "Employee name",
+          "DepartmentName": "Department",
+          "EmployeeGroup": "Access Group",
+          "DateWorking": "Working Date",
+          "TimeFrom": "Start time",
+          "TimeTo": "End time",
+          "BreakTime": "Break time (min)",
+          "RealTime": "Working time",
+          "RegisterTime": "Registered time",
+          "Shift": "Work Shift",
+          "Coefficient": "Coefficient",
+          "TotalHour": "Total hour(s)",
+          "Note": "Note"
+        },
+        "Recalculation": {
+          "Title": "Recalculate working hour",
+          "Company": "Organization",
+          "Type": "Type:",
+          "Department": "Department:",
+          "Employee": "Employee:",
+          "DateFrom": "Apply from:",
+          "DateTo": "To:"
+        },
+        "ExportExcel": {
+          "All": "All",
+          "InitDetail": {
+            "Company": "Restaurant",
+            "Department": "Department",
+            "Employee": "Employee"
+          },
+          "HeaderExcel": {
+            "Title": "LIST OF OVERTIME HISTORY",
+            "Company": "Restaurant: ",
+            "Department": "Department: ",
+            "GroupName": "Access Group: ",
+            "DateFrom": "Start date: ",
+            "DateTo": "End date: "
+          }
+        }
+      },
+      "Create": {
+        "Header": "Add new overtime",
+        "Form": {
+          "Company": "Organization:",
+          "DepartmentName": "Department:",
+          "DepartmentRequire": "Please select department",
+          "Employee": "Employee:",
+          "EmployeeRequire": "Please select employee",
+          "Date": "Date:",
+          "DateRequire": "Please select date",
+          "Shift": "Work Shift:",
+          "ShiftRequire": "Please select date",
+          "BreakTime": "Break time (min):",
+          "Minute": "min",
+          "BreakTimeRequire": "Break time must be smaller than working time",
+          "TimeIn": "Start time:",
+          "TimeOut": "End time:",
+          "Hour": "Working time",
+          "Note": "Note",
+          "NoteRequire": "The number of characters cannot exceed 250"
+        }
+      }
+    },
+    "RegisterWorkingShift": {
+      "List": {
+        "Header": "Work Shift Registration",
+        "HeaderTable": "Work shift registration list",
+        "Form": {
+          "CompanyName": "Organization:",
+          "DepartmentName": "Department:",
+          "EmployeeCode": "Employee code:",
+          "EmployeeName": "Employee name:",
+          "DateFrom": "Apply from:",
+          "DateTo": "To:"
+        },
+        "Table": {
+          "RegisType": "Registration type",
+          "DepartmentName": "Department",
+          "EmployeeCode": "Employee code",
+          "EmployeeName": "Employee name",
+          "DateFrom": "Apply from",
+          "DateTo": "To"
+        }
+      },
+      "Create": {
+        "Header": "Work Shift Registration",
+        "HeaderTable": "Weekly Configuration",
+        "Form": {
+          "Company": "Organization:",
+          "Type": "Type:",
+          "DepartmentName": "Department",
+          "DepartmentRequire": "Please select department",
+          "EmployeeName": "Employee",
+          "EmployeeRequire": "Please select employee",
+          "DateFrom": "Apply start date:",
+          "DateRequire": "Please select date",
+          "DateTo": "End date:",
+          "DateToRequire": "Please select end date greater than start date",
+          "Note": "Note"
+        },
+        "Field": {
+          "Index": "No.",
+          "NameShift": "Work shift",
+          "Monday": "Monday",
+          "Tuesday": "Tuesday",
+          "Wednesday": "Wednesday",
+          "Thursday": "Thursday",
+          "Friday": "Friday",
+          "Saturday": "Saturday",
+          "Sunday": "Sunday"
+        },
+        "InitDetail": {
+          "Company": "Organization",
+          "Department": "Department",
+          "Employee": "Employee"
+        }
+      },
+      "Detail": {
+        "Header": "Work shift registration",
+        "HeaderTable": "Weekly Configuration",
+        "Form": {
+          "Company": "Organization:",
+          "Type": "Type:",
+          "DepartmentName": "Department",
+          "DepartmentRequire": "Please select department",
+          "EmployeeName": "Employee",
+          "EmployeeRequire": "Please select employee",
+          "DateFrom": "Apply start date:",
+          "DateRequire": "Please select date",
+          "DateTo": "End date:",
+          "DateToRequire": "Please select end date greater than start date",
+          "Note": "Note"
+        },
+        "Field": {
+          "Index": "No.",
+          "NameShift": "Work shift",
+          "Monday": "Monday",
+          "Tuesday": "Tuesday",
+          "Wednesday": "Wednesday",
+          "Thursday": "Thursday",
+          "Friday": "Friday",
+          "Saturday": "Saturday",
+          "Sunday": "Sunday"
+        },
+        "InitDetail": {
+          "Company": "Organization",
+          "Department": "Department",
+          "Employee": "Employee"
+        }
+      }
+    },
+    "TimeKeeping": {
+      "List": {
+        "Header": "Employee Timekeeping Management",
+        "HeaderTable": "Timekeeping history",
+        "Form": {
+          "CompanyName": "Organization:",
+          "DepartmentName": "Department:",
+          "EmployeeGroup": "Access Group:",
+          "EmployeeCode": "Employee code:",
+          "EmployeeName": "Employee name:",
+          "DateFrom": "Start date:",
+          "DateFromRequire": "Start date must be less than end date",
+          "DateTo": "End date:"
+        },
+        "Table": {
+          "DepartmentName": "Department",
+          "EmployeeGroup": "Access Group",
+          "EmployeeCode": "Employee code",
+          "EmployeeName": "Employee name",
+          "DateWorking": "Working day",
+          "Shift": "Work Shift",
+          "TimeIn": "In",
+          "TimeLate": "Late",
+          "TimeOut": "Out",
+          "TimeEarly": "Early",
+          "WorkDay": "Workday",
+          "Note": "Note"
+        },
+        "Recalculation": {
+          "Title": "Recalculation",
+          "Company": "Organization",
+          "Type": "Type:",
+          "Department": "Department:",
+          "Employee": "Employee:",
+          "DateFrom": "Apply from:",
+          "DateTo": "To:"
+        },
+        "DetailReport": {
+          "TitlePerson": "System Access Information",
+          "Title": "Detail report",
+          "Company": "Organization",
+          "Department": "Department:",
+          "Employee": "Employee:",
+          "DateFrom": "Apply from:",
+          "DateTo": "To:"
+        },
+        "ExportExcel": {
+          "All": "All",
+          "InitDetail": {
+            "Company": "Organization",
+            "Department": "Department",
+            "Employee": "Employee"
+          },
+          "HeaderExcel": {
+            "Title": "TIMEKEEPING HISTORY",
+            "Company": "Organization: ",
+            "Department": "Department: ",
+            "GroupName": "Access Group: ",
+            "DateFrom": "Start date: ",
+            "DateTo": " - End date: "
+          }
+        },
+        "ImportExcel": {
+          "Header": "Import timekeeping",
+          "ChooseFile": "Choose file",
+          "ChooseFileRequire": "Please select file",
+          "ChooseFilePlaceHolder": "Choose timekeeping file",
+          "BtnTemplateFile": "Download template file",
+          "FileInputXlxs": "Please select '.xlsx' file format",
+          "FileInput50Mb": "Please select file smaller than 5MB"
+        },
+        "ReportDetail": {
+          "Name": "Name: ",
+          "Late": "Number of check-in late: ",
+          "NotCheckIn": "Not check-in times: ",
+          "Dept": "Department: ",
+          "TotalLateEarly": "Total: ",
+          "TotalInOut": "Total: ",
+          "Comp": "Organization: ",
+          "Early": "Number of check-out early: ",
+          "NotCheckOut": "Not check-out times: ",
+          "HeaderExcelDetail": {
+            "Title": "TIMEKEEPING DETAIL",
+            "DateFrom": "From: ",
+            "DateTo": " - To: ",
+            "Total": "Total: "
+          }
+        }
+      },
+      "Create": {
+        "Header": "Add new timekeeping manually",
+        "Form": {
+          "Company": "Organization:",
+          "Department": "Department:",
+          "DepartmentRequire": "Please select department",
+          "Employee": "Employee:",
+          "EmployeeRequire": "Please select employee",
+          "Date": "Date:",
+          "DateRequire": "Please select date",
+          "Workday": "Workday:",
+          "WorkdayRequire": "Please input workday",
+          "Shift": "Work Shift:",
+          "ShiftRequire": "Please select work shift",
+          "Note": "Note"
+        }
+      }
+    },
+    "WorkCalendar": {
+      "List": {
+        "Header": "List of working calendar",
+        "HeaderTable": "List of working calendar",
+        "Form": {
+          "Company": "Organization:",
+          "CalendarName": "Working calendar name:"
+        },
+        "Table": {
+          "CalendarName": "Working calendar name",
+          "DateFrom": "Apply from",
+          "DateTo": "To"
+        }
+      },
+      "Create": {
+        "Header": "Add new working calendar",
+        "Form": {
+          "Company": "Organization:",
+          "CalendarName": "Working calendar name:",
+          "CalendarNameRequire": "Please fill working calendar name",
+          "DateFrom": "Apply from:",
+          "DateTo": "To:",
+          "DateRequire": "Please select date",
+          "DateToRequire": "End date must be greater than start date"
+        },
+        "Table": {
+          "Header": "Detail of working calendar",
+          "Index": "No.",
+          "DayOfWeek": "Day of week",
+          "Workday": "Workday",
+          "Breakday": "Day off",
+          "Coef": "Coefficient"
+        }
+      },
+      "Detail": {
+        "Header": "Detail of working calendar",
+        "Form": {
+          "Company": "Organization:",
+          "CalendarName": "Working calendar name:",
+          "CalendarNameRequire": "Please fill working calendar name",
+          "DateFrom": "Apply from:",
+          "DateTo": "To:",
+          "DateRequire": "Please select date",
+          "DateToRequire": "End date must be greater than start date"
+        },
+        "Table": {
+          "Header": "Detail of working calendar",
+          "Index": "No.",
+          "DayOfWeek": "Day of week",
+          "Workday": "Workday",
+          "Breakday": "Day off",
+          "Coef": "Coefficient"
+        }
+      }
+    },
+    "WorkingShiftTimes": {
+      "List": {
+        "Header": "List of work shift",
+        "HeaderTable": "List of work shift declaration",
+        "Form": {
+          "Company": "Organization:",
+          "ShiftCode": "Work shift code:",
+          "ShiftName": "Work shift name:"
+        },
+        "Table": {
+          "ShiftCode": "Work shift code",
+          "ShiftName": "Work shift name",
+          "StartTime": "Start of working hour",
+          "EndTime": "End of working hour",
+          "Total": "Total working hour (min)",
+          "WorkingShift": "Count of workday",
+          "OT": "Overtime coefficient",
+          "LateAccept": "Allowable latency(min)",
+          "EarlyAccept": "Allowable leaving early(min)",
+          "CheckInOT": "Start of OT",
+          "CheckOutOT": "End of OT"
+        }
+      },
+      "Create": {
+        "Header": "Add new work shift",
+        "Form": {
+          "Company": "Organization:",
+          "ShiftCode": "Work shift code:",
+          "ShiftCodeRequire": "Please fill work shift code",
+          "ShiftName": "Work shift name:",
+          "ShiftNameRequire": "Please fill work shift name",
+          "OT": "Overtime coefficient:",
+          "StartCheckIn": "Check-in start time:",
+          "StartCheckInRequire": "Please select start of check-in time",
+          "EndCheckIn": "Check-in end time:",
+          "EndCheckInRequỉe": "Please select end of check-in time",
+          "StartTime": "Start working time:",
+          "EndTime": "End working time:",
+          "StartCheckOut": "Check-out start time:",
+          "EndCheckOut": "Check-out end time:",
+          "StartBreak": "Start of break time:",
+          "EndBreak": "Break time:",
+          "NotCheckIn": "Working time without check-in:",
+          "NotCheckOut": "Working time without checkout:",
+          "TotalTime": "Total working time:",
+          "LateAccept": "Allowable latency:",
+          "EarlyAccept": "Allowable leaving early:",
+          "WorkingShift": "Workday:",
+          "StartOT": "Start of OT:",
+          "EndOT": "End of OT:",
+          "Minute": "min"
+        }
+      },
+      "Detail": {
+        "Header": "Detail of work shift",
+        "Form": {
+          "Company": "Organization:",
+          "ShiftCode": "Work shift code:",
+          "ShiftCodeRequire": "Please fill work shift code",
+          "ShiftName": "Work shift name:",
+          "ShiftNameRequire": "Please fill work shift name",
+          "OT": "Overtime coefficient:",
+          "StartCheckIn": "Start of check-in period:",
+          "StartCheckInRequire": "Please select start of check-in period",
+          "EndCheckIn": "End of check-in period:",
+          "EndCheckInRequỉe": "Please select end of check-in period",
+          "StartTime": "Start working time:",
+          "EndTime": "End working time:",
+          "StartCheckOut": "Start of check-out period:",
+          "EndCheckOut": "End of check-out period:",
+          "StartBreak": "Start of break-time period:",
+          "EndBreak": "Breaktime:",
+          "NotCheckIn": "Working time without check-in:",
+          "NotCheckOut": "Working time without checkout:",
+          "TotalTime": "Total working time:",
+          "LateAccept": "Allowable latency:",
+          "EarlyAccept": "Allowable leaving early:",
+          "WorkingShift": "Workday:",
+          "StartOT": "Start of OT:",
+          "EndOT": "End of OT:",
+          "Minute": "min"
+        }
+      }
+    }
+  },
+  "Monitor": {
+    "Header": "Monitor access monitoring",
+    "Detail": "Access details",
+    "Vip": "VIP customer",
+    "Live": "Employee List",
+    "Blacklist": "Blacklist",
+    "Name": "Name:",
+    "Unregistered": "Unregistered",
+    "Gender": "Gender:",
+    "Age": "Predicted age:",
+    "Time": "Time check-in:",
+    "Times": "Number of visits:",
+    "FollowCam": "Monitor access monitoring",
+    "FollowDevice": "Device:",
+    "FollowDetail": "Detail",
+    "FollowChange": "Change",
+    "FollowSelect": "Select device",
+    "FollowChangeCustomer": "Change customer information"
+  },
+  "Guess": {
+    "List": {
+      "Header": "Searching criteria",
+      "HeaderTable": "List of guest",
+      "BtnQR": "Print QR code",
+      "Form": {
+        "Company": "Organization:",
+        "Name": "Name:",
+        "Identification": "Identification:"
+      },
+      "Table": {
+        "Status": "Status",
+        "Name": "Name",
+        "Identification": "Identification",
+        "Phone": "Phone number",
+        "StartTime": "Entry time",
+        "EndTime": "Exit time",
+        "Image": "Image"
+      },
+      "Modal": {
+        "QRcode": "QR Code",
+        "PrintQR": "Print QR Code",
+        "Message": "Guest coming to contact us, please scan the code and register identification."
+      },
+      "Success": "Copy success!"
+    },
+    "Create": {
+      "Header": "Guest information",
+      "Form": {
+        "PerCode": "Code:",
+        "Phone": "Phone number:",
+        "PhoneRequire": "Please input phone number",
+        "PhoneMaxLength": "Maximum 10 digits",
+        "PhoneMinLength": "Minimum 10 digits",
+        "PhoneNumeric": "Please input only numbers",
+        "Name": "Full name:",
+        "NameRequire": "Please input full name",
+        "Identification": "Identification:",
+        "IdentificationRequire": "Please input identification",
+        "Birthday": "Date of birth:",
+        "BirthdayRequire": "Please input date of birth",
+        "Gender": "Gender:",
+        "Male": "Male",
+        "Female": "Female",
+        "AreaName": "Area name:",
+        "Address": "Contact address:",
+        "AddressRequire": "Please input contact address",
+        "Machine": "Device:",
+        "MachineRequire": "Please select an access device",
+        "TimeIn": "Entry time:",
+        "TimeInRequire": "Please input entry time",
+        "TimeOut": "Exit time:",
+        "TimeOutRequire": "Please input exit time",
+        "TimeUnique": "Exit time must be greater than entry time",
+        "Reason": "Reason:",
+        "ReasonRequire": "Please input reason",
+        "Image": "Personal photo",
+        "BtnTakePhoto": "Take photo",
+        "BtnScanQR": "Scan QR of ID card",
+        "ImageRequire": "Please take personal photo",
+        "Yes": "Yes",
+        "No": "No",
+        "IsTravel": "In the past 14 days, which areas, provinces/cities, countries/territories have you travelled to (can list multiphe places)",
+        "IsFever": "In the past 14 days, have you experienced at least 1 of the following symptoms: fever, cough, shortness of breath, pneumonia, sore throat, fatigue, loss of taste?",
+        "IsTangent": "In the past 14 days have you been in contact with:",
+        "CovidNN": "Confirmed/Suspected COVID-19 case(s)",
+        "CovidNCB": "People from countries with COVID-19",
+        "CovidBH": "People with symptoms of fever, cough, shortness of breath, pneumonia"
+      }
+    },
+    "Detail": {
+      "Header": "Guest information",
+      "Form": {
+        "Phone": "Phone number:",
+        "Name": "Full name:",
+        "Identification": "Identification:",
+        "Birthday": "Date of birth:",
+        "Gender": "Gender:",
+        "Male": "Male",
+        "Female": "Female",
+        "Unknown": "Unknown",
+        "Address": "Contact address:",
+        "Machine": "Device:",
+        "MachineRequire": "Please select an access device",
+        "TimeIn": "Entry time:",
+        "TimeInRequire": "Please input time in",
+        "TimeOut": "Exit time:",
+        "TimeOutRequire": "Please input time out",
+        "TimeUnique": "Exit time must be greater than entry time",
+        "Reason": "Reason:",
+        "Yes": "Yes",
+        "No": "No",
+        "IsTravel": "In the past 14 days, which areas, provinces/cities, countries/territories have you traveled to (can list multiple places)",
+        "IsFever": "In the past 14 days, have you experienced at least 1 of the following symptoms: fever, cough, shortness of breath, pneumonia, sore throat, fatigue, loss of taste?",
+        "IsTangent": "In the past 14 days have you been in contact with:",
+        "CovidNN": "Confirmed/Suspected COVID-19 case(s)",
+        "CovidNCB": "People from countries with COVID-19",
+        "CovidBH": "People with symptoms of fever, cough, shortness of breath, pneumonia",
+        "Status": "Status:",
+        "NotApproved": "Not Approved",
+        "Approved": "Approved",
+        "Refuse": "Refuse"
+      }
+    }
+  },
+  "FAQ": {
+    "List": {
+      "Header": "List of questions",
+      "BtnDownload": "Download documents"
+    }
+  },
+  "Warning": {
+    "List": {
+      "Header": "Alert configuration list",
+      "HeaderTable": "Alert configuration list",
+      "Form": {
+        "Company": "Organization:",
+        "Machine": "Device:"
+      },
+      "Table": {
+        "Header": "Notification list",
+        "Content": "Content",
+        "Type": "Warning type",
+        "Machine": "Device",
+        "Thresholds": "Recognition threshold"
+      }
+    },
+    "Create": {
+      "Header": "Add new alert configuration",
+      "HeaderTable": "List of alert recipients",
+      "Form": {
+        "Company": "Organization:",
+        "Machine": "Device:",
+        "MachineRequire": "Please select device",
+        "Type": "Warning type:",
+        "TypeRequire": "Please select warning type",
+        "Thresholds": "Recognition thresholds:",
+        "ThresholdsRequire": "Please input thresholds (between 0 to 1)",
+        "InvalidEmail": "Please input valid email"
+      },
+      "Table": {
+        "Index": "No.",
+        "Employee": "Employee",
+        "Email": "Email",
+        "Action": "Action"
+      },
+      "Type": {
+        "Stranger": "Stranger warning",
+        "Temperature": "High temperature warning"
+      }
+    },
+    "Detail": {
+      "Header": "Alarm configuration details",
+      "HeaderTable": "List of alert recipients",
+      "Form": {
+        "Company": "Organization:",
+        "Machine": "Device:",
+        "MachineRequire": "Please select device",
+        "Type": "Warning type:",
+        "TypeRequire": "Please select warning type",
+        "Thresholds": "Recognition thresholds:",
+        "ThresholdsRequire": "Please input thresholds (between 0 to 1)",
+        "InvalidEmail": "Please input valid email"
+      },
+      "Table": {
+        "Index": "No.",
+        "Employee": "Employee",
+        "Email": "Email",
+        "Action": "Action"
+      },
+      "Type": {
+        "Stranger": "Stranger warning",
+        "Temperature": "High temperature warning"
+      }
+    }
+  },
+  "Components": {
+    "ImageUpload": {
+      "UploadImages": "Upload photos",
+      "DragFiles": "Drag your file(s) here to begin",
+      "OrClick": "or click to browse",
+      "Uploaded": "Uploaded",
+      "Success": "file(s) successfully.",
+      "UploadAgain": "Upload again",
+      "Uploading": "Uploading"
+    },
+    "Noti": {
+      "Success": "Upload successful",
+      "File": "files"
+    }
+  },
+  "Button": {
+    "Search": "Search",
+    "ShowAccessInformation": "Show access permission",
+    "UnShowAccessInformation": "Hide access permission",
+    "Create": "Add",
+    "Adda": "Add",
+    "Desplay": "Access information",
+    "View": "View",
+    "Report": "Report",
+    "Delete": "Delete",
+    "Submit": "Save",
+    "Cancel": "Cancel",
+    "Edit": "Edit",
+    "Back": "Back",
+    "Approve": "Approve",
+    "Refuse": "Refuse",
+    "Refresh": "Refresh",
+    "ExportExcel": "Export excel",
+    "ImportExcel": "Import excel",
+    "DetailReport": "Detail report",
+    "Recalculation": "Recalculate workday",
+    "Privileges": "Decentralization",
+    "Close": "Close",
+    "AddCam": "Add device",
+    "Fullscreen": "Fullscreen",
+    "Yes": "Yes",
+    "No": "No"
+  },
+  "Messages": {
+    "ConfirmDelete": "Do you want to delete?",
+    "ToastrDelete_s": "Delete successfully",
+    "ToastrDelete_e": "Please select row to delete",
+    "ConfirmUpdate": "Update successfully",
+    "ConfirmCreate": "Create successfully",
+    "CalculateSuccess": "Recalculate successfully",
+    "TimeKeeping": {
+      "Success": "Add new timekeeping successfully",
+      "ExistEmployee": "Add new timekeeping successfully - Employees already have attendance data on the system!"
+    },
+    "RegisterSucess": "Sign up successfully",
+    "Approve": {
+      "Confirm": "Are you sure you want to approve?",
+      "Success": "Approve successfully"
+    },
+    "Refuse": {
+      "Confirm": "Are you sure you want to refuse?",
+      "Success": "Refuse successfully"
+    },
+    "ConfirmImage": "Please input a valid image!"
+  },
+  "TitleDetail": {
+    "View": "View",
+    "Delete": "Delete",
+    "Add": "Add"
+  },
+  "PlaceHolder": {
+    "Select": "Choose value",
+    "SearchInput": "Input value",
+    "Captcha": "Input captcha"
+  },
+  "Categories": {
+    "Areas": {
+      "List": {
+        "Header": "Areas List",
+        "SearchForm": {
+          "Text": "Area Code/Name  ",
+          "Status": "Status "
+        },
+        "Table": {
+          "TableName": "Areas List",
+          "Code": "Area code",
+          "Name": "Area name",
+          "Status": "Status",
+          "Note": "Note"
+        }
+      },
+      "Detail": {
+        "Header": "Area Detail",
+        "Form": {
+          "Code": "Area code",
+          "Name": "Area name",
+          "Status": "Status",
+          "Note": "Note",
+          "CodeRequired": "Please enter the area code",
+          "NameRequired": "Please enter the area name",
+          "CodePattern": "Area code cannot contain special characters"
+        }
+      },
+      "Create": {
+        "Header": "Create Area"
+      }
+    },
+    "Menu": {
+      "List": {
+        "Header": "Menu list",
+        "SearchForm": {
+          "Name": "Food name",
+          "Price": "Price"
+        },
+        "Table": {
+          "TableName": "Menu list",
+          "Type": "Type of food",
+          "Name": "Name of food",
+          "Price": "Price (VNĐ)",
+          "SetFood": "Detail of set",
+          "Note": "Note"
+        }
+      },
+      "Crud": {
+        "HeaderCreate": "Create menu",
+        "HeaderDetail": "Menu detail",
+        "Type1": "Food",
+        "Type2": "Set",
+        "Form": {
+          "Type": "Type of food",
+          "Name": "Name of food",
+          "SetName": "Name of set",
+          "SetFood": "Detail of set",
+          "Price": "Price (VNĐ)",
+          "Note": "Note",
+          "NameRequired": "Please input name of food",
+          "SetNameRequired": "Please input name of set set"
+        }
+      }
+    },
+    "PreOrder": {
+      "List": {
+        "Header": "Pre order list",
+        "SearchForm": {
+          "Name": "Name",
+          "PhoneNumber": "Phone number",
+          "DateFrom": "Time from",
+          "DateTo": "To"
+        },
+        "Table": {
+          "TableName": "List pre order",
+          "Guest": "Guest",
+          "PhoneNumber": "Phone number",
+          "AmountPeople": "Amount of people",
+          "TimeOrder": "Time order",
+          "DownPayment": "Down payment (VNĐ)",
+          "RequestOrder": "Request order"
+        }
+      },
+      "Crud": {
+        "HeaderCreate": "Create pre order",
+        "HeaderDetail": "Pre order detail",
+        "Form": {
+          "Date": "Date",
+          "Time": "Time",
+          "Guest": "Guest",
+          "PhoneNumber": "Phone number",
+          "AmountPeople": "Amount of people",
+          "RequestOrder": "Request order",
+          "AnotherOrder": "Another order",
+          "DownPayment": "Down payment (VNĐ)",
+          "Require": {
+            "Date": "Please input date date",
+            "Time": "Please input date time",
+            "Guest": "Please select guest",
+            "AmountPeople": "Please input amount of people",
+            "VehicleLoadPositive": "Please input positive number",
+            "Min": "Min 10 digits",
+            "Max": "Max 11 digits"
+          }
+        }
+      }
+    },
+    "Device": {
+      "List": {
+        "Header": "Device list",
+        "SearchForm": {
+          "DeviceName": "Device Name/Code:  ",
+          "StatusOn": "ON",
+          "StatusOff": "OFF"
+        },
+        "Table": {
+          "TableName": "Device list",
+          "Code": "Device code",
+          "RstpLink": "Device Path",
+          "Features": "Device Features",
+          "Area": "Area ",
+          "Name": "Device name",
+          "Direction": "Direction",
+          "Synchronized": "Sync successfully"
+        }
+      },
+      "Detail": {
+        "Header": "Detail of machine",
+        "Label": {
+          "CodeName": "Device code: ",
+          "Area": "Area: ",
+          "RstpLink": "Path: ",
+          "DependentDevice": "Overview Device",
+          "Features": "Feature:",
+          "Name": "Device name: ",
+          "Function": "Function of device ",
+          "Direction": "Direction",
+          "Imei": "IMEI number",
+          "Mac": "MAC address",
+          "UserName": "Access account  ",
+          "Password": "Device login password ",
+          "ServerIP": "Server Address",
+          "UserNameServer": "Server authentication account  ",
+          "PasswordServer": "Server authentication password ",
+          "FaceThreshold": "Threshold of face recognition ",
+          "TemperatureThreshold": "Temperature alarm threshold (°C)",
+          "DistanceDetect": "Recognition distance (cm) ",
+          "Delay": "Time between 2 recognition times (millisecond) ",
+          "FraudProof": "Liveness checking ",
+          "AutoSaveVisitor": "Record visitor ",
+          "Led": "Using light ",
+          "AutoStart": "Automatically turn on the program ",
+          "UseTemperature": "Temperature checking ",
+          "UseMask": "Mask checking ",
+          "Logo": "Logo ",
+          "Check1": "Check-in",
+          "Check2": "Check-out",
+          "Check3": "Timekeeping",
+          "DeviceRequire": "Please select device function",
+          "DeviceNameRequire": "Please fill device name",
+          "DeviceCodeRequire": "Please fill the device code",
+          "DeviceRstpLinkRequire": "Please fill device rstpLink ",
+          "DeviceDirectionRequire": "Please fill device direction ",
+          "AreaRequire": "Please fill area",
+          "FunctionRequire": "Please fill feature",
+          "ImeiRequire": "Please fill your address Imei",
+          "MacRequire": "Please fill your address Mac",
+          "ServerRequire": "Please fill your server address",
+          "ServerUserRequire": "Please fill server authentication account",
+          "PasswordUserRequire": "Please fill server authentication password",
+          "UseVaccine": "Vaccine checking",
+          "UsePCCovid": "PCCovid checking with stranger",
+          "PCCovidPhone": "Manager's Phone Number",
+          "PCCovidLocation": "Location code",
+          "PCCovidToken": "Token PCCovid",
+          "PCCovidTokenRequire": "Please fill the token of PCCovid ",
+          "PCCovidPhoneRequire": "Please fill the phone number of the manager",
+          "PCCovidPhoneValid": " Please fill the valid phone number ",
+          "PCCovidLocationRequire": " Please fill the registered location of PCCovid "
+        }
+      },
+      "Create": {
+        "Header": "Create device"
+      },
+      "Common": {
+        "ListDirection": {
+          "Entry": "Contruction site entrance",
+          "Exit": "Contruction site exit"
+        }
+      }
+    },
+    "Accesstimeseg": {
+      "List": {
+        "Header": "Time segment list",
+        "SearchForm": {
+          "DateName": "Time segment name:"
+        },
+        "Table": {
+          "TableName": "List of time segment",
+          "Index": "No.",
+          "TimeSegName": "Time segment name",
+          "Company": "Organization",
+          "Department": "Department"
+        }
+      },
+      "Detail": {
+        "Header": "Time segment detail",
+        "Label": {
+          "Group": "Access Group:",
+          "MondayStart1": "Start time 1:",
+          "MondayStart2": "Start time 2:",
+          "MondayStart3": "Start time 3:",
+          "MondayStart4": "Start time 3:",
+          "MondayEnd1": "End time 1:",
+          "MondayEnd2": "End time 2:",
+          "MondayEnd3": "End time 3:",
+          "MondayEnd4": "End time 4:",
+          "TuesdayStart1": "Start time 1:",
+          "TuesdayStart2": "Start time 2:",
+          "TuesdayStart3": "Start time 3:",
+          "TuesdayStart4": "Start time 4:",
+          "TuesdayEnd1": "End time 1:",
+          "TuesdayEnd2": "End time 2:",
+          "TuesdayEnd3": "End time 3:",
+          "TuesdayEnd4": "End time 4:",
+          "WednesdayStart1": "Start time 1:",
+          "WednesdayStart2": "Start time 2:",
+          "WednesdayStart3": "Start time 3:",
+          "WednesdayStart4": "Start time 4:",
+          "WednesdayEnd1": "End time 1:",
+          "WednesdayEnd2": "End time 2:",
+          "WednesdayEnd3": "End time 3:",
+          "WednesdayEnd4": "End time 4:",
+          "ThursdayStart1": "Start time 1:",
+          "ThursdayStart2": "Start time 2:",
+          "ThursdayStart3": "Start time 3:",
+          "ThursdayStart4": "Start time 4:",
+          "ThursdayEnd1": "End time 1:",
+          "ThursdayEnd2": "End time 2:",
+          "ThursdayEnd3": "End time 3:",
+          "ThursdayEnd4": "End time 4:",
+          "FridayStart1": "Start time 1:",
+          "FridayStart2": "Start time 2:",
+          "FridayStart3": "Start time 3:",
+          "FridayStart4": "Start time 4:",
+          "FridayEnd1": "End time 1:",
+          "FridayEnd2": "End time 2:",
+          "FridayEnd3": "End time 3:",
+          "FridayEnd4": "End time 4:",
+          "SaturdayStart1": "Start time 1:",
+          "SaturdayStart2": "Start time 2:",
+          "SaturdayStart3": "Start time 3:",
+          "SaturdayStart4": "Start time 4:",
+          "SaturdayEnd1": "End time 1:",
+          "SaturdayEnd2": "End time 2:",
+          "SaturdayEnd3": "End time 3:",
+          "SaturdayEnd4": "End time 4:",
+          "SundayStart1": "Start time 1:",
+          "SundayStart2": "Start time 2:",
+          "SundayStart3": "Start time 3:",
+          "SundayStart4": "Start time 4:",
+          "SundayEnd1": "End time 1:",
+          "SundayEnd2": "End time 2:",
+          "SundayEnd3": "End time 3:",
+          "SundayEnd4": "End time 4:"
+        }
+      },
+      "Create": {
+        "Header": "Add time segment",
+        "Require": {
+          "Company": "Please select organization:",
+          "TimeSegNameRequire": "Please input time segment name",
+          "GroupNameRequire": "Please select access group",
+          "GroupNameUnique": "Please choose only 1 access group"
+        }
+      }
+    },
+    "Department": {
+      "List": {
+        "Header": "Manage Department",
+        "Table": {
+          "TableName": "Department list",
+          "Index": "No.",
+          "Code": "Department Class/ Code",
+          "CodeName": "Department  Code",
+          "Company": "Organization",
+          "Department": "Upper department",
+          "Name": "Department name",
+          "NameCode": "Department Code /Name"
+        }
+      },
+      "Detail": {
+        "Header": "Department Detail",
+        "Label": {
+          "Name": "Department name:",
+          "NameParent": "Upper department:",
+          "CodeName": "Department code:",
+          "Code": "Department code:",
+          "DepartmentNamerequire": "Department name cannot exceed 250 characters",
+          "Coderequire": "Please enter department code",
+          "Namerequire": "Please enter department name",
+          "MalenghtCode": "Department code cannot exceed 50 characters",
+          "EspeciallyCode": "Department code cannot contain special characters"
+        }
+      },
+      "Create": {
+        "Header": "Add department"
+      }
+    },
+    "Group": {
+      "List": {
+        "Header": "Manage Access Group",
+        "SearchForm": {
+          "GroupName": "Access Group Name:",
+          "GroupNameCode": "Access Group Code/Name:"
+        },
+        "Table": {
+          "TableName": "List of Access Group",
+          "Index": "No.",
+          "NameGroup": "Access Group Name",
+          "Code": "Access Group Code",
+          "Status": "Status"
+        }
+      },
+      "Detail": {
+        "Header": "Access Group Detail",
+        "Label": {
+          "CodeGroup": "Access Group Code:",
+          "GroupNamerequire": "Access Group name cannot exceed 250 characters",
+          "Coderequire": "Please input Access Group code",
+          "MalenghtCode": "Access Group code cannot exceed 50 characters",
+          "EspeciallyCode": "Access Group code  cannot contain special characters",
+          "GroupNameRequire": "Please input Access Group name",
+          "DateRequire": "Please select date"
+        }
+      },
+      "Create": {
+        "Header": "Add Access Group"
+      }
+    },
+    "GroupAccess": {
+      "List": {
+        "Header": "Access Permission Management",
+        "SearchForm": {
+          "Machine": "Device name:",
+          "TimeSeg": "Time segment:"
+        },
+        "Table": {
+          "TableName": "Access permission list",
+          "Index": "STT",
+          "Group": "Access Group",
+          "MachineName": "Device",
+          "Timeseg": "Time segment"
+        }
+      },
+      "Detail": {
+        "Header": "Access permission detail",
+        "Label": {
+          "DeptName": "Department/ Class:",
+          "MachineRequire": "Please select device",
+          "DateRequire": "Please select time segment"
+        }
+      },
+      "Create": {
+        "Header": "Create access permission"
+      }
+    },
+    "Machine": {
+      "List": {
+        "Header": "Device list",
+        "SearchForm": {
+          "MachineName": "Device Name/ Description:",
+          "StatusOn": "ON",
+          "StatusOff": "OFF"
+        },
+        "Table": {
+          "TableName": "Device list",
+          "TableNameDetails": "System access information",
+          "Code": "Description",
+          "AreaGrid": "Area",
+          "LastTimeSynchronized": "Last synchronized",
+          "Name": "Device name",
+          "Performance": "Device performance",
+          "Synchronized": "Sync successfully",
+          "SynchronizedTable": "Sync device",
+          "RequestReboot": "Start successfully",
+          "SynchronizedRequire": "This will erase all data on the device and re-sync with the server from scratch, this can take a long time, are you sure?",
+          "RequestRebootTable": "Restart the device",
+          "RequestRebootRequire": "Are you sure you want to restart the device?"
+        }
+      },
+      "Detail": {
+        "Header": "Detail of machine",
+        "Label": {
+          "CodeName": "Description:",
+          "Name": "Device name:",
+          "AreaName": "Area name:",
+          "Function": "Function of device:",
+          "Imei": "IMEI number:",
+          "Mac": "MAC address:",
+          "UserName": "Access account:",
+          "Password": "Device login password:",
+          "ServerIP": "Server Address:",
+          "UserNameServer": "Server authentication account:",
+          "PasswordServer": "Server authentication password:",
+          "FaceThreshold": "Threshold of face recognition:",
+          "TemperatureThreshold": "Temperature alarm threshold (°C):",
+          "DistanceDetect": "Recognition distance (cm):",
+          "Delay": "Time between 2 recognition times (millisecond):",
+          "FraudProof": "Liveness checking:",
+          "AutoSaveVisitor": "Record visitor:",
+          "Led": "Using light:",
+          "AutoStart": "Automatically turn on the program:",
+          "UseTemperature": "Temperature checking:",
+          "UseTemperature1": "Threshold:",
+          "SearchHight": "Advanced search",
+          "UseMask": "Mask checking:",
+          "Logo": "Logo:",
+          "Check1": "Check-in",
+          "Check2": "Check-out",
+          "Check3": "Timekeeping",
+          "MachineRequire": "Please select device function",
+          "MachineNameRequire": "Please fill device name",
+          "MachineCodeRequire": "Please fill the description",
+          "ImeiRequire": "Please fill your address Imei",
+          "MacRequire": "Please fill your address Mac",
+          "ServerRequire": "Please fill your server address",
+          "ServerUserRequire": "Please fill server authentication account",
+          "PasswordUserRequire": "Please fill server authentication password",
+          "UseVaccine": "Vaccine checking:",
+          "UsePCCovid": "PCCovid checking with stranger:",
+          "PCCovidPhone": "Manager's Phone Number:",
+          "PCCovidLocation": "Location code:",
+          "PCCovidToken": "Token PCCovid:",
+          "PCCovidTokenRequire": "Please fill the token of PCCovid ",
+          "PCCovidPhoneRequire": "Please fill the phone number of the manager",
+          "PCCovidPhoneValid": " Please fill the valid phone number ",
+          "DailyRebootRequire": "Please choose to enable or disable device reboot time",
+          "RestartTime": " Restart time:",
+          "DailyReboot": "Enable/Disable device reboot time:",
+          "AutoSleep": "Screen saver mode:",
+          "RestartTimeRequire": "Please enter time from device restart",
+          "AutoSleepRequire": "Please select screensaver mode",
+          "PCCovidLocationRequire": " Please fill the registered location of PCCovid "
+        }
+      },
+      "Create": {
+        "Header": "Create device"
+      }
+    },
+    "Person": {
+      "List": {
+        "Header": "Employee list",
+        "SearchForm": {
+          "PersonName": "Full name:",
+          "ImageStatus": "Photo status",
+          "AlreadyHavePictures": "Already have photo",
+          "NoPhotosYet": "No photo yet"
+        },
+        "Table": {
+          "TableName": "Employee list",
+          "TableName1": "List",
+          "Code": "Employee code",
+          "Name": "Full name",
+          "Gender": "Gender",
+          "Birthday": "Date of birth",
+          "Address": "Address ",
+          "PersonType": "Type",
+          "Number": "Number of visits",
+          "vaccine": "Vaccine",
+          "Import": "Select file:",
+          "Header": "Import Employee",
+          "ImportRequire": "Please select file",
+          "ImportPlaceholder": "Please select file",
+          "ImportSample": "Download sample file",
+          "Department": "Department"
+        }
+      },
+      "Detail": {
+        "Header": "Information",
+        "Header1": "Customer detail",
+        "Label": {
+          "CodeName": "Employee code:",
+          "Work": "Job duty:",
+          "Name": "Full name:",
+          "Birthday": "Date of birth:",
+          "Position": "Position:",
+          "Status": "Status:",
+          "Activate": "Active",
+          "Stop": "Inactive",
+          "StatusVaccine": "Vaccination status:",
+          "Card": "Card:",
+          "StatusVaccine1": "N/A",
+          "StatusVaccine2": "Unvaccinated",
+          "StatusVaccine3": "One dose",
+          "StatusVaccine4": "Two doses",
+          "StatusVaccine5": "Three doses",
+          "StatusVaccine6": "Four doses",
+          "Fileinput": "Please select photo with the .jpg, .png format",
+          "CodeRequire": "Please fill employee code",
+          "ImageRequire": "Please select a photo",
+          "NameRequire": "Please fill employee name",
+          "FromDate": "Time working from",
+          "ToDate": "To",
+          "FromDateRequire": "Please choose time working",
+          "ToDateRequire": "End time working must be greater than start time working"
+        }
+      },
+      "Create": {
+        "Header": "Add blacklist"
+      }
+    }
+  },
+  "School": {
+    "Class": {
+      "List": {
+        "Header": "Class category ",
+        "SearchForm": {
+          "ClassName": "Class:",
+          "ClassNameCode": "Code/ Class:"
+        },
+        "Table": {
+          "TableName": "Class category",
+          "Unit": "Grade",
+          "NameClass": "Class name",
+          "Code": "Class code "
+        }
+      },
+      "Detail": {
+        "Header": "Class detail",
+        "Label": {
+          "Code": "Class code:",
+          "Unit": "Grade:",
+          "CodeRequire": "Please fill class code",
+          "CodeMaxlength": "Class code should not be more than 50 characters",
+          "EspeciallyCode": "No special characters",
+          "NameRequire": "Please fill class name",
+          "NameMaxlength": "Class name cannot exceed 250 characters",
+          "UnitRequire": "Please select grade"
+        }
+      },
+      "Create": {
+        "Header": "Add new class"
+      }
+    },
+    "Grades": {
+      "List": {
+        "Header": "Grade category",
+        "SearchForm": {
+          "UnitName": "Grade:"
+        },
+        "Table": {
+          "TableName": "Grade category",
+          "Unit": "Grade",
+          "NameClass": "Grade name",
+          "Descriptions": "Description"
+        }
+      },
+      "Detail": {
+        "Header": "Grade detail",
+        "Label": {
+          "Descriptions": "Description:",
+          "Unit": "Grade:",
+          "CodeRequire": "Please fill grade",
+          "NameRequire": "Please fill grade name"
+        }
+      },
+      "Create": {
+        "Header": "Add Grade"
+      }
+    },
+    "Parent": {
+      "List": {
+        "Header": "List of authorized person",
+        "SearchForm": {
+          "ParentName": "Authorized person Name/Code:"
+        },
+        "Table": {
+          "TableName": "List of authorized person",
+          "Code": "Authorized person code",
+          "Name": "Authorized person name",
+          "Birthday": "Date of birth",
+          "Header": "Import authorized person",
+          "ImportPlaceholder": "Please select the file of authorization person",
+          "NumberPhone": "Phone number"
+        }
+      },
+      "Detail": {
+        "Header": "Authorized person detail",
+        "Label": {
+          "DepartmentClass": "Department/Class:",
+          "DeptNameDiff": "Department/Class",
+          "Code": "Authorized person code:",
+          "Name": "Full name:",
+          "CodeRequire": "Please fill the authorized person code",
+          "PhoneRequire": "Please fill phone number",
+          "ListStudent": "List of dependent student",
+          "Student": "No data",
+          "ChooseStudent": "Select student",
+          "DepartmentRequire": "Please select department",
+          "NameRequire": "Please fill the name of the authorized person",
+          "StudentName": "Student name:",
+          "EmployeeName": "Employee name:",
+          "StudentPlaceholder": "Search student name/code:",
+          "EmployeePlaceholder": "Search employee name/code:",
+          "TableName": "Student list",
+          "Choosedepend": "Select dependent student",
+          "Relationship": "Enter the relationship with the student: Father, mother...",
+          "Confirm": "Confirm",
+          "Action": "Action",
+          "StudentCode": "Student Code",
+          "Studentcode": "Student Code:",
+          "Namestudent": "Full name",
+          "NameStudent": "Full name:",
+          "Class": "Class",
+          "Note": "Relationship"
+        }
+      },
+      "Create": {
+        "Header": "Add authorized person"
+      }
+    },
+    "Student": {
+      "List": {
+        "Header": "Student list",
+        "SearchForm": {
+          "ParentName": "Student Name/Code:"
+        },
+        "Table": {
+          "Header": "Import Student",
+          "ImportPlaceholder": "Please select import file",
+          "NumberPhone": "Phone number"
+        }
+      },
+      "Detail": {
+        "Header": "Student detail",
+        "Label": {
+          "Code": "Student code:",
+          "Name": "Full name:",
+          "Class": "Class:",
+          "ClassRequire": "Please select class",
+          "CodeRequire": "Please fill student code",
+          "NameRequire": "Please fill full name",
+          "ChooseParent": "Select authorized person"
+        }
+      },
+      "Create": {
+        "Header": "Add student"
+      }
+    }
+  },
+  "System": {
+    "Company": {
+      "List": {
+        "Header": "List of subordinate organization",
+        "SearchForm": {
+          "CompanyName": "Organization Name/Code:"
+        },
+        "Table": {
+          "TableName": "List of subordinate organization",
+          "Index": "No.",
+          "Code": "Organization code",
+          "Name": "Organization name",
+          "Action": "Active",
+          "Status": {
+            "Name": "Customer",
+            "Quantity": "Amount",
+            "%": "Ratio %",
+            "Active": "Active",
+            "Stop": "Stop working",
+
+            "Deactive": "Tạm ngưng"
+          }
+        }
+      },
+      "Detail": {
+        "Header": "Organization detail",
+        "Label": {
+          "ParentName": "Subordinate organization:",
+          "CompanyType": "Organization Type:",
+          "CompanyTypeRequire": "Please select organization type",
+          "Code": "Organization code:",
+          "CodeRequire": "Please fill organization code",
+          "NameRequire": "Please fill organization name",
+          "Name": "Organization name:",
+          "Address": "Address:",
+          "TaxCode": "Tax code:",
+          "TaxCodeRequire": "Minimum 9 digits",
+          "ParentRequire": "Please select organization"
+        }
+      },
+      "Create": {
+        "Header": "Create organization"
+      }
+    },
+    "User": {
+      "List": {
+        "Header": "Search criteria",
+        "SearchForm": {
+          "CompanyName": "Organization:",
+          "UserName": "User name:"
+        },
+        "Table": {
+          "TableName": "List of User",
+          "Index": "No.",
+          "Company": "Organization",
+          "Name": "User name",
+          "RolesName": "User group",
+          "Phone": "Phone number"
+        }
+      },
+      "Detail": {
+        "Header": "User information",
+        "Label": {
+          "CompanyName": "Organization:",
+          "FullName": "Full name:",
+          "NameRequire": "Please fill full name",
+          "Name": "User name:",
+          "UserNameRequire": "Please fill account name",
+          "Password": "Password:",
+          "ConfirmPassword": "Confirm the password:",
+          "ConfirmPasswordRequire": "Please re-enter your password",
+          "ConfirmationRequire": "Password does not match ",
+          "PasswordRequire": "Please type the password",
+          "MaxlengthRequire": "Password must be at least 8 characters",
+          "SpecialRequire": "Password must contain uppercase, lowercase letters, numbers and special characters",
+          "RoleName": "Organization type:",
+          "RoleNameRequire": "Please enter user group:",
+          "Role": "Permission group:"
+        }
+      },
+      "Create": {
+        "Header": "Add User"
+      },
+      "Privileges": {
+        "Header": "Grant user permission",
+        "Label": {
+          "CategoriesList": "Category list",
+          "Categories": "Categories",
+          "Decentralization": "Grant permission successfully"
+        }
+      }
+    },
+    "Role": {
+      "List": {
+        "Header": "Manage User Group",
+        "SearchForm": {
+          "RoleName": "User group name:"
+        },
+        "Table": {
+          "TableName": "List of user group",
+          "Index": "No.",
+          "Status": "Status",
+          "Name": "Name",
+          "Description": "Description"
+        }
+      },
+      "Detail": {
+        "Header": "User group detail",
+        "Label": {
+          "Description": "Description:",
+          "Status": "Status:",
+          "NameRequire": "Please fill the name of the user group"
+        }
+      },
+      "Create": {
+        "Header": "Add user group"
+      },
+      "Privileges": {
+        "Header": "Grant permission",
+        "Label": {
+          "CategoriesList": "Function List"
+        }
+      }
+    }
+  },
+  "ManagerFAQ": {
+    "List": {
+      "Header": "Manage FAQ",
+      "SearchForm": {
+        "Question": "Question:"
+      },
+      "Table": {
+        "TableName": "Question list",
+        "Name": "Question",
+        "Type": "Language"
+      }
+    },
+    "Detail": {
+      "Header": "Question detail",
+      "Label": {
+        "Content": "Content:",
+        "Question": "Question:",
+        "Type": "Language:",
+        "Type1": "Vietnamese",
+        "Type0": "English",
+        "TypeRequire": "Please select language",
+        "QuestionRequire": "Please fill question",
+        "ContentRequire": "Please fill content"
+      }
+    },
+    "Create": {
+      "Header": "Add question"
+    }
+  },
+  "Reporting": {
+    "Event": {
+      "List": {
+        "Header": "Access history",
+        "SearchForm": {
+          "Person": "Person name:",
+          "PersonCode": "Person code:",
+          "ErrorCode": "Authorization type:",
+          "Header": "Backlist management",
+          "Temp": "Temperature:",
+          "PersonType": "Type:",
+          "Address": "Address:",
+          "Number": "Number of visits:",
+          "Age": "Predicted age:",
+          "Day": "Date:",
+          "Hours": "Time:",
+          "IdentificationPont": "Recognition score:",
+          "FaceMask": "Face mask:",
+          "EmployeeOther": "Respective personnel",
+          "NumberInjection": "number of vaccine injection:",
+          "PcCovidInfo": "Medical declaration:",
+          "HistoryInjection": "View injection history",
+          "PcCovidInfoLast": "No medical declaration",
+          "PcCovidInfoLastTime": "Medical declaration complete (Last time at:",
+          "DateFromRequire": "From the day must be smaller to the day",
+          "DateRequire": "Please enter time"
+        },
+        "Table": {
+          "TableName": "Access history",
+          "Person": "Person name",
+          "Machine": "Device name",
+          "ErrorCode": "Authorization type ",
+          "Temp": "Temperature ",
+          "PersonType": "Personnel Classification",
+          "Day": "Date",
+          "Hours": "Time",
+          "IdentificationPont": "Recognition score",
+          "FaceMask": "Face mask",
+          "ListHD": "Medical declaration PC-Covid",
+          "ListHD1": "Check-in successfully",
+          "ListHD2": "Out of working hours",
+          "ListHD3": "Authentication not allowed",
+          "ListHD4": "Stranger",
+          "ListHD5": "Authentication success",
+          "ListHD6": "Incorrect setting ",
+          "ListHD7": "Check-out successfully",
+          "ListHD8": "Authentication success",
+          "List0018": "Access expired",
+          "Status0": "Valid",
+          "Status1": "Invalid",
+          "Order": "No.",
+          "VaccineType": "Type of vaccine",
+          "InjectionAddress": "Injection Address",
+          "InjectTimeFormat": "Injection Date",
+          "Information": "Information from PCCovid",
+          "Employee": "Employee",
+          "Customer": "Stranger",
+          "Unregistered": "Unregistered",
+          "BlackFollow": "Track object",
+          "Steal": "Steal",
+          "Destructive": "Destructive",
+          "CustomerVip": "Stranger VIP",
+          "CustomerBlack": "Blacklist",
+          "Area": "Area",
+          "Company": "Company",
+          "PersonCode": "Person code",
+          "Suspect": "Suspect",
+          "Thief": "Thief",
+          "Vandalize": "Vandalize",
+          "Deparment": "Deparment"
+        },
+        "ExportExcel": {
+          "All": "All",
+          "HeaderExcel": {
+            "Title": "LIST OF ACCESS HISTORY",
+            "Company": "Company: ",
+            "Department": "Department: ",
+            "Area": "Area: ",
+            "Machine": "Machine: ",
+            "DateFrom": "From date: ",
+            "DateTo": "To date: ",
+            "Status": "Status: ",
+            "PersonType": "Person Type: "
+          }
+        }
+      },
+      "Detail": {
+        "Header": "Detail of access history"
+      }
+    },
+    "StudentReport": {
+      "List": {
+        "Header": "Student attendance history",
+        "Table": {
+          "TableName": "Student attendance history",
+          "Code": "Student code"
+        }
+      },
+      "Detail": {
+        "Header": "Student attendance history detail"
+      }
+    },
+    "ParentReport": {
+      "List": {
+        "Header": "Pick up history",
+        "SearchForm": {
+          "PersonCode": "Authorized person code:"
+        },
+        "Table": {
+          "TableName": "Pick up history",
+          "PersonCode": "Authorized person code"
+        }
+      },
+      "Detail": {
+        "Header": "Pick up history detail"
+      }
+    }
+  },
+  "AuthorizationService": {
+    "Message": {
+      "UserPrivileges1": "The data does not exist in the system!",
+      "CompanyPrivileges": "Organization data does not exist!",
+      "UserPrivileges2": "An error occurred! Please contact the administrator!",
+      "UserNew": "Invalid data!",
+      "UserPrivileges3": "Account does not have permission",
+      "UserName": "User name",
+      "DuplicateUserName": "User name already exists in the system",
+      "UserPrivileges4": "Login information is incorrect",
+      "PasswordPrivileges": "Old password is incorrect, please check again"
+    }
+  },
+  "CalculateWorkingHourService": {
+    "Message": {
+      "ExecuteCalculate": "Please select a time period for recalculation!",
+      "ChooseTime": "Please select a valid period!",
+      "FullInformation": "Please fill all information!",
+      "Time": "Please select a time period within 45 days!",
+      "UserLogin": "There was an error about the person logging in",
+      "DepartmentCalculate": "Please select department to calculate",
+      "TimeMonth": "Please select a period within 31 days!",
+      "EmployeeCalculate": "Please select the employee to calculate"
+    }
+  },
+  "CompanyService": {
+    "Message": {
+      "ParentSchool": "Default authorized person!",
+      "DepartmentSchool": "Dafaut department!",
+      "GroupSchool": "Group person default !",
+      "TimeSegSchool": "Default time segment",
+      "GradesSchool": "Grade class",
+      "GradesStudent": "Grade of students",
+      "UserPrivileges": "You do not have permission to access this API!",
+      "CompanyCode": "Company code already exist!",
+      "EditCompany": "Can't change dependencies!",
+      "CodeDepartment": "Department code already exist!",
+      "CodeClass": "Class code already exist!",
+      "Dayoff": "You are only allowed half day off in a 1-day period"
+    }
+  },
+  "GroupService": {
+    "Message": {
+      "DeviceCode": "Camera code already exist",
+      "GroupCode": "Access Group code already exist",
+      "PersonCode": "Person code already exist",
+      "Code": "Code already exits",
+      "Card": "Card code already exits",
+      "MachineCode": "Device name already exist",
+      "ImeiAddress": "IMEI already exist!",
+      "MacAddress": "MAC address already exist!",
+      "Threshold": "Recognition score",
+      "AreaCode": "Area code already exist!"
+    }
+  },
+  "NotificationJod": {
+    "Message": {
+      "List": "Recent access history:",
+      "ListTemp": "List of high temperature:",
+      "Thank": "Thanks!",
+      "FullName": "First and last name"
+    }
+  },
+  "PersonService": {
+    "Message": {
+      "NumberPhone": "Phone number already exist",
+      "Code": " Parent code already exist",
+      "ParentPhone": "Phone number of parent already exist",
+      "StudentCode": "Student code already exist",
+      "ParentCode": "Authorization code already exist"
+    }
+  },
+  "ChangePassword": {
+    "List": {
+      "Header": "Change Password",
+      "Form": {
+        "UserName": "User name: ",
+        "Logout": "Log out",
+        "FullName": "Full name:",
+        "OldPass": "Old Password:",
+        "NewPass": "New Password:",
+        "NewPassConfirmation": "Confirm the new password:",
+        "Message": {
+          "Header": "Change Password successfully! Please login again!",
+          "NewPass": "Please type the new password",
+          "OldPass": "Please type the old password",
+          "NewPassConfirmation": "New password does not match",
+          "PassRequired": "Password must be at least 8 characters",
+          "PassWordRequired": "Password must contain uppercase, lowercase letters, numbers and special characters"
+        }
+      }
+    }
+  },
+  "TimeKeepService": {
+    "Message": {
+      "ListTimeKeep": "Timekeeping history list",
+      "ListOverTime": "List of overtime history",
+      "All": "All",
+      "Department": "Department:",
+      "GroupPeople": "Access group:",
+      "Time": "Time:",
+      "ShiftTimeCode": "Work shift code already exist",
+      "Company": "Organization:"
+    }
+  },
+  "Constant": {
+    "Error1": "There is related data, unable to delete record!",
+    "Error2": "Error occurred. Please contact administrator!",
+    "Error3": "Working calendar is being in-use, unable to delete!",
+    "Error4": "There is another registered work shift in this time period!",
+    "Error5": "There is another registered working calendar in this time period!",
+    "Error6": "There is existing timekeeping of employee for this work shift!",
+    "Error7": "Please select time period!"
+  },
+  "Exception": {
+    "Ex1": "Already have related data, record cannot be deleted",
+    "Ex2": "already exists in the system.",
+    "Ex3": "Does not exist in the system."
+  },
+  "ExImport": {
+    "Person": {
+      "Person1": "Please enter all required information!",
+      "Person2": "and",
+      "Import": {
+        "ImportPerson1": "Code already exist",
+        "ImportPerson2": "Employee code is null",
+        "ImportPerson3": "Employee name is null",
+        "ImportPerson4": "Department not found ",
+        "ImportPerson5": "Department null",
+        "ImportPerson6": "User group not found",
+        "ImportPerson7": "User group is null",
+        "ImportPerson8": "Invalid vaccine data",
+        "ImportPerson9": "Please enter all required information",
+        "ImportPerson10": "Student code is null",
+        "ImportPerson11": "Student name is null",
+        "ImportPerson12": "Incorrect date format",
+        "ImportPerson13": "Class not found",
+        "ImportPerson14": "Class is null",
+        "ImportPerson15": "User group not found",
+        "ImportPerson16": "Access group is null",
+        "ImportPerson17": "Successfully! Parent code ",
+        "ImportPerson18": "Authorized person code is null",
+        "ImportPerson27": "Authorized person name is null",
+        "ImportPerson19": "Department/Class not found",
+        "ImportPerson20": "Department/Class is null",
+        "ImportPerson21": "User group not found",
+        "ImportPerson22": "User group is null",
+        "ImportPerson23": "Phone number is null",
+        "ImportPerson24": "Phone number already exist",
+        "ImportPerson25": "Successfully! Student code ",
+        "ImportPerson26": "Does not exist"
+      }
+    },
+    "TimeKeeping": {
+      "Import": {
+        "ImportTimeKeep1": "Employee code not found ",
+        "ImportTimeKeep2": "Employee code is null",
+        "ImportTimeKeep3": "Date information is null",
+        "ImportTimeKeep4": "Incorrect date format",
+        "ImportTimeKeep5": "Workday is null",
+        "ImportTimeKeep6": "Incorrect workday format",
+        "ImportTimeKeep7": "Work shift not found",
+        "ImportTimeKeep8": "Work shift is null",
+        "ImportTimeKeep9": "Successfully - Employees already have timekeeping data in the system"
+      }
+    }
+  },
+  "QRCodePerson": {
+    "Issue": {
+      "BarName": "User self-updating photo",
+      "Header": "Provide user photo update code",
+      "Form": {
+        "DateFrom": "Apply from",
+        "DateRequire": "Please input date",
+        "DateTo": "To",
+        "DateGreaterFrom": "End date must be greater or equal than start date",
+        "DateGreaterCurrent": "End date must be greater or equal than current date",
+        "Link": "Registration link"
+      },
+      "Button": {
+        "Update": "Update",
+        "Create": "Create",
+        "Save": "Save",
+        "Cancel": "Cancel",
+        "Download": "Download QR",
+        "Print": "Print QR",
+        "Copy": "Copy link"
+      },
+      "TitleQR": "Scan QR code to update profile photo",
+      "Alert": {
+        "QRExpire": "The registration code has expired, please create a new one",
+        "NoQR": "No registration code yet, please create a new one"
+      }
+    },
+    "Approve": {
+      "BarName": "Approve user photo",
+      "BarName1": "Refuse employee updates",
+      "Header": "Approve updated user photo",
+      "Form": {
+        "CodeName": "Code/Name of employee",
+        "Department": "Department",
+        "DateFrom": "Update from",
+        "DateTo": "To",
+        "Status": "Status",
+        "ListStatus": {
+          "1": "Waiting for approval",
+          "2": "Approved",
+          "0": "Cancel"
+        }
+      },
+      "GridName": "Approve updated user photo",
+      "GridField": {
+        "DateUpdate": "Update day",
+        "PersonCode": "Employee code",
+        "PersonName": "Employee name",
+        "Department": "Department",
+        "Gender": "Gender",
+        "Status": "Status",
+        "Note": "Note",
+        "Image": "Updated photo",
+        "CheckBox": ""
+      },
+      "CModal": {
+        "Title": "Approve update employee information",
+        "Image": "Identity photo",
+        "Note": "Note"
+      },
+      "Button": {
+        "Approve": "Approve",
+        "Reject": "Reject"
+      },
+      "Message": {
+        "Approve": {
+          "Confirm": "Would you like to approve this request?",
+          "Success": "Approved successfully",
+          "NoSelect": "Please select the record to approve"
+        },
+        "Reject": {
+          "Confirm": "Do you want to decline this request?",
+          "Success": "Successful refusal",
+          "NoSelect": "Please select the record to reject"
+        }
+      }
+    },
+    "Find": {
+      "Header": "Update employee information",
+      "Expire": "The update code has expired. Please update the new code !",
+      "Form": {
+        "Code": "Employee code",
+        "CodeRequire": "Please input employee code"
+      },
+      "Modal": {
+        "Title": "Employee information"
+      },
+      "Alert": {
+        "NotExistCode": "Employee code does not exist"
+      },
+      "Button": {
+        "Next": "Next",
+        "ToUpdate": "Update profile picture",
+        "Cancel": "Cancel"
+      }
+    },
+    "Update": {
+      "Header": "Update employee photo",
+      "Expire": "The update code has expired. Please update the new code!",
+      "Form": {
+        "Note": "Note",
+        "Captcha": "Captcha",
+        "CaptchaRequire": "Please input captcha"
+      },
+      "Alert": {
+        "Invalid": "Wrong authentication code! Please try again!"
+      }
+    },
+    "BackEnd": {
+      "Controller": {
+        "ChooseRequest": "Please select valid request",
+        "ValidImage": "Please choose a valid photo"
+      },
+      "Service": {
+        "ExistTime": "An employee information update code has been issued during this period",
+        "CurrentTime": "You need to generate an update code for the current time period",
+        "InvalidTime": "The employee information update code has expired. Please create a new code",
+        "InvalidRequest": "An invalid request exists"
+      },
+      "Profile": {
+        "ListStatus": {
+          "1": "Waiting for approval",
+          "2": "Approved",
+          "0": "Cancel"
+        }
+      }
+    }
+  },
+  "Search": {
+    "All": "All"
+  }
+}
